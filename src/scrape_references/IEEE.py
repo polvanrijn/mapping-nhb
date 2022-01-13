@@ -3,8 +3,7 @@ from math import ceil
 import os
 import pandas as pd
 from random import random
-
-from src.libs.Scraper import Scraper
+from MAPS.a_collect_corpora.Scraper import Scraper
 service = 'IEEE'
 
 scraper = Scraper(headless=False)
