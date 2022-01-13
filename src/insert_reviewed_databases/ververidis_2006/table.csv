@@ -1,0 +1,64 @@
+abbreviation	name	language	source	identifier	emotions	contains_all basic	num_subjects	subjects	measurements	task	actedness	reference
+MAP_ABELIN	MAP_ABELIN	Swedish	ververidis2006		Anger, Fear, Joy, Sad, Surprise, Disgust, Dominance, Shy	TRUE	1	native	–	Recognition	Simulated	Abelin, Allwood, 2000
+MAP_DEPRESSED	MAP_DEPRESSED	English	ververidis2006	DOI:10.1016/S0165-0327(00)00335-9	Depressed, Neutral	FALSE	22+19	patient+native	–	Recognition	Natural	Alpert, 2001
+		German	ververidis2006		Anger, Happiness, Neutral	FALSE	1	native	EEG	Recognition	Simulated	Alter, 2000
+		Hebrew	ververidis2006		Anger, Disgust, Fear, Joy, Sad	FALSE	40	native	LG,M, G,H	Recognition	Natural	Amir, 2000
+		English	ververidis2006		Attention, Amusement, Neutral, Frustration	FALSE	N/A	Many	–	Recognition	Natural	Ang, 2002
+		German	ververidis2006	10.1037/0022-3514.70.3.614	Hot Anger, Cold Anger, Happiness, Sad	FALSE	12	actor	V	Recognition	Simulated	Banse, Scherer, 1996
+		German, English	ververidis2006		Anger, Boredom, Joy, Surprise	FALSE	51	child	–	Recognition	Elicited	Batliner, 2004
+Groningen		Dutch	ververidis2006		NONE	FALSE	238	native	LG	Recognition	Simulated	Choukri, 2003
+		Chinese	ververidis2006		Anger, Antipathy, Happiness, Fear, Surprise, Sad	FALSE	2	actor	–	Recognition	Simulated	Chuang, Wu, 2002
+		English	ververidis2006		Neutral, Fear	FALSE	18	actor	–	Recognition	Simulated	Clavel, 2004
+Belfast Structured		English	ververidis2006	10.1109/ICSLP.1996.608027	Anger, Fear, Happiness, Neutral, Sad	FALSE	40	native	–	Recognition	Natural	Cowie, Douglas-Cowie, 1996
+Belfast Natural		English	ververidis2006	10.1016/S0167-6393(02)00070-5	Various	FALSE	125	actor	V	Recognition	Semi-natural	Douglas-Cowie, 2003
+		English	ververidis2006	10.1016/S0167-6393(02)00080-8	Neutral, Stress	FALSE	4	native	–	Recognition	Natural	Fernandez, Picard, 2003
+Verbmobil		German	ververidis2006		Anger, Depressed, Neutral	FALSE	58	native	–	Recognition	Natural	Fischer, 1999
+		English	ververidis2006		Depressed, Neutral	FALSE	70+40	patient+native	–	Recognition	Natural	France, 2000
+		English, Spanish	ververidis2006		Depressed, Neutral	FALSE	N/A	N/A	–	Recognition	Elicited	Gonzalez, 1999
+SUSAS		English	ververidis2006		Anger, Stress	FALSE	32	N/A	–	Recognition	Natural, simulated	Hansen, 1996
+SUSC-0		English	ververidis2006		Neutral, Stress	FALSE	18	foreigner	H,BP,R	Recognition	A-stress	Hansen, 1996
+SUSC-1		English	ververidis2006		Neutral, Stress	FALSE	20	native	–	Recognition	P-stress	Hansen, 1996
+DLP		English	ververidis2006		Neutral, Stress	FALSE	15	native	–	Recognition	C-stress	Hansen, 1996
+DCIEM		English	ververidis2006		Neutral	FALSE	N/A	sleep-deprive	–	Recognition	Elicited	Hansen, 1996
+		English	ververidis2006		Valence	FALSE	N/A	N/A	–	Recognition	Natural	Lee, Narayanan, 2005
+		English	ververidis2006		Attention, Anger, Fear, Sad	FALSE	13	native	–	Recognition	Elicited	Linnankoski, 2005
+RUSSLANA		Russian	ververidis2006		Anger, Happiness, Surprise, Sad, Fear, Neutral	FALSE	61	native	–	Recognition	Simulated	Makarova, Petrushin, 2002
+BDFALA		Portuguese	ververidis2006		Anger, Disgust, Happiness, Irony	FALSE	10	native	–	Recognition	Simulated	Martins, 1998
+ORESTEIA		English	ververidis2006		Annoyance, Shock, Stress	FALSE	29	native	–	Recognition	Elicited	McMahon, 2003
+		English	ververidis2006		NONE	FALSE	15	child	V	Recognition	Natural	Montanari, 2004
+		Dutch	ververidis2006		Anger, Boredom, Fear, Joy, Irony, Neutral, Sad	FALSE	3	native	–	Recognition	Simulated	Mozziconacci, Hermes, 1997
+		Chinese	ververidis2006		Anger, Fear, Disgust, Joy	FALSE	12	native	–	Recognition	Simulated	Nwe, 2003
+		English	ververidis2006		Hot Anger, Cold Anger, Happiness, Neutral, Sad	FALSE	2	actor	–	Recognition	Simulated	Pereira, 2000
+		English	ververidis2006		Anger, Fear, Happiness, Neutral, Sad	FALSE	30	native	–	Recognition	Simulated, Natural	Petrushin, 1999
+		English	ververidis2006		Anger, Fear, Neutral, Sad	FALSE	N/A	N/A	–	Recognition	Simulated	Polzin, Waibel, 2000
+		English	ververidis2006		Anger, Fear, Happiness, Neutral, Sad	FALSE	5	actor	LG	Recognition	Simulated	Polzin, Waibel, 1998
+SOQ		English	ververidis2006		Stress	FALSE	6	soldier	H, R, BP, BL	Recognition	Natural	Rahurkar, Hansen, 2002
+Lost Luggage		NONE	ververidis2006		Anger, Indifference, Sad, Stress	FALSE	109	native	V	Recognition	Natural	Scherer, 2000b
+		German, English	ververidis2006		Stress	FALSE	100	native	–	Recognition	Natural	Scherer, 2002
+SmartKom		German	ververidis2006		Anger, Dissatisfaction, Neutral	FALSE	45	native	V	Recognition	Natural	Schiel, 2002
+		German	ververidis2006		Anger, Boredom, Disgust, Worry	FALSE	6	native	–	Recognition	Simulated	Schröder, 2000
+Babyears		English	ververidis2006		Approval, Attention, Prohibition	FALSE	12	native	–	Recognition	Natural	Slaney, McRoberts, 2003
+Leeds		English	ververidis2006		NONE	FALSE	N/A	N/A	–	Recognition	Natural, elicited	Stibbard, 2000
+		German	ververidis2006		Stress	FALSE	60	native	–	Recognition	Elicited	Tolkmitt, Scherer, 1986
+Magdeburger		German	ververidis2006		Anger, Disgust, Fear, Happiness, Sad	FALSE	2	actor	–	Recognition	Simulated	Wendt, Scheich, 2002
+		English	ververidis2006		Anger, Happiness, Neutral, Sad	FALSE	1	actor	–	Recognition	Simulated	Yildirim, 2004
+		Chinese	ververidis2006		Anger, Happiness, Neutral, Sad	FALSE	N/A	actor	–	Recognition	Simulated	Yu, 2001
+		Chinese	ververidis2006		Anger, Fear, Joy, Neutral, Sad	FALSE	9	native	–	Recognition	Elicited	Yuan, 2002
+Interface		English, Slovenian	ververidis2006		Anger, Disgust, Fear, Neutral, Surprise	FALSE	8	actor	LG	Synthesis	Simulated	Ambrus, 2000
+		English	ververidis2006		Anger, Happiness, Neutral, Sad	FALSE	1	actor	–	Synthesis	Simulated	Bulut, 2002
+		German	ververidis2006		Anger, Fear, Joy, Neutral, Sad, Boredom, Disgust	FALSE	10	actor	V, LG	Synthesis	Simulated	Burkhardt, Sendlmeier, 2000
+		Italian	ververidis2006		Anger, Disgust, Fear, Joy, Sad, Surprise	FALSE	1	native	V, IR	Synthesis	Simulated	Caldognetto, 2004
+		English	ververidis2006		Anger, Boredom, Fear, Happiness, Neutral, Sad	FALSE	1	actor	LG	Synthesis	Simulated	Edgington, 1997
+DES		Danish	ververidis2006		Anger, Happiness, Neutral, Sad, Surprise	FALSE	4	actor	–	Synthesis	Simulated	Engberg, Hansen, 1996
+		German	ververidis2006		Anger, Fear, Joy, Sad		3	native	–	Synthesis	Simulated, elicited	Heuft, 1996
+ESC		Japanese	ververidis2006		Anger, Joy, Sad	FALSE	2	native	–	Synthesis	Simulated	Iida, 2000
+		Spanish	ververidis2006		Fear, Joy, Sad, Surprise		8	actor	–	Synthesis	Simulated	Iriondo, 2000
+		Japanese	ververidis2006		Anger, Happiness, Neutral, Sad	FALSE	2	actor	–	Synthesis	Simulated	Kawanami, 2003
+SES		Spanish	ververidis2006		Anger, Disgust, Happiness, Sad	FALSE	1	actor	–	Synthesis	Simulated	Montero, 1999
+		Japanese	ververidis2006		Anger, Joy, Sad	FALSE	1	native	–	Synthesis	Simulated	Niimi, 2001
+		Swedish	ververidis2006		Happiness, Neutral	FALSE	1	native	V, IR	Synthesis	Simulated	Nordstrand, 2004
+		German	ververidis2006		NONE	FALSE	1	native	–	Synthesis	Simulated	Schröder, Grice, 2003
+AIBO		German	ververidis2006		Anger, Boredom, Happiness, Neutral, Sad	FALSE	14	native	–	Synthesis	Elicited	Tato, 2002
+Kids’ Speech		English	ververidis2006		NONE	FALSE	780	child	V	Recognition, Synthesis	Natural	Cole, 2005
+Emotional Prosody		English	ververidis2006		Anxiety, Hot Anger, Cold Anger, Happiness, Neutral, Panic, Sad, Surprise	FALSE	N/A	actor	–	Unknown	Simulated	Liberman, 2005
+		German	ververidis2006		Anger, Disgust, Fear, Joy, Sad	FALSE	4	actor	–	Ecological	Simulated	Scherer, 2000a

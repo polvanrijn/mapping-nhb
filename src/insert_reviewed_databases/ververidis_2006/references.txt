@@ -1,0 +1,121 @@
+Abelin, A., Allwood, J., 2000. Cross linguistic interpretation of emotional prosody. In: Proc. ISCA Workshop on Speech and Emotion, Vol. 1, pp. 110–113.
+H. Akaike A new look at the statistical model identification IEEE Trans. Automat. Contr., 19 (6) (1974), pp. 716-723
+M. Alpert, E.R. Pouget, R.R. Silva Reflections of depression in acoustic measures of the patients speech J. Affect. Disord., 66 (2001), pp. 59-69
+Alter, K., Rank, E., Kotz, S.A., 2000. Accentuation and emotions – two different systems? In: Proc. ISCA Workshop on Speech and Emotion, Belfast, Vol. 1, pp. 138–142.
+Ambrus, D.C., 2000. Collecting and recording of an emotional speech database. Tech. rep., Faculty of Electrical Engineering, Institute of Electronics, Univ. of Maribor.
+Amir, N., Ron, S., Laor, N., 2000. Analysis of an emotional speech corpus in Hebrew based on objective criteria. In: Proc. ISCA Workshop on Speech and Emotion, Belfast, Vol. 1, pp. 29–33.
+Ang, J., Dhillon, R., Krupski, A., Shriberg, E., Stolcke, A., 2002. Prosody-based automatic detection of annoyance and frustration in human–computer dialog. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’02), Vol. 3, pp. 2037–2040.
+E. Anscombe, P.T. Geach (Eds.), Descartes Philosophical Writings (second ed.), Nelson, Melbourne, Australia (1970) (original work published in 1952)
+Atal, B., Schroeder, M., 1967. Predictive coding of speech signals. In: Proc. Conf. on Communications and Processing, pp. 360–361.
+R. Banse, K. Scherer Acoustic profiles in vocal emotion expression J. Pers. Soc. Psychol., 70 (3) (1996), pp. 614-636
+T. Bänziger, K. Scherer The role of intonation in emotional expressions Speech Comm., 46 (2005), pp. 252-267
+Batliner, A., Hacker, C., Steidl, S., Nöth, E., D’ Archy, S., Russell, M., Wong, M., 2004. “You stupid tin box” – children interacting with the AIBO robot: a cross-linguistic emotional speech corpus. In: Proc. Language Resources and Evaluation (LREC ’04), Lisbon.
+S.E. Bou-Ghazale, J. Hansen Hmm based stressed speech modelling with application to improved synthesis and recognition of isolated speech under stress IEEE Trans. Speech Audio Processing, 6 (1998), pp. 201-216
+R. Buck The biological affects, a typology Psychol. Rev., 106 (2) (1999), pp. 301-336
+Bulut, M., Narayanan, S.S., Sydral, A.K., 2002. Expressive speech synthesis using a concatenative synthesizer. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’02), Vol. 2, pp. 1265–1268.
+Burkhardt, F., Sendlmeier, W.F., 2000. Verification of acoustical correlates of emotional speech using formant-synthesis. In: Proc. ISCA Workshop on Speech and Emotion, Belfast, Vol. 1, pp. 151–156.
+D. Cairns, J.H.L. Hansen Nonlinear analysis and detection of speech under stressed conditions J. Acoust. Soc. Am., 96 (6) (1994), pp. 3392-3400
+E.M. Caldognetto, P. Cosi, C. Drioli, G. Tisato, F. Cavicchio Modifications of phonetic labial targets in emotive speech: effects of the co-production of speech and emotions Speech Comm., 44 (2004), pp. 173-185
+Choukri, K., 2003. European Language Resources Association, (ELRA). Available from: <www.elra.info>.
+Chuang, Z.J., Wu, C.H., 2002. Emotion recognition from textual input using an emotional semantic network. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’02), Vol. 3, pp. 2033–2036.
+Clavel, C., Vasilescu, I., Devillers, L., Ehrette, T., 2004. Fiction database for emotion detection in abnormal situations. In: Proc. Internat. Conf. on Spoken Language Process (ICSLP ’04), Korea, pp. 2277–2280.
+Cole, R., 2005. The CU kids’ speech corpus. The Center for Spoken Language Research (CSLR). Available from: <http://cslr.colorado.edu/>.
+R. Cowie, R.R. Cornelius Describing the emotional states that are expressed in speech Speech Comm., 40 (1) (2003), pp. 5-32
+Cowie, R., Douglas-Cowie, E., 1996. Automatic statistical analysis of the signal and prosodic signs of emotion in speech. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’96), Vol. 3, pp. 1989–1992.
+R. Cowie, E. Douglas-Cowie, N. Tsapatsoulis, G. Votsis, S. Kollias, W. Fellenz, J.G. Taylor Emotion recognition in human–computer interaction IEEE Signal Processing Mag., 18 (1) (2001), pp. 32-80
+S.B. Davis, P. Mermelstein Comparison of parametric representations for monosyllabic word recognition in continuously spoken sentences IEEE Trans. Acoust. Speech Signal Processing, 28 (1980), pp. 357-366
+Dellaert, F., Polzin, T., Waibel, A., 1996. Recognizing emotion in speech. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’96), Vol. 3, pp. 1970–1973.
+J.R. Deller, J.H.L. Hansen, J.G. Proakis Discete-Time Processing of Speech Signals Wiley, NY (2000)
+A.P. Dempster, N.M. Laird, D.B. Rubin Maximum likelihood from incomplete data via the em algorithm J. Roy. Statist. Soc. Ser. B, 39 (1977), pp. 1-88
+E. Douglas-Cowie, N. Campbell, R. Cowie, P. Roach Emotional speech: towards a new generation of databases Speech Comm., 40 (2003), pp. 33-60
+P. Eckman An argument for basic emotions Cognition Emotion, 6 (1992), pp. 169-200
+Edgington, M., 1997. Investigating the limitations of concatenative synthesis. In: Proc. European Conf. on Speech Communication and Technology (Eurospeech ’97), Vol. 1, pp. 593–596.
+B. Efron, R.E. Tibshirani An Introduction to the Bootstrap Chapman & Hall/CRC, NY (1993)
+Engberg, I.S., Hansen, A.V., 1996. Documentation of the Danish Emotional Speech database (DES). Internal AAU report, Center for Person Kommunikation, Aalborg Univ., Denmark.
+R. Fernandez, R. Picard Modeling drivers’ speech under stress Speech Comm., 40 (2003), pp. 145-159
+Fischer, K., 1999. Annotating emotional language data. Tech. Rep. 236, Univ. of Hamburg.
+J.L. Flanagan Speech Analysis, Synthesis and Perception second ed., Springer-Verlag, NY (1972)
+D.J. France, R.G. Shiavi, S. Silverman, M. Silverman, M. Wilkes Acoustical properties of speech as indicators of depression and suicidal risk IEEE Trans. Biomed. Eng., 7 (2000), pp. 829-837
+K. Fukunaga Introduction to Statistical Pattern Recognition second ed., Academic Press, NY (1990)
+Gonzalez, G.M., 1999. Bilingual computer-assisted psychological assessment: an innovative approach for screening depression in Chicanos/Latinos. Tech. Rep. 39, Univ. Michigan.
+Hansen, J.H.L., 1996. NATO IST-03 (formerly RSG. 10) speech under stress web page. Available from: <http://cslr.colorado.edu/rspl/stress.html>.
+J.H.L. Hansen, D.A. Cairns ICARUS: Source generator based real-time recognition of speech in noisy stressful and Lombard effect environments Speech Comm., 16 (1995), pp. 391-422
+H.M. Hanson, P. Maragos, A. Potamianos A system for finding speech formants and modulations via energy separation IEEE Trans. Speech Audio Processing, 2 (3) (1994), pp. 436-442
+S. Haykin Neural Networks: A Comprehensive Foundation second ed., Prentice Hall, NJ (1998)
+W.J. Hess Pitch and voicing determination S. Furui, M.M. Sondhi (Eds.), Advances in Speech Signal Processing, Marcel Dekker, NY (1992)
+Heuft, B., Portele, T., Rauth, M., 1996. Emotions in time domain synthesis. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’96), Vol. 3, pp. 1974–1977.
+Iida, A., Campbell, N., Iga, S., Higuchi, F., Yasumura, M., 2000. A speech synthesis system with emotion for assisting communication. In: Proc. ISCA Workshop on Speech and Emotion, Belfast, Vol. 1, pp. 167–172.
+A. Iida, N. Campbell, F. Higuchi, M. Yasumura A corpus-based speech synthesis system with emotion Speech Comm., 40 (2003), pp. 161-187
+Iriondo, I., Guaus, R., Rodriguez, A., 2000. Validation of an acoustical modeling of emotional expression in Spanish using speech synthesis techniques. In: Proc. ISCA Workshop on Speech and Emotion, Belfast, Vol. 1, pp. 161–166.
+Jiang, D.N., Cai, L.H., 2004. Speech emotion classification with the combination of statistic features and temporal features. In: Proc. Internat. Conf. on Multimedia and Expo (ICME ’04), Taipei.
+S. Kadambe, G.F. Boudreaux-Bartels Application of the wavelet transform for pitch detection of signals IEEE Trans. Inform. Theory, 38 (2) (1992), pp. 917-924
+Kawanami, H., Iwami, Y., Toda, T., Shikano, K., 2003. GMM-based voice conversion applied to emotional speech synthesis. In: Proc. European Conf. on Speech Communication and Technology (Eurospeech ’03), Vol. 4, pp. 2401–2404.
+Kwon, O.W., Chan, K.L., Hao, J., Lee, T.W., 2003. Emotion recognition by speech signals. In: Proc. European Conf. on Speech Communication and Technology (Eurospeech ’03), Vol. 1, pp. 125–128.
+C.M. Lee, S.S. Narayanan Toward detecting emotions in spoken dialogs IEEE Trans. Speech Audio Process., 13 (2) (2005), pp. 293-303
+L. Leinonen, T. Hiltunen, I. Linnankoski, M. Laakso Expression of emotional motivational connotations with a one-word utterance J. Acoust. Soc. Am., 102 (3) (1997), pp. 1853-1863
+Liberman, M., 2005. Linguistic Data Consurtium (LDC). Available from: <http://www.ldc.upenn.edu/>.
+I. Linnankoski, L. Leinonen, M. Vihla, M. Laakso, S. Carlson Conveyance of emotional connotations by a single word in English Speech Comm., 45 (2005), pp. 27-39
+A.J. Lloyd Comprehension of prosody in Parkinson’s disease Proc. Cortex, 35 (3) (1999), pp. 389-402
+Makarova, V., Petrushin, V.A., 2002. RUSLANA: A database of Russian emotional utterances. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’02), Vol. 1, pp. 2041–2044.
+Mallat, S.G., Zhong, S., 1989. Complete signal representation with multiscale edges. Tech. rep., Courant Inst. of Math. Sci., rRT-483-RR-219.
+J.D. Markel, A.H. Gray Linear Prediction of Speech Springer-Verlag, NY (1976)
+Martins, C., Mascarenhas, I., Meinedo, H., Oliveira, L., Neto, J., Ribeiro, C., Trancoso, I., Viana, C., 1998. Spoken language corpora for speech recognition and synthesis in European Portuguese. In: Proc. Tenth Portuguese Conf. on Pattern Recognition (RECPAD ’98), Lisboa.
+McGilloway, S., Cowie, R., Douglas-Cowie, E., Gielen, C.C.A.M., Westerdijk, M.J.D., Stroeve, S. H., 2000. Approaching automatic recognition of emotion from voice: a rough benchmark. In: Proc. ISCA Workshop on Speech and Emotion, Vol. 1, pp. 207–212.
+McMahon, E., Cowie, R., Kasderidis, S., Taylor, J., Kollias, S., 2003. What chance that a DC could recognise hazardous mental states from sensor outputs? In: Tales of the Disappearing Computer, Santorini, Greece.
+P. Mermelstein Automatic segmentation of speech into syllabic units J. Acoust. Soc. Am., 58 (4) (1975), pp. 880-883
+Montanari, S., Yildirim, S., Andersen, E., Narayanan, S., 2004. Reference marking in children’s computed-directed speech: an integrated analysis of discourse and gestures. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’04), Korea, Vol. 1, pp. 1841–1844.
+Montero, J.M., Gutierrez-Arriola, J., Colas, J., Enriquez, E., Pardo, J.M., 1999. Analysis and modelling of emotional speech in Spanish. In: Proc. Internat. Conf. on Phonetics and Speech (ICPhS ’99), San Francisco, Vol. 2, pp. 957–960.
+N. Morgan, H. Bourlard Continuous speech recognition IEEE Signal Processing Mag., 12 (3) (1995), pp. 24-42
+Mozziconacci, S.J.L., Hermes, D.J., 1997. A study of intonation patterns in speech expressing emotion or attitude: production and perception. Tech. Rep. 32, Eindhoven, IPO Annual Progress Report.
+Mozziconacci, S.J.L., Hermes, D.J., 2000. Expression of emotion and attitude through temporal speech variations. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’00), Beijing, Vol. 2, pp. 373–378.
+M. Mrayati, R. Carre, B. Guerin Distinctive regions and models: a new theory of speech production Speech Comm., 7 (3) (1988), pp. 257-286
+Murray, I., Arnott, J.L., 1996. Synthesizing emotions in speech: is it time to get excited? In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’96), Vol. 3, pp. 1816–1819.
+Nakatsu, R., Solomides, A., Tosa, N., 1999. Emotion recognition and its application to computer agents with spontaneous interactive capabilities. In: Proc. Internat. Conf. on Multimedia Computing and Systems (ICMCS ’99), Florence, Vol. 2, pp. 804–808.
+Niimi, Y., Kasamatu, M., Nishimoto, T., Araki, M., 2001. Synthesis of emotional speech using prosodically balanced VCV segments. In: Proc. ISCA Tutorial and Workshop on Research Synthesis (SSW 4), Scotland.
+Nogueiras, A., Marino, J.B., Moreno, A., Bonafonte, A., 2001. Speech emotion recognition using hidden Markov models. In: Proc. European Conf. on Speech Communication and Technology (Eurospeech ’01), Denmark.
+M. Nordstrand, G. Svanfeldt, B. Granström, D. House Measurements of ariculatory variation in expressive speech for a set of Swedish vowels Speech Comm., 44 (2004), pp. 187-196
+T.L. Nwe, S.W. Foo, L.C. De Silva Speech emotion recognition using hidden Markov models Speech Comm., 41 (2003), pp. 603-623
+M. Pantic, L.J.M. Rothkrantz Toward an affect-sensitive multimodal human–computer interaction Proc. IEEE, 91 (9) (2003), pp. 1370-1390
+Pellom, B.L., Hansen, J.H.L., 1996. Text-directed speech enhancement using phoneme classification and feature map constrained vector quantization. In: Proc. Internat. Conf. on Acoustics, Speech, and Signal Processing (ICASSP ’96), Vol. 2, pp. 645–648.
+Pereira, C., 2000. Dimensions of emotional meaning in speech. In: Proc. ISCA Workshop on Speech and Emotion, Belfast, Vol. 1, pp. 25–28.
+Petrushin, V.A., 1999. Emotion in speech recognition and application to call centers. In: Proc. Artificial Neural Networks in Engineering (ANNIE ’99), Vol. 1, pp. 7–10.
+R.W. Picard, E. Vyzas, J. Healey Toward machine emotional intelligence: analysis of affective physiological state IEEE Trans. Pattern Anal. Machine Intell., 23 (10) (2001), pp. 1175-1191
+B.Z. Pollerman, M. Archinard Improvements in Speech Synthesis John Wiley & Sons Ltd., England (2002)
+Polzin, T., Waibel, A., 2000. Emotion-sensitive human–computer interfaces. In: Proc. ISCA Workshop on Speech and Emotion, Belfast, Vol. 1, pp. 201–206.
+Polzin, T.S., Waibel, A.H., 1998. Detecting emotions in speech. In: Proc. Cooperative Multimodal Communication (CMC ’98).
+T.F. Quatieri Discrete-Time Speech Signal Processing Prentice-Hall, NJ (2002)
+L.R. Rabiner, B.H. Juang Fundamentals of Speech Recognition Prentice-Hall, NJ (1993)
+Rahurkar, M., Hansen, J.H.L., 2002. Frequency band analysis for stress detection using a Teager energy operator based feature. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’02), Vol. 3, pp. 2021–2024.
+Scherer, K.R., 2000a. A cross-cultural investigation of emotion inferences from voice and speech: implications for speech technology. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’00), Vol. 1, pp. 379–382.
+Scherer, K.R., 2000b. Emotion effects on voice and speech: paradigms and approaches to evaluation. In: Proc. ISCA Workshop on Speech and Emotion, Belfast, invited paper.
+K.R. Scherer Vocal communication of emotion: a review of research paradigms Speech Comm., 40 (2003), pp. 227-256
+Scherer, K.R., Banse, R., Wallbot, H.G., Goldbeck, T., 1991. Vocal clues in emotion encoding and decoding. In: Proc. Motiv. Emotion, Vol. 15, pp. 123–148.
+Scherer, K.R., Grandjean, D., Johnstone, L.T., G. Klasmeyer, T.B., 2002. Acoustic correlates of task load and stress. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’02), Colorado, Vol. 3, pp. 2017–2020.
+Schiel, F., Steininger, S., Turk, U., 2002. The Smartkom multimodal corpus at BAS. In: Proc. Language Resources and Evaluation (LREC ’02).
+Schröder, M., 2000. Experimental study of affect bursts. In: Proc. ISCA Workshop on Speech and Emotion, Vol. 1, pp. 132–137.
+Schröder, M., 2005. Humaine consortium: research on emotions and human–machine interaction. Available from: <http://emotion-research.net/>.
+Schröder, M., Grice, M., 2003. Expressing vocal effort in concatenative synthesis. In: Proc. Internat. Conf. on Phonetic Sciences (ICPhS ’03), Barcelona.
+Schüller, B., Rigoll, G., Lang, M., 2004. Speech emotion recognition combining acoustic features and linguistic information in a hybrid support vector machine-belief network architecture. In: Proc. Internat. Conf. on Acoustics, Speech and Signal Processing (ICASSP ’04), Vol. 1, pp. 557–560.
+J. Shawe-Taylor, N. Cristianini Kernel Methods for Pattern Analysis University Press, Cambridge (2004)
+Shi, R.P., Adelhardt, J., Zeissler, V., Batliner, A., Frank, C., Nöth, E., Niemann, H., 2003. Using speech and gesture to explore user states in multimodal dialogue systems. In: Proc. ISCA Tutorial and Research Workshop on Audio Visual Speech Processing (AVSP ’03), Vol. 1, pp. 151–156.
+Silverman, K., Beckman, M., Pitrelli, J., Ostendorf, M., Wightman, C., Price, P., Pierrehumbert, J., Hirschberg, J., 1992. ToBI: A standard for labeling English prosody. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’92), Vol. 2, pp. 867–870.
+M. Slaney, G. McRoberts Babyears: A recognition system for affective vocalizations Speech Comm., 39 (2003), pp. 367-384
+M.M. Sondhi New methods of pitch extraction IEEE Trans. Audio Electroacoust., 16 (1968), pp. 262-266
+Steeneken, H.J.M., Hansen, J.H.L., 1999. Speech under stress conditions: overview of the effect of speech production and on system performance. In: Proc. Internat. Conf. on Acoustics, Speech, and Signal Processing (ICASSP ’99), Phoenix, Vol. 4, pp. 2079–2082.
+Stibbard, R., 2000. Automated extraction of ToBI annotation data from the Reading/Leeds emotional speech corpus. In: Proc. ISCA Workshop on Speech and Emotion, Belfast, Vol. 1, pp. 60–65.
+Tato, R., 2002. Emotional space improves emotion recognition. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’02), Colorado, Vol. 3, pp. 2029–2032.
+H.M. Teager, S.M. Teager Evidence for nonlinear sound production mechanisms in the vocal tract NATO Advanced Study Institute, Series D, Vol. 15, Kluwer, Boston, MA (1990)
+F.J. Tolkmitt, K.R. Scherer Effect of experimentally induced stress on vocal parameters J. Exp. Psychol. [Hum. Percept.], 12 (3) (1986), pp. 302-313
+R. Van Bezooijen The Characteristics and Recognizability of Vocal Expression of Emotions Foris, Drodrecht, The Netherlands (1984)
+F. van der Heijden, R.P.W. Duin, D. de Ridder, D.M. J. Tax Classification, Parameter Estimation and State Estimation – An Engineering Approach using Matlab J. Wiley & Sons, London, UK (2004)
+Ververidis, D., Kotropoulos, C., 2004. Automatic speech classification to five emotional states based on gender information. In: Proc. European Signal Processing Conf. (EUSIPCO ’04), Vol. 1, pp. 341–344.
+Ververidis, D., Kotropoulos, C., 2005. Emotional speech classification using Gaussian mixture models and the sequential floating forward selection algorithm. In: Proc. Internat. Conf. on Multimedia and Expo (ICME ’05).
+Ververidis, D., Kotropoulos, C., Pitas, I., 2004. Automatic emotional speech classification. In: Proc. Internat. Conf. on Acoustics, Speech and Signal Processing (ICASSP ’04), Montreal, Vol. 1, pp. 593–596.
+Wagner, J., Kim, J., André, E., 2005. From physiological signals to emotions: implementing and comparing selected methods for feature extraction and classification. In: Proc. Internat. Conf. on Multimedia and Expo (ICME ’05), Amsterdam.
+Wendt, B., Scheich, H., 2002. The Magdeburger prosodie-korpus. In: Proc. Speech Prosody Conf., pp. 699–701.
+B.D. Womack, J.H.L. Hansen Classification of speech under stress using target driven features Speech Comm., 20 (1996), pp. 131-150
+B.D. Womack, J.H.L. Hansen N-channel hidden Markov models for combined stressed speech classification and recognition IEEE Trans. Speech Audio Processing, 7 (6) (1999), pp. 668-677
+Yildirim, S., Bulut, M., Lee, C.M., Kazemzadeh, A., Busso, C., Deng, Z., Lee, S., Narayanan, S., 2004. An acoustic study of emotions expressed in speech. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’04), Korea, Vol. 1, pp. 2193–2196.
+Yu, F., Chang, E., Xu, Y.Q., Shum, H.Y., 2001. Emotion detection from speech to enrich multimedia content. In: Proc. IEEE Pacific-Rim Conf. on Multimedia 2001, Beijing, Vol. 1, pp. 550–557.
+Yuan, J., 2002. The acoustic realization of anger, fear, joy and sadness in Chinese. In: Proc. Internat. Conf. on Spoken Language Processing (ICSLP ’02), Vol. 3, pp. 2025–2028.
+G. Zhou, J.H.L. Hansen, J.F. Kaiser Nonlinear feature based classification of speech under stress IEEE Trans. Speech Audio Processing, 9 (3) (2001), pp. 201-216

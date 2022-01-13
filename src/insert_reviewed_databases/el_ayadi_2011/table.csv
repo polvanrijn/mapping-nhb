@@ -1,0 +1,18 @@
+corpus	access	language	size	source	emotions	reference
+LDC Emotional Prosody Speech and Transcripts [78]	Commercially availablea	English	7 actors ×15 emotions ×10 utterances	Professional actors	Neutral, panic, anxiety, hot anger, cold anger, despair, sadness, elation, joy, interest, boredom, shame, pride, contempt	Liberman, 2002
+Berlin emotional database [18]	Public and freeb	German	800 utterances (10 actors ×7 emotions ×10 utterances + some second version) = 800 utterances	Professional actors	Anger, joy, sadness, fear, disgust, boredom, neutral	Burkhardt, 2005
+Danish emotional database [38]	Public with license feec	Danish	4 actors ×5 emotions (2 words + 9 sentences + 2 passages)	Nonprofessional actors	Anger, joy, sadness, surprise, neutral	Engberg, Hansen, 1996
+Natural [91]	Private	Chinese	388 utterances, 11 speakers, 2 emotions	Call centers	Anger, neutral	Morrison, 2007
+ESMBS [94]	Private	Chinese	720 utterances, 12 speakers, 6 emotions	Nonprofessional actors	Anger, joy, sadness, disgust, fear, surprise	Nwe, 2003
+INTERFACE [54]	Commercially availabled	English, Slovenian, Spanish, French	English (186 utterances), Slovenian (190 utterances), Spanish (184 utterances), French (175 utterances)	Actors	Anger, disgust, fear, joy, surprise, sadness, neutral	Hozjan, 2002
+KISMET [15]	Private	English	1002 utterances, 3 female speakers, 5 emotions	Nonprofessional actors	Approval, attention, prohibition, soothing, neutral	Breazeal, Aryananda, 2002
+BabyEars [120]	Private	English	509 utterances, 12 actors (6 males + 6 females), 3 emotions	Mothers and fathers	Approval, attention, prohibition	Slaney, McRoberts, 2003
+SUSAS [140]	Public with license feee	English	16,000 utterances, 32 actors (13 females + 19 males)	Speech under simulated and actual stress	Stress	You, Chen, 1997
+MPEG-4 [114]	Private	English	2440 utterances, 35 speakers	U.S. American movies	Joy, anger, disgust, fear, sadness, surprise, neutral	Schuller, 2005
+Beihang University [43]	Private	Chinese	7 actors ×5 emotions ×20 utterances	Nonprofessional actors	Anger, joy, sadness, disgust, surprise	Fu, 2008
+FERMUS III [112]	Public with license feef	German, English	2829 utterances, 7 emotions, 13 actors	Automotive environment	Anger, disgust, joy, neutral, sadness, surprise	Schuller, 2002
+KES [65]	Private	Korean	5400 utterances, 10 actors	Nonprofessional actors	Neutral, joy, sadness, anger	Kim, 2007
+CLDC [146]	Private	Chinese	1200 utterances, 4 actors	Nonprofessional actors	Joy, anger, surprise, fear, neutral, sadness	Zhou, 2006
+Hao Hu et al. [56]	Private	Chinese	8 actors ×5 emotions ×40 utterances	Nonprofessional actors	Anger, fear, joy, sadness, neutral	Hu, 2007
+Amir et al. [2]	Private	Hebrew	60 Hebrew and 1 Russian actors	Nonprofessional actors	Anger, disgust, fear, joy, neutral, sadness	Amir, 2000
+Pereira [55]	Private	English	2 actors ×5 emotions ×8 utterances	Nonprofessional actors	Hot anger, cold anger, joy, neutral, sadness	Hu, 2007

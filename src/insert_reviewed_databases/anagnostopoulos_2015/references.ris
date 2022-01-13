@@ -1,0 +1,684 @@
+TY  - JOUR
+AU  - Aigner, M.
+AU  - Sachs, G.
+AU  - Bruckmüller, E.
+AU  - Winklbaur, B.
+AU  - Zitterl, W.
+AU  - Kryspin-Exner, I.
+AU  - Gur, R.
+AU  - Katschnig, H.
+PY  - 2007
+DA  - 2007//
+TI  - Cognitive and emotion recognition deficits in obsessive–compulsive disorder
+JO  - Psychiatr Res
+VL  - 149
+UR  - https://doi.org/10.1016/j.psychres.2005.12.006
+DO  - 10.1016/j.psychres.2005.12.006
+ID  - Aigner2007
+ER  - 
+TY  - JOUR
+AU  - Anagnostopoulos, C. N.
+AU  - Iliou, T.
+PY  - 2010
+DA  - 2010//
+TI  - Towards emotion recognition from speech: definition, problems and the materials of research
+JO  - Stud Comput Intell
+VL  - 279
+UR  - https://doi.org/10.1007/978-3-642-11684-1_8
+DO  - 10.1007/978-3-642-11684-1_8
+ID  - Anagnostopoulos2010
+ER  - 
+TY  - STD
+TI  - Anagnostopoulos CN, Vovoli E (2010) Sound processing features for speaker-dependent and phrase-independent emotion recognition in Berlin Database. In: Papadopoulos GA, Wojtkowski W, Wojtkowski G, Wrycza S, Zupancic J (eds) Information systems development, pp 413–421
+ID  - ref3
+ER  - 
+TY  - STD
+TI  - Ang J, Dhillon R, Shriberg E, Stolcke A (2002) Prosody-based automatic detection of annoyance and frustration in human–computer dialog. In: Proceedings of interspeech, pp 2037–2040
+ID  - ref4
+ER  - 
+TY  - STD
+TI  - Atassi H, Esposito A (2008) A speaker independent approach to the classification of emotional vocal expressions. In: Proceedings of 20th IEEE international conference on tools with artificial intelligence, pp 147–152
+ID  - ref5
+ER  - 
+TY  - JOUR
+AU  - Athanaselis, T.
+AU  - Bakamidis, S.
+AU  - Dologlou, I.
+AU  - Cowie, R.
+AU  - Douglas-Cowie, E.
+AU  - Cox, C.
+PY  - 2005
+DA  - 2005//
+TI  - ASR for emotional speech: clarifying the issues and enhancing performance
+JO  - Neural Netw
+VL  - 18
+UR  - https://doi.org/10.1016/j.neunet.2005.03.008
+DO  - 10.1016/j.neunet.2005.03.008
+ID  - Athanaselis2005
+ER  - 
+TY  - JOUR
+AU  - Batliner, A.
+AU  - Fischer, K.
+AU  - Huber, R.
+AU  - Spilker, J.
+AU  - Nolth, E.
+PY  - 2003
+DA  - 2003//
+TI  - How to find trouble in communication
+JO  - Speech Commun
+VL  - 40
+UR  - https://doi.org/10.1016/S0167-6393(02)00079-1
+DO  - 10.1016/S0167-6393(02)00079-1
+ID  - Batliner2003
+ER  - 
+TY  - STD
+TI  - Batliner A, Steidl S, Schuller B, Seppi D, Laskowski K, Vogt T, Devillers L, Vidrascu L, Amir N, Kessous L, Aharonson V (2006) Combining efforts for improving automatic classification of emotional user states. In: Proceedings of 1st international language technologies conference, pp 240–245
+ID  - ref8
+ER  - 
+TY  - STD
+TI  - Bogert B, Healy M, Tukey J (1963) The quefrency analysis of time series for echoes: cepstrum, pseudo-autocovariance, cross-cepstrum and saphe cracking. In: Rosenblatt M (ed) Symposium on time series analysis. Wiley, New York, pp 209–243
+ID  - ref9
+ER  - 
+TY  - JOUR
+AU  - Calder, J.
+AU  - Lawrence, A. D.
+AU  - Young, A. W.
+PY  - 2001
+DA  - 2001//
+TI  - Neuropsychology of fear and loathing
+JO  - Nat Rev Neurosci
+VL  - 2
+UR  - https://doi.org/10.1038/35072584
+DO  - 10.1038/35072584
+ID  - Calder2001
+ER  - 
+TY  - STD
+TI  - Cheng XM, Cheng PY, Zhao L (2009) A study on emotional feature analysis and recognition in speech signal. In: Proceedings of international conference on measuring technology and mechatronics automation, pp 418–420
+ID  - ref11
+ER  - 
+TY  - STD
+TI  - Cen L, Ser W, Yu ZL (2008) Speech emotion recognition using canonical correlation analysis and probabilistic neural network. In: Proceedings of 7th international conference on machine learning and applications, pp 859–862
+ID  - ref12
+ER  - 
+TY  - STD
+TI  - Cowie R, Douglas-Cowie E, Savvidou S, McMahon E, Sawey M, Schroder M (2000) FEELTRACE: an instrument for recording perceived emotion in real time. In: Proceedings of ISCA speech and emotion workshop, pp 19–24
+ID  - ref13
+ER  - 
+TY  - JOUR
+AU  - Cowie, R.
+AU  - Douglas-Cowie, E.
+AU  - Cox, C.
+PY  - 2005
+DA  - 2005//
+TI  - Beyond emotion archetypes: databases for emotion modelling using neural networks
+JO  - Neural Netw
+VL  - 18
+UR  - https://doi.org/10.1016/j.neunet.2005.03.002
+DO  - 10.1016/j.neunet.2005.03.002
+ID  - Cowie2005
+ER  - 
+TY  - STD
+TI  - Devillers L, Vasilescu I, Lamel L (2003) Emotion detection in task oriented spoken dialogs. In: Proceedings of IEEE multimedia human–machine interface and interaction conference, pp 549–552
+ID  - ref15
+ER  - 
+TY  - JOUR
+AU  - Douglas-Cowie, E.
+AU  - Campbell, N.
+AU  - Cowie, R.
+AU  - Roach, P.
+PY  - 2003
+DA  - 2003//
+TI  - Emotional speech: towards a new generation of databases
+JO  - Speech Commun
+VL  - 40
+UR  - https://doi.org/10.1016/S0167-6393(02)00070-5
+DO  - 10.1016/S0167-6393(02)00070-5
+ID  - Douglas-Cowie2003
+ER  - 
+TY  - STD
+TI  - Douglas-Cowie E, Cowie R, Sneddon I, Cox C, Lowry O, McRorie M, Martin JC, Devillers L, Abrilan S, Batliner A, Amir N, Karpouzis K (2007) The HUMAINE database: addressing the collection and annotation of naturalistic and induced emotional data. In: Proceedings of international conference affective computing and intelligent interaction, pp 488–500
+ID  - ref17
+ER  - 
+TY  - STD
+TI  - Dumouche P, Dehak N, Attabi Y, Dehak R, Boufaden N (2009) Cepstral and long-term features for emotion recognition. In: Proceedings of INTERSPEECH, pp 344–347
+ID  - ref18
+ER  - 
+TY  - STD
+TI  - Fernandez R, Picard RW (2003) Modeling drivers’ speech under stress. Speech Communications, vol 40. Elsevier, pp 145–159
+ID  - ref19
+ER  - 
+TY  - STD
+TI  - Firoz Shah A, Vimal Krishnan VR, Raji Sukumar A, Jayakumar A, Babu Anto P (2009) Speaker independent automatic emotion recognition from speech: a comparison of MFCCs and discrete wavelet transforms. In: Proceedings of international conference on advances in recent technologies in communication and computing, pp 528–531
+ID  - ref20
+ER  - 
+TY  - JOUR
+AU  - Fontaine, J. R. J.
+AU  - Scherer, K. R.
+AU  - Roesch, E. B.
+AU  - Ellsworth, P. C.
+PY  - 2010
+DA  - 2010//
+TI  - The world of emotions is not two dimensional
+JO  - Psychol Sci
+VL  - 18
+UR  - https://doi.org/10.1111/j.1467-9280.2007.02024.x
+DO  - 10.1111/j.1467-9280.2007.02024.x
+ID  - Fontaine2010
+ER  - 
+TY  - STD
+TI  - Forbes-Riley K, Litman DJ (2004) Predicting emotion in spoken dialogue from multiple knowledge sources. In: Proceedings of human language technology conference, North American chapter of the association computational linguistics (HLT/NAACL), pp 201–208
+ID  - ref22
+ER  - 
+TY  - JOUR
+AU  - France, D. J.
+AU  - Shivavi, R. G.
+AU  - Silverman, S.
+AU  - Silverman, M.
+AU  - Wilkes, M.
+PY  - 2000
+DA  - 2000//
+TI  - Acoustical properties of speech as indicators of depression and suicidal risk
+JO  - IEEE Trans Biomed Eng
+VL  - 7
+ID  - France2000
+ER  - 
+TY  - STD
+TI  - Fu L, Mao X, Chen L (2008a) Relative speech emotion recognition based artificial neural network. In: Proceedings of IEEE Pacific-Asia workshop on computational intelligence and industrial application, pp 140–144
+ID  - ref24
+ER  - 
+TY  - STD
+TI  - Fu L, Mao X, Chen L (2008b) Speaker independent emotion recognition using HMMs fusion system with relative features. In: Proceedings of 1st international conference on intelligent networks and intelligent systems, pp 608–611
+ID  - ref25
+ER  - 
+TY  - STD
+TI  - Giannakopoulos T, Pikrakis A, Theodoridis S (2009) A dimensional approach to emotion recognition of speech from movies. In: Proceedings of IEEE international conference on acoustics, speech and signal processing, pp 65–68
+ID  - ref26
+ER  - 
+TY  - STD
+TI  - Graciarena M, Shriberg E, Stolcke A, Enos F, Hirschberg J, Kajarekar S (2006) Combining prosodic lexical and cepstral systems for deceptive speech detection. In: Proceedings of IEEE international conference on acoustics, speech and signal processing, pp 1033–1036
+ID  - ref27
+ER  - 
+TY  - JOUR
+AU  - Hanjalic, A.
+PY  - 2006
+DA  - 2006//
+TI  - Extracting moods from pictures and sounds: towards truly personalized TV
+JO  - IEEE Signal Process Mag
+VL  - 23
+UR  - https://doi.org/10.1109/MSP.2006.1621452
+DO  - 10.1109/MSP.2006.1621452
+ID  - Hanjalic2006
+ER  - 
+TY  - JOUR
+AU  - Hanjalic, A.
+AU  - Xu, L. Q.
+PY  - 2005
+DA  - 2005//
+TI  - Affective video content representation and modeling
+JO  - IEEE Trans Multimed
+VL  - 7
+UR  - https://doi.org/10.1109/TMM.2004.840618
+DO  - 10.1109/TMM.2004.840618
+ID  - Hanjalic2005
+ER  - 
+TY  - STD
+TI  - Hoch S, Althoff F, McGlaun G, Rigoll G (2005) Bimodal fusion of emotional data in an automotive environment. In: Proceedings of international conference audio. Speech and Signal Processing, vol 2, pp 1085–1088
+ID  - ref30
+ER  - 
+TY  - JOUR
+AU  - Hozjan, V.
+AU  - Kacic, Z.
+PY  - 2006
+DA  - 2006//
+TI  - Context-independent multilingual emotion recognition from speech signals
+JO  - Int J Speech Technol
+VL  - 6
+UR  - https://doi.org/10.1023/A:1023426522496
+DO  - 10.1023/A:1023426522496
+ID  - Hozjan2006
+ER  - 
+TY  - STD
+TI  - Ijima Y, Tachibana M, Nose T, Kobayashi T (2009) Emotional speech recognition based on style estimation and adaptation with multiple-regression HMM. In: Proceedings of 2009 IEEE international conference on acoustics, speech and signal processing, pp 4157–4160
+ID  - ref32
+ER  - 
+TY  - STD
+TI  - Iliou T, Anagnostopoulos C-N (2009) Comparison of different classifiers for emotion recognition. In: Proceedings of panhellenic conference in informatics, pp 102–106
+ID  - ref33
+ER  - 
+TY  - STD
+TI  - Jin Y, Zhao Y, Huang C, Zhao L (2009) Study on the emotion recognition of whispered speech. In: Proceedings of global congress on intelligent systems, pp 242–246
+ID  - ref34
+ER  - 
+TY  - STD
+TI  - Kockmann M, Burget L, Cernocky J (2009) Brno university of technology system for interspeech 2009 emotion challenge. In: Proceedings of INTERSPEECH, pp 348–351
+ID  - ref35
+ER  - 
+TY  - STD
+TI  - Kostoulas TP, Fakotakis N (2006) A speaker dependent emotion recognition framework, CSNDSP. In: Proceedings of 5th international symposium computers, systems, networks and digital signal processing, pp 305–309
+ID  - ref36
+ER  - 
+TY  - STD
+TI  - Kostoulas T, Ganchev T, Mporas I, Fakotakis N (2007) Detection of negative emotional states in real-world scenario. In: Proceedings of 19th IEEE international conference on tools with artificial intelligence, pp 502–509
+ID  - ref37
+ER  - 
+TY  - STD
+TI  - Kostoulas T, Ganchev T, Lazaridis A, Fakotakis N (2010) Enhancing Emotion recognition from speech through feature selection. In: Sojka P, Horák A, Kopecek I, Pala K (eds) Text, speech and dialogue, lecture notes in artificial intelligence, vol 6231, pp 338–344
+ID  - ref38
+ER  - 
+TY  - STD
+TI  - Kwon OW, Chan K, Hao J, Lee TW (2003) Emotion recognition by speech signals. In: Proceedings of Eurospeech conference, pp 125–128
+ID  - ref39
+ER  - 
+TY  - JOUR
+AU  - Lee, C. M.
+AU  - Narayanan, S. S.
+PY  - 2005
+DA  - 2005//
+TI  - Toward detecting emotions in spoken dialogs
+JO  - IEEE Trans Speech Audio Process
+VL  - 13
+UR  - https://doi.org/10.1109/TSA.2004.838534
+DO  - 10.1109/TSA.2004.838534
+ID  - Lee2005
+ER  - 
+TY  - STD
+TI  - Lee CM, Narayanan SS, Pieraccini R (2002) Combining acoustic and language information for emotion recognition. In: Proceedings of interspeech, pp 873–376
+ID  - ref41
+ER  - 
+TY  - STD
+TI  - Lee CM, Yildirim S, Bulut M, Kazemzadeh A, Busso C, Deng Z, Lee SS, Narayanan S (2004) Emotion recognition based on phoneme classes. In: Proceedings of international conference spoken language processing, pp 205–211
+ID  - ref42
+ER  - 
+TY  - STD
+TI  - Lee C, Mower E, Busso C, Lee S, Narayanan S (2009) Emotion recognition using a hierarchical binary decision tree approach. In: Proceedings of INTERSPEECH, pp 320–323
+ID  - ref43
+ER  - 
+TY  - STD
+TI  - Litman DJ, Forbes-Riley K (2004) Predicting student emotions in computer-human tutoring dialogues In: Proceedings of 42nd annual meeting on association for computational linguistics
+ID  - ref44
+ER  - 
+TY  - JOUR
+AU  - Luengo, I.
+AU  - Navas, E.
+AU  - Hernaez, I.
+PY  - 2010
+DA  - 2010//
+TI  - Feature analysis and evaluation for automatic emotion identification in speech
+JO  - IEEE Trans Multimed
+VL  - 12
+UR  - https://doi.org/10.1109/TMM.2010.2051872
+DO  - 10.1109/TMM.2010.2051872
+ID  - Luengo2010
+ER  - 
+TY  - STD
+TI  - Lugger M, Yang B (2007a) An incremental analysis of different feature groups in speaker independent emotion recognition. In: Proceedings of international congress phonetic sciences, pp 2149–2152
+ID  - ref46
+ER  - 
+TY  - STD
+TI  - Lugger M, Yang B (2007b) The relevance of voice quality features in speaker independent emotion recognition. In: Proceedings of IEEE international conference on acoustics, speech and signal processing, pp 17–20
+ID  - ref47
+ER  - 
+TY  - STD
+TI  - Manning CD, Schütze H (1999) Foundations of statistical natural language processing. MIT Press, Cambridge
+ID  - ref48
+ER  - 
+TY  - STD
+TI  - Mao X, Chen L, Fu L (2009) Multi-level speech emotion recognition based on HMM and ANN. In: Proceedings of world congress on computer science and information engineering, pp 225–229
+ID  - ref49
+ER  - 
+TY  - JOUR
+AU  - Matos, S.
+AU  - Birring, S. S.
+AU  - Pavord, I. D.
+AU  - Evans, D. H.
+PY  - 2006
+DA  - 2006//
+TI  - Detection of cough signals in continuous audio recordings Using HMM
+JO  - IEEE Trans Biomed Eng
+VL  - 53
+UR  - https://doi.org/10.1109/TBME.2006.873548
+DO  - 10.1109/TBME.2006.873548
+ID  - Matos2006
+ER  - 
+TY  - STD
+TI  - Mishra HK, Sekhar CC (2009) Variational gaussian mixture models for speech emotion recognition. In: Proceedings of 7th international conference on advances in pattern recognition, pp 183–186
+ID  - ref51
+ER  - 
+TY  - JOUR
+AU  - Morrison, D.
+AU  - Wang, R.
+AU  - Silva, L. C. D.
+PY  - 2007
+DA  - 2007//
+TI  - Ensemble methods for spoken emotion recognition in call-centres
+JO  - Speech Commun
+VL  - 49
+UR  - https://doi.org/10.1016/j.specom.2006.11.004
+DO  - 10.1016/j.specom.2006.11.004
+ID  - Morrison2007
+ER  - 
+TY  - JOUR
+AU  - Navas, E.
+AU  - Hernáez, I.
+AU  - Luengo, I.
+PY  - 2006
+DA  - 2006//
+TI  - An objective and subjective study of the role of semantics and prosodic features in building corpora for emotional TTS
+JO  - IEEE Trans Audio Speech Lang Process
+VL  - 14
+UR  - https://doi.org/10.1109/TASL.2006.876121
+DO  - 10.1109/TASL.2006.876121
+ID  - Navas2006
+ER  - 
+TY  - STD
+TI  - Neiberg D, Elenius K, Laskowski K (2006) Emotion recognition in spontaneous speech using GMMs. In: Proceedings of INTERSPEECH conference, pp 809–812
+ID  - ref54
+ER  - 
+TY  - STD
+TI  - Nogueiras A, Moreno A, Bonafonte A, Mariño JB (2001) Speech emotion recognition using Hidden Markov models. In: Proceedings of EUROSPEECH, pp 2679–2682
+ID  - ref55
+ER  - 
+TY  - STD
+TI  - Nwe TL, Foo SW, De Silva LC (2003) Classification of stress in speech using linear and nonlinear features. In: Proceedings of IEEE international conference acoustics, speech, and signal processing, pp 9–12
+ID  - ref56
+ER  - 
+TY  - BOOK
+AU  - Ortony, A.
+AU  - Clore, G.
+AU  - Collins, A.
+PY  - 1988
+DA  - 1988//
+TI  - The cognitive structure of emotions
+PB  - Cambridge University Press
+CY  - Cambridge
+UR  - https://doi.org/10.1017/CBO9780511571299
+DO  - 10.1017/CBO9780511571299
+ID  - Ortony1988
+ER  - 
+TY  - STD
+TI  - Pal P, Iyer AN, Yantorno RE (2006) Emotion detection from infant facial expressions and cries. In: Proceedings of IEEE international conference on acoustics, speech, and signal processing, pp 721–724
+ID  - ref58
+ER  - 
+TY  - STD
+TI  - Pao TL, Liao WY, Chen YT, Yeh JH, Cheng YM, Chien CS (2007a) Comparison of several classifiers for emotion recognition from noisy mandarin speech. In: Proceedings of 3rd international conference on international information hiding and multimedia signal processing, pp 23–26
+ID  - ref59
+ER  - 
+TY  - STD
+TI  - Pao TL, Chien CS, Chen YT, Yeh JH, Cheng YM, Liao WY (2007b) Combination of multiple classifiers for improving emotion recognition in Mandarin speech. In: Proceedings of 3rd international conference on international information hiding and multimedia signal processing, pp 35–38
+ID  - ref60
+ER  - 
+TY  - STD
+TI  - Petridis S, Pantic M (2008) Audiovisual discrimination between laughter and speech. In: Proceedings of IEEE international conference on acoustics, speech, and signal processing, pp 5117–5120
+ID  - ref61
+ER  - 
+TY  - STD
+TI  - Rong J, Chen YPP, Chowdhury M, Li G (2007) Acoustic features extraction for emotion recognition. In: Proceedings 6th IEEE/ACIS international conference on computer and information science, pp 419–424
+ID  - ref62
+ER  - 
+TY  - JOUR
+AU  - Russell, J. A.
+AU  - Weiss, A.
+AU  - Mendelsohn, G. A.
+PY  - 1989
+DA  - 1989//
+TI  - Affect Grid: a single-item scale of pleasure and arousal
+JO  - J Pers Soc Psychol
+VL  - 57
+UR  - https://doi.org/10.1037/0022-3514.57.3.493
+DO  - 10.1037/0022-3514.57.3.493
+ID  - Russell1989
+ER  - 
+TY  - JOUR
+AU  - Russell, J. A.
+AU  - Bachorowski, J.
+AU  - Fernandez-Dols, J.
+PY  - 2003
+DA  - 2003//
+TI  - Facial and vocal expressions of emotion
+JO  - Annu Revis Psychol
+VL  - 54
+UR  - https://doi.org/10.1146/annurev.psych.54.101601.145102
+DO  - 10.1146/annurev.psych.54.101601.145102
+ID  - Russell2003
+ER  - 
+TY  - JOUR
+AU  - Schroder, M.
+PY  - 2003
+DA  - 2003//
+TI  - Experimental study of affect bursts
+JO  - Speech Commun
+VL  - 40
+ID  - Schroder2003
+ER  - 
+TY  - STD
+TI  - Schuller B, Rigoll G (2009) Recognising interest in conversational speech–comparing bag of frames and supra-segmental features. In: Proceedings of INTERSPEECH, pp 1999–2002
+ID  - ref66
+ER  - 
+TY  - STD
+TI  - Schuller B, Rigoll G, Lang M (2003) Hidden Markov model-based speech emotion recognition. In: Proceedings of international conference on multimedia and expo, pp 401–404
+ID  - ref67
+ER  - 
+TY  - STD
+TI  - Schuller B, Rigoll G, Lang M (2004) Speech emotion recognition combining acoustic features and linguistic information in a hybrid support vector machine-belief network architecture. In: Proceedings of IEEE international conference acoustics, speech, and signal processing, pp. 577–580
+ID  - ref68
+ER  - 
+TY  - STD
+TI  - Schuller B, Muller R, Lang M, Rigoll G (2005a) Speaker independent emotion recognition by early fusion of acoustic and linguistic features within ensembles. In: Proceedings of 9th Eurospeech–Interspeech, pp 805–809
+ID  - ref69
+ER  - 
+TY  - STD
+TI  - Schuller B, Villar RJ, Rigoll G, Lang M (2005b) Meta-classifiers in acoustic and linguistic feature fusion-based affect recognition. In: Proceedings of IEEE international conference on acoustics, speech and signal processing, pp 325–328
+ID  - ref70
+ER  - 
+TY  - STD
+TI  - Schuller B, Reiter S, Mueller R, Al-Hames M, Lang M, Rigoll G (2005c) Speaker-independent speech emotion recognition by ensemble classification. In: Proceedings international conference on multimedia and expo, pp 864–867
+ID  - ref71
+ER  - 
+TY  - STD
+TI  - Schuller B, Reiter S, Rigoll G (2006) Evolutionary feature generation in speech emotion recognition. In: Proceedings 2006 IEEE international conference on multimedia and expo, pp 5–8
+ID  - ref72
+ER  - 
+TY  - STD
+TI  - Schuller B, Batliner A, Seppi D, Steidl S, Vogt T, Wagner J, Devillers L, Vidrascu L, Amir N, Kessous L, Aharonson V (2007) The relevance of feature type for the automatic classification of emotional user states: low level descriptors and functionals. In: Proceedings of INTERSPEECH, pp 2253–2256
+ID  - ref73
+ER  - 
+TY  - JOUR
+AU  - Schuller, B.
+AU  - Müller, R.
+AU  - Eyben, F.
+AU  - Gast, J.
+AU  - Hörnler, B.
+AU  - Wöllmer, M.
+AU  - Rigoll, G.
+AU  - Höthker, A.
+AU  - Konosu, H.
+PY  - 2009
+DA  - 2009//
+TI  - Being bored? Recognising natural interest by extensive audiovisual integration for real-life application
+JO  - Image Vis Comput
+VL  - 27
+UR  - https://doi.org/10.1016/j.imavis.2009.02.013
+DO  - 10.1016/j.imavis.2009.02.013
+ID  - Schuller2009
+ER  - 
+TY  - BOOK
+AU  - Schuller, B.
+AU  - Wollmer, M.
+AU  - Eyben, F.
+AU  - Rigoll, G.
+PY  - 2009
+DA  - 2009//
+TI  - The role of prosody in affective speech
+PB  - Peter Lan Publishing Group
+CY  - Bern
+ID  - Schuller2009
+ER  - 
+TY  - STD
+TI  - Schuller B, Batliner A, Steidl S, Seppi D (2009c) Emotion recognition from speech: putting ASR in the loop. In: Proceedings of IEEE international conference on acoustics, speech and signal processing, pp 4585–4588
+ID  - ref76
+ER  - 
+TY  - STD
+TI  - Schuller B, Schenk J, Rigoll G, Knaup T (2009d) “The Godfather” vs. “Chaos”: comparing linguistic analysis based on on-line knowledge sources and bags-of-n-grams for movie review valence estimation. In: Proceedings of 10th international conference on document analysis and recognition, pp 858-862
+ID  - ref77
+ER  - 
+TY  - STD
+TI  - Schuller B, Steidl S, Batliner A (2009e) The INTERSPEECH 2009 emotion challenge. In: Proceedings of INTERSPEECH, pp 312–315
+ID  - ref78
+ER  - 
+TY  - JOUR
+AU  - Schuller, B.
+AU  - Vlasenko, B.
+AU  - Eyben, F.
+AU  - Wollmer, M.
+AU  - Stuhlsatz, A.
+AU  - Wendemuth, A.
+AU  - Rigoll, G.
+PY  - 2010
+DA  - 2010//
+TI  - Cross-corpus acoustic emotion recognition: variances and strategies
+JO  - IEEE Trans Affect Comput
+VL  - 1
+UR  - https://doi.org/10.1109/T-AFFC.2010.8
+DO  - 10.1109/T-AFFC.2010.8
+ID  - Schuller2010
+ER  - 
+TY  - JOUR
+AU  - Schuller, B.
+AU  - Batliner, A.
+AU  - Steidl, S.
+AU  - Seppi, D.
+PY  - 2011
+DA  - 2011//
+TI  - Recognising realistic emotions and affect in speech: state of the art and lessons learnt from the first challenge
+JO  - Speech Commun
+VL  - 53
+UR  - https://doi.org/10.1016/j.specom.2011.01.011
+DO  - 10.1016/j.specom.2011.01.011
+ID  - Schuller2011
+ER  - 
+TY  - STD
+TI  - Shami MT, Kamel MS (2005) Segment-based approach to the recognition of emotions in speech. In: Proceedings of IEEE international conference on multimedia and expo, pp 4–7
+ID  - ref81
+ER  - 
+TY  - STD
+TI  - Stuhlsatz A, Meyer C, Eyben F, Zielke T, Meier G, Schuller B (2011) Deep neural networks for acoustic emotion recognition: raising the benchmarks. In: Proceedings international conference on acoustics speech and signal processing, pp 5688–5691
+ID  - ref82
+ER  - 
+TY  - STD
+TI  - Sidorova J (2007) Speech emotion recognition. Ph.D. Thesis, Universitat Pompeu Fabra, Barcelona
+ID  - ref83
+ER  - 
+TY  - STD
+TI  - Vlasenko B, Schuller B, Wendemut A, Rigoll G, Frame vs (2007) Turn-level: emotion recognition from speech considering static and dynamic processing. In: Proceedings 2nd international conference on affective computing and intelligent interaction, pp 139–147
+ID  - ref84
+ER  - 
+TY  - STD
+TI  - Vogt T, André E (2005) Comparing feature sets for acted and spontaneous speech in view of automatic emotion recognition. In: Proceedings IEEE international conference on multimedia and expo, pp 474–477
+ID  - ref85
+ER  - 
+TY  - STD
+TI  - Vogt T, André E (2006) Improving automatic emotion recognition from speech via gender differentiation. In: Proceedings of language resources and evaluation conference, pp 1123–1126
+ID  - ref86
+ER  - 
+TY  - STD
+TI  - Vogt T, André E (2009) Exploring the benefits of discretization of acoustic features for speech emotion recognition. In: Proceedings 10th INTERSPEECH conference, pp 328–331
+ID  - ref87
+ER  - 
+TY  - STD
+TI  - Wagner J, Kim NJ, Andre E (2005) From physiological signals to emotions: implementing and comparing selected methods for feature extraction and classification. In: Proceedings of IEEE international conference multimedia and expo, pp 940–943
+ID  - ref88
+ER  - 
+TY  - STD
+TI  - Wang Y, Du S, Zhan Y (2008) Adaptive and optimal classification of speech emotion recognition. In: Proceedings of 4th international conference on natural computation, pp 407–411
+ID  - ref89
+ER  - 
+TY  - STD
+TI  - Wang S, Ling X, Zhang F, Tong J (2010) Speech emotion recognition based on principal component analysis and back propagation neural network. In: Proceedings of international conference on measuring technology and mechatronics automation, pp 437–440
+ID  - ref90
+ER  - 
+TY  - STD
+TI  - Wenjing H, Haifeng L, Chunyu G (2009) A hybrid speech emotion perception method of VQ-based feature processing and ANN recognition. In: Proceedings of global congress on intelligent systems, pp 145–149
+ID  - ref91
+ER  - 
+TY  - BOOK
+AU  - Wierzbicka, A.
+PY  - 1999
+DA  - 1999//
+TI  - Emotions across languages and cultures: diversity and universals
+PB  - Cambridge University Press
+CY  - Cambridge
+UR  - https://doi.org/10.1017/CBO9780511521256
+DO  - 10.1017/CBO9780511521256
+ID  - Wierzbicka1999
+ER  - 
+TY  - JOUR
+AU  - Wu, C. H.
+AU  - Liang, W. B.
+PY  - 2011
+DA  - 2011//
+TI  - Emotion recognition of affective speech based on multiple classifiers using acoustic-prosodic information and semantic labels
+JO  - IEEE Trans Affect Comput
+VL  - 2
+UR  - https://doi.org/10.1109/T-AFFC.2010.16
+DO  - 10.1109/T-AFFC.2010.16
+ID  - Wu2011
+ER  - 
+TY  - JOUR
+AU  - Wu, C. H.
+AU  - Chuang, Z. J.
+AU  - Lin, Y. C.
+PY  - 2006
+DA  - 2006//
+TI  - Emotion recognition from text using semantic label and separable mixture model
+JO  - ACM Trans Asian Lang Inf Process
+VL  - 5
+UR  - https://doi.org/10.1145/1165255.1165259
+DO  - 10.1145/1165255.1165259
+ID  - Wu2006
+ER  - 
+TY  - STD
+TI  - Wu S, Falk TH, Chan WY (2009) Automatic recognition of speech emotion using long-term spectro-temporal features. In: Proceedings of 16th international conference on digital signal processing
+ID  - ref95
+ER  - 
+TY  - STD
+TI  - Yang C, Ji L, Liu G (2009a) Study to speech emotion recognition based on TWINsSVM. In: Proceedings of 5th international conference on natural computation, pp 312–316
+ID  - ref96
+ER  - 
+TY  - STD
+TI  - Yang T, Yang J, Bi F (2009b) Emotion statuses recognition of speech signal using intuitionistic fuzzy set. In: Proceedings of world congress on software engineering, pp 204–207
+ID  - ref97
+ER  - 
+TY  - STD
+TI  - You M, Chen C, Bu J, Liu J, Tao J (2006) Emotional speech analysis on nonlinear manifold. In: Proceedings of 18th international conference on pattern recognition, pp 91–94
+ID  - ref98
+ER  - 
+TY  - STD
+TI  - Yu W (2008) Research and implementation of emotional feature classification and recognition in speech signal. In: Proceedings of international symposium on intelligent information technology application, pp 471–474
+ID  - ref99
+ER  - 
+TY  - STD
+TI  - Yun S, Yoo CD, (2009) Speech emotion recognition via a max-margin framework incorporating a loss function based on the Watson and Tellegen’s emotion model. In: Proceedings IEEE international conference on acoustics, speech and signal processing, pp 4169–4172
+ID  - ref100
+ER  - 
+TY  - JOUR
+AU  - Zeng, Z.
+AU  - Pantic, M.
+AU  - Roisman, G. I.
+AU  - Huang, T. S.
+PY  - 2009
+DA  - 2009//
+TI  - A survey of affect recognition methods: audio, visual, and spontaneous expressions
+JO  - IEEE Trans Pattern Anal Mach Intell
+VL  - 31
+UR  - https://doi.org/10.1109/TPAMI.2008.52
+DO  - 10.1109/TPAMI.2008.52
+ID  - Zeng2009
+ER  - 
+TY  - STD
+TI  - Zhou Y, Zhang J, Wang L, Yan Y (2009a) Emotion recognition and conversion for mandarin speech. In: Proceedings of 6th international conference on fuzzy systems and knowledge discovery, pp 179–183
+ID  - ref102
+ER  - 
+TY  - STD
+TI  - Zhou Y, Sun Y, Yang L, Yan Y (2009b) Applying articulatory features to speech emotion recognition. In: Proceedings of international conference on research challenges in computer science, pp 73–76
+ID  - ref103
+ER  - 

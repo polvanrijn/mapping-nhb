@@ -1,0 +1,1113 @@
+TY  - STD
+TI  - Aho, K. (2015). asbio: A collection of statistical tools for biologists. R package version 1.2.5.
+ID  - ref1
+ER  - 
+TY  - BOOK
+AU  - Altman, D. G.
+PY  - 1991
+DA  - 1991//
+TI  - Practical statistics for medical research
+PB  - Chapman and Hall
+CY  - London
+ID  - Altman1991
+ER  - 
+TY  - STD
+TI  - Aubergé, V., Audibert, N., & Rilliard, A. (2004). E-Wiz: A trapper protocol for hunting the expressive speech corpora in lab. In M. T. Lino et al. (Eds.), Proceedings of the fourth international conference on language resources and evaluation (pp. 179–182). Paris: European Language Resources Association.
+ID  - ref3
+ER  - 
+TY  - CHAP
+AU  - Audibert, N.
+AU  - Aubergé, V.
+AU  - Rilliard, A.
+ED  - Barbosa, P. A.
+ED  - Madureira, S.
+ED  - Reis, C.
+PY  - 2008
+DA  - 2008//
+TI  - How we are not all equally competent for discriminating acted from spontaneous expressive speech
+BT  - Fourth conference on speech prosody
+PB  - International Speech Communication Association
+CY  - Campinas
+ID  - Audibert2008
+ER  - 
+TY  - STD
+TI  - Audibert, N., Aubergé, V., & Rilliard, A. (2010). Prosodic correlates of acted vs. spontaneous discrimination of expressive speech: A pilot study. In Proceedings of Speech Prosody 2010 (pp. 1–4).
+ID  - ref5
+ER  - 
+TY  - JOUR
+AU  - Bachorowski, J. -. A.
+PY  - 1999
+DA  - 1999//
+TI  - Vocal expression and perception of emotion
+JO  - Current Directions in Psychological Science
+VL  - 8
+UR  - https://doi.org/10.1111/1467-8721.00013
+DO  - 10.1111/1467-8721.00013
+ID  - Bachorowski1999
+ER  - 
+TY  - JOUR
+AU  - Bachorowski, J. -. A.
+AU  - Owren, M. J.
+PY  - 1995
+DA  - 1995//
+TI  - Vocal expression of emotion: Acoustic properties of speech are associated with emotional intensity and context
+JO  - Psychological Science
+VL  - 6
+UR  - https://doi.org/10.1111/j.1467-9280.1995.tb00596.x
+DO  - 10.1111/j.1467-9280.1995.tb00596.x
+ID  - Bachorowski1995
+ER  - 
+TY  - JOUR
+AU  - Banse, R.
+AU  - Scherer, K. R.
+PY  - 1996
+DA  - 1996//
+TI  - Acoustic profiles in vocal emotion expression
+JO  - Journal of Personality and Social Psychology
+VL  - 70
+UR  - https://doi.org/10.1037/0022-3514.70.3.614
+DO  - 10.1037/0022-3514.70.3.614
+ID  - Banse1996
+ER  - 
+TY  - JOUR
+AU  - Bänziger, T.
+AU  - Mortillaro, M.
+AU  - Scherer, K. R.
+PY  - 2012
+DA  - 2012//
+TI  - Introducing the geneva multimodal expression corpus for experimental research on emotion perception
+JO  - Emotion
+VL  - 12
+UR  - https://doi.org/10.1037/a0025827
+DO  - 10.1037/a0025827
+ID  - Bänziger2012
+ER  - 
+TY  - JOUR
+AU  - Barrett, J.
+AU  - Paus, T.
+PY  - 2002
+DA  - 2002//
+TI  - Affect-induced changes in speech production
+JO  - Experimental Brain Research
+VL  - 146
+UR  - https://doi.org/10.1007/s00221-002-1229-z
+DO  - 10.1007/s00221-002-1229-z
+ID  - Barrett2002
+ER  - 
+TY  - JOUR
+AU  - Brunner, E.
+AU  - Dette, H.
+AU  - Munk, A.
+PY  - 1997
+DA  - 1997//
+TI  - Box-type approximations in nonparametric factorial designs
+JO  - Journal of the American Statistical Association
+VL  - 92
+UR  - https://doi.org/10.1080/01621459.1997.10473671
+DO  - 10.1080/01621459.1997.10473671
+ID  - Brunner1997
+ER  - 
+TY  - BOOK
+AU  - Buck, R.
+PY  - 2014
+DA  - 2014//
+TI  - Emotion: A biosocial synthesis
+PB  - Cambridge University Press
+CY  - Cambridge
+UR  - https://doi.org/10.1017/CBO9781139049825
+DO  - 10.1017/CBO9781139049825
+ID  - Buck2014
+ER  - 
+TY  - STD
+TI  - Burkhardt, F., Paeschke, A., Rolfes, M., Sendlmeier, W. F., & Weiss, B. (2005). A database of German emotional speech. In Proceedings of the 9th European conference on speech communication and technology, Interspeech 2005 (pp. 1517–1520). Lisbon: International Speech Communication Association.
+ID  - ref13
+ER  - 
+TY  - JOUR
+AU  - Caffi, C.
+AU  - Janney, R. W.
+PY  - 1994
+DA  - 1994//
+TI  - Toward a pragmatics of emotive communication
+JO  - Journal of Pragmatics
+VL  - 22
+UR  - https://doi.org/10.1016/0378-2166(94)90115-5
+DO  - 10.1016/0378-2166(94)90115-5
+ID  - Caffi1994
+ER  - 
+TY  - JOUR
+AU  - Carletta, J. C.
+PY  - 2007
+DA  - 2007//
+TI  - Unleashing the killer corpus: Experiences in creating the multi-everything AMI meeting corpus
+JO  - Language Resources and Evaluation
+VL  - 41
+UR  - https://doi.org/10.1007/s10579-007-9040-x
+DO  - 10.1007/s10579-007-9040-x
+ID  - Carletta2007
+ER  - 
+TY  - BOOK
+AU  - Cohen, J.
+PY  - 1988
+DA  - 1988//
+TI  - Statistical power analysis for the behavioral sciences
+PB  - Erlbaum
+CY  - Mahwah
+ID  - Cohen1988
+ER  - 
+TY  - JOUR
+AU  - Cowie, R.
+AU  - Cornelius, R.
+PY  - 2003
+DA  - 2003//
+TI  - Describing the emotional states that are expressed in speech
+JO  - Speech Communication
+VL  - 40
+UR  - https://doi.org/10.1016/S0167-6393(02)00071-7
+DO  - 10.1016/S0167-6393(02)00071-7
+ID  - Cowie2003
+ER  - 
+TY  - JOUR
+AU  - Cowie, R.
+AU  - Douglas-Cowie, E.
+AU  - Tsapatsoulis, N.
+AU  - Votsis, G.
+AU  - Kollias, S.
+AU  - Fellenz, W.
+AU  - Taylor, J. G.
+PY  - 2001
+DA  - 2001//
+TI  - Emotion recognition in human–computer interaction
+JO  - IEEE Signal Processing Magazine
+VL  - 18
+UR  - https://doi.org/10.1109/79.911197
+DO  - 10.1109/79.911197
+ID  - Cowie2001
+ER  - 
+TY  - STD
+TI  - Cullen, C., Vaughan, B., Kousidis, S., & McAuley, J. (2008). Emotional speech corpus construction, annotation, and distribution. In L. Devillers, J.-C., Martin, R. Cowie, E. Douglas-Cowie, & A. Batliner (Eds.), Proceedings of the LREC 2008 workshop on corpora for research on emotion and affect (pp. 32–37). Marrakesh: ELRA.
+ID  - ref19
+ER  - 
+TY  - CHAP
+AU  - Davitz, J. R.
+ED  - Davitz, J. R.
+PY  - 1964
+DA  - 1964//
+TI  - Auditory correlates of vocal expression of emotional feeling
+BT  - The communication of emotional meaning
+PB  - McGraw-Hill
+CY  - New York
+ID  - Davitz1964
+ER  - 
+TY  - JOUR
+AU  - Dinno, A.
+PY  - 2009
+DA  - 2009//
+TI  - Exploring the sensitivity of Horn’s parallel analysis to the distributional form of simulated data
+JO  - Multivariate Behavioral Research
+VL  - 44
+UR  - https://doi.org/10.1080/00273170902938969
+DO  - 10.1080/00273170902938969
+ID  - Dinno2009
+ER  - 
+TY  - JOUR
+AU  - Douglas-Cowie, E.
+AU  - Campbell, N.
+AU  - Cowie, R.
+AU  - Roach, P.
+PY  - 2003
+DA  - 2003//
+TI  - Emotional speech: Towards a new generation of data bases
+JO  - Speech Communication
+VL  - 40
+UR  - https://doi.org/10.1016/S0167-6393(02)00070-5
+DO  - 10.1016/S0167-6393(02)00070-5
+ID  - Douglas-Cowie2003
+ER  - 
+TY  - STD
+TI  - Douglas-Cowie, E., Cowie, R., & Romano, A. (1999). Changing emotional tone in dialogue and its prosodic correlates. In M. Swerts & J. Terken (Eds.), Proceedings of the ESCA workshop on dialogue and prosody (pp. 41–46). Eindhoven: Eindhoven University.
+ID  - ref23
+ER  - 
+TY  - STD
+TI  - Douglas-Cowie, E., Cowie, R., & Schröder, M. (2000). A new emotion database: Considerations, sources, and scope. In R. Cowie, E. Douglas-Cowie, & M. Schröder (Eds.), Proceedings of the ISCA workshop on speech and emotion (pp. 39–44). Belfast: International Speech Communication Association.
+ID  - ref24
+ER  - 
+TY  - CHAP
+AU  - Douglas-Cowie, E.
+AU  - Cowie, R.
+AU  - Sneddon, I.
+AU  - Cox, C.
+AU  - Lowry, O.
+AU  - McRorie, M.
+AU  - Karpouzis, K.
+ED  - Paiva, A.
+ED  - Prada, R.
+ED  - Picard, R. W.
+PY  - 2007
+DA  - 2007//
+TI  - The HUMAINE database: Addressing the collection and annotation of naturalistic and induced emotional data
+BT  - Affective computing and intelligent interaction, ACII 2007
+PB  - Springer
+CY  - Berlin
+ID  - Douglas-Cowie2007
+ER  - 
+TY  - CHAP
+AU  - Douglas-Cowie, E.
+AU  - Cox, C.
+AU  - Martin, J. -. C.
+AU  - Devillers, L.
+AU  - Cowie, R.
+AU  - Sneddon, I.
+AU  - McRorie, M.
+AU  - Hönig, F.
+ED  - Petta, P.
+ED  - Pelachaud, C.
+ED  - Cowie, R.
+PY  - 2011
+DA  - 2011//
+TI  - The HUMAINE database
+BT  - Emotion-oriented systems: The Humaine handbook
+PB  - Springer
+CY  - Berlin
+UR  - https://doi.org/10.1007/978-3-642-15184-2_14
+DO  - 10.1007/978-3-642-15184-2_14
+ID  - Douglas-Cowie2011
+ER  - 
+TY  - JOUR
+AU  - Ekman, P.
+PY  - 1997
+DA  - 1997//
+TI  - Should we call it expression or communication?
+JO  - Innovation
+VL  - 10
+ID  - Ekman1997
+ER  - 
+TY  - BOOK
+PY  - 1973
+DA  - 1973//
+TI  - Darwin and facial expression
+PB  - Academic Press
+CY  - New York
+ID  - ref28
+ER  - 
+TY  - JOUR
+AU  - Ekman, P.
+AU  - Cordaro, D.
+PY  - 2011
+DA  - 2011//
+TI  - What is meant by calling emotions basic?
+JO  - Emotion Review
+VL  - 3
+UR  - https://doi.org/10.1177/1754073911410740
+DO  - 10.1177/1754073911410740
+ID  - Ekman2011
+ER  - 
+TY  - JOUR
+AU  - Ekman, P.
+AU  - Friesen, W. V.
+PY  - 1969
+DA  - 1969//
+TI  - The repertoire of nonverbal behavior: Categories, origins, usage, and coding
+JO  - Semiotica
+VL  - 1
+UR  - https://doi.org/10.1515/semi.1969.1.1.49
+DO  - 10.1515/semi.1969.1.1.49
+ID  - Ekman1969
+ER  - 
+TY  - JOUR
+AU  - Ayadi, M.
+AU  - Kamel, M. S.
+AU  - Karray, F.
+PY  - 2011
+DA  - 2011//
+TI  - Survey on speech emotion recognition: Features, classification schemes, and databases
+JO  - Pattern Recognition
+VL  - 44
+UR  - https://doi.org/10.1016/j.patcog.2010.09.020
+DO  - 10.1016/j.patcog.2010.09.020
+ID  - Ayadi2011
+ER  - 
+TY  - JOUR
+AU  - Eyben, F.
+AU  - Scherer, K. R.
+AU  - Schuller, B. W.
+AU  - Sundberg, J.
+AU  - André, E.
+AU  - Busso, C.
+AU  - Devillers, L. Y.
+AU  - Truong, K. P.
+PY  - 2016
+DA  - 2016//
+TI  - The Geneva minimalistic acoustic parameter set (GeMAPS) for voice research and affective computing
+JO  - IEEE Transactions on Affective Computing
+VL  - 7
+UR  - https://doi.org/10.1109/TAFFC.2015.2457417
+DO  - 10.1109/TAFFC.2015.2457417
+ID  - Eyben2016
+ER  - 
+TY  - STD
+TI  - Eyben, F., Weninger, F., Gross, F., & Schuller, B. (2013). Recent developments in openSMILE, the Munich open-source multimedia feature extractor. In J. Alejandro et al. (Eds.), Proceedings of ACM multimedia 2013 (pp. 835–838). Barcelona: Association for Computing Machinery.
+ID  - ref33
+ER  - 
+TY  - CHAP
+AU  - Frank, M. G.
+AU  - Juslin, P. N.
+AU  - Harrigan, J. A.
+ED  - Harrigan, J. A.
+ED  - Rosenthal, R.
+ED  - Scherer, K. R.
+PY  - 2005
+DA  - 2005//
+TI  - Technical issues in recording nonverbal behavior
+BT  - The new handbook of methods in nonverbal behavior research
+PB  - Oxford University Press
+CY  - New York
+ID  - Frank2005
+ER  - 
+TY  - JOUR
+AU  - Frank, M. G.
+AU  - Stennett, J.
+PY  - 2001
+DA  - 2001//
+TI  - The forced-choice paradigm and the perception of facial expressions of emotion
+JO  - Journal of Personality and Social Psychology
+VL  - 80
+UR  - https://doi.org/10.1037/0022-3514.80.1.75
+DO  - 10.1037/0022-3514.80.1.75
+ID  - Frank2001
+ER  - 
+TY  - JOUR
+AU  - Frick, R. W.
+PY  - 1985
+DA  - 1985//
+TI  - Communicating emotion: The role of prosodic features
+JO  - Psychological Bulletin
+VL  - 97
+UR  - https://doi.org/10.1037/0033-2909.97.3.412
+DO  - 10.1037/0033-2909.97.3.412
+ID  - Frick1985
+ER  - 
+TY  - BOOK
+AU  - Fridlund, A.
+PY  - 1994
+DA  - 1994//
+TI  - Human facial expression: An evolutionary view
+PB  - Academic Press
+CY  - San Diego
+ID  - Fridlund1994
+ER  - 
+TY  - STD
+TI  - Frommer, J., Michaelis, B., Rösner, D., Wendemuth, A., Friesen, R., Haase, M., et al. (2012). Towards emotion and affect detection in the multimodal LAST MINUTE corpus. In N. Calzolari et al. (Eds.), Proceedings of the 8th international conference on language resources and evaluation, LREC 2012 (pp. 3064–3069). Istanbul: European Language Resources Association.
+ID  - ref38
+ER  - 
+TY  - JOUR
+AU  - Gnjatović, M.
+AU  - Rösner, D.
+PY  - 2010
+DA  - 2010//
+TI  - Inducing genuine emotions in simulated speech-based human–machine interaction: The NIMITEK corpus
+JO  - IEEE Transactions on Affective Computing
+VL  - 1
+UR  - https://doi.org/10.1109/T-AFFC.2010.14
+DO  - 10.1109/T-AFFC.2010.14
+ID  - Gnjatović2010
+ER  - 
+TY  - JOUR
+AU  - Greasley, P.
+AU  - Sherrard, C.
+AU  - Waterman, M.
+PY  - 2000
+DA  - 2000//
+TI  - Emotion in language and speech: Methodological issues in naturalistic settings
+JO  - Language and Speech
+VL  - 43
+UR  - https://doi.org/10.1177/00238309000430040201
+DO  - 10.1177/00238309000430040201
+ID  - Greasley2000
+ER  - 
+TY  - STD
+TI  - Grimm, M., Kroschel, K., & Narayanan, S. (2008). The Vera am Mittag German audio-visual emotional speech database. In Proceedings of the 2008 IEEE international conference on multimedia and expo, ICME 2008 (pp. 865–868). Piscataway, NJ: Institute of Electrical and Electronics Engineers.
+ID  - ref41
+ER  - 
+TY  - STD
+TI  - Hansen J. H. L., & Bou-Ghazale, S. E. (1997). Getting started with SUSAS: A speech under simulated and actual stress database. In Proceedings of the 5th European conference on speech communication and technology, Eurospeech’97 (pp. 1743–1746). Rhodes: European Speech Communication Association.
+ID  - ref42
+ER  - 
+TY  - STD
+TI  - Haq, S., & Jackson, P. J. B. (2009). Speaker-dependent audio-visual emotion recognition. In B.-J. Theobald & R. Harvey (Eds.), Proceedings of the international conference on auditory-visual speech processing, AVSP 2009 (pp. 53–58). Norwich: International Speech Communication Association.
+ID  - ref43
+ER  - 
+TY  - JOUR
+AU  - Hawk, S. T.
+AU  - Kleef, G. A.
+AU  - Fischer, A. H.
+AU  - Schalk, J.
+PY  - 2009
+DA  - 2009//
+TI  - ‘Worth a thousand words’: Absolute and relative decoding of nonlinguistic affect vocalizations
+JO  - Emotion
+VL  - 9
+UR  - https://doi.org/10.1037/a0015178
+DO  - 10.1037/a0015178
+ID  - Hawk2009
+ER  - 
+TY  - CHAP
+AU  - Izard, C. E.
+ED  - Lewis, M.
+ED  - Haviland, J. M.
+PY  - 1993
+DA  - 1993//
+TI  - Organizational and motivational functions of discrete emotions
+BT  - Handbook of emotions
+PB  - Guilford Press
+CY  - New York
+ID  - Izard1993
+ER  - 
+TY  - JOUR
+AU  - Jürgens, R.
+AU  - Grass, A.
+AU  - Drolet, M.
+AU  - Fischer, J.
+PY  - 2015
+DA  - 2015//
+TI  - Effect of acting experience on emotion expression and recognition in voice: Non-actors provide better stimuli than expected
+JO  - Journal of Nonverbal Behavior
+VL  - 39
+UR  - https://doi.org/10.1007/s10919-015-0209-5
+DO  - 10.1007/s10919-015-0209-5
+ID  - Jürgens2015
+ER  - 
+TY  - JOUR
+AU  - Jürgens, R.
+AU  - Hammerschmidt, K.
+AU  - Fischer, J.
+PY  - 2011
+DA  - 2011//
+TI  - Authentic and play-acted vocal emotion expressions reveal acoustic differences
+JO  - Frontiers in Psychology
+VL  - 2
+UR  - https://doi.org/10.3389/fpsyg.2011.00180
+DO  - 10.3389/fpsyg.2011.00180
+ID  - Jürgens2011
+ER  - 
+TY  - CHAP
+AU  - Juslin, P. N.
+ED  - Altenmüller, E.
+ED  - Schmidt, S.
+ED  - Zimmerman, E.
+PY  - 2013
+DA  - 2013//
+TI  - Vocal expression of affect: Promises and problems
+BT  - Evolution of emotional communication
+PB  - Oxford University Press
+CY  - New York
+UR  - https://doi.org/10.1093/acprof:oso/9780199583560.003.0016
+DO  - 10.1093/acprof:oso/9780199583560.003.0016
+ID  - Juslin2013
+ER  - 
+TY  - JOUR
+AU  - Juslin, P. N.
+AU  - Laukka, P.
+PY  - 2001
+DA  - 2001//
+TI  - Impact of intended emotion intensity on cue utilization and decoding accuracy in vocal expression of emotion
+JO  - Emotion
+VL  - 1
+UR  - https://doi.org/10.1037/1528-3542.1.4.381
+DO  - 10.1037/1528-3542.1.4.381
+ID  - Juslin2001
+ER  - 
+TY  - JOUR
+AU  - Juslin, P. N.
+AU  - Laukka, P.
+PY  - 2003
+DA  - 2003//
+TI  - Communication of emotions in vocal expression and music performance: Different channels, same code?
+JO  - Psychological Bulletin
+VL  - 129
+UR  - https://doi.org/10.1037/0033-2909.129.5.770
+DO  - 10.1037/0033-2909.129.5.770
+ID  - Juslin2003
+ER  - 
+TY  - STD
+TI  - Juslin, P. N., & Laukka, P. (2017). The truly intense vocal affect collection (TIVAC): Presentation and validation. Manuscript submitted for publication.
+ID  - ref51
+ER  - 
+TY  - CHAP
+AU  - Juslin, P. N.
+AU  - Scherer, K. R.
+ED  - Harrigan, J. A.
+ED  - Rosenthal, R.
+ED  - Scherer, K. R.
+PY  - 2005
+DA  - 2005//
+TI  - Vocal expression of affect
+BT  - The new handbook of methods in nonverbal behavior research
+PB  - Oxford University Press
+CY  - New York
+ID  - Juslin2005
+ER  - 
+TY  - CHAP
+AU  - Kappas, A.
+AU  - Hess, U.
+ED  - Quasthoff, U. M.
+PY  - 1995
+DA  - 1995//
+TI  - Nonverbal aspects of oral communication
+BT  - Aspects of oral communication
+PB  - DeGruyter
+CY  - Berlin
+ID  - Kappas1995
+ER  - 
+TY  - STD
+TI  - Kehrein, R. (2002). The prosody of authentic emotions. In B. Bel & I. Marlien (Eds.), Proceedings of the speech prosody 2002 conference (pp. 423–426). Aix-en-Provence: Université de Provence.
+ID  - ref54
+ER  - 
+TY  - JOUR
+AU  - Kim, S.
+AU  - Valente, F.
+AU  - Filippone, M.
+AU  - Vinciarelli, A.
+PY  - 2014
+DA  - 2014//
+TI  - Predicting continuous conflict perception with Bayesian Gaussian processes
+JO  - IEEE Transactions on Affective Computing
+VL  - 5
+UR  - https://doi.org/10.1109/TAFFC.2014.2324564
+DO  - 10.1109/TAFFC.2014.2324564
+ID  - Kim2014
+ER  - 
+TY  - STD
+TI  - Klasmeyer, G., Johnstone, T., Bänziger, T., Sappok, C., & Scherer, K. R. (2000). Emotional voice variability in speaker verification. In R. Cowie, E. Douglas-Cowie, & M. Schröder (Eds.), Proceedings of the ISCA workshop on speech and emotion (pp. 212–217). Belfast: International Speech Communication Association.
+ID  - ref56
+ER  - 
+TY  - JOUR
+AU  - Konietschke, F.
+AU  - Placzek, M.
+AU  - Schaarschmidt, F.
+AU  - Hothorn, L. A.
+PY  - 2015
+DA  - 2015//
+TI  - nparcomp: An R software package for nonparametric multiple comparisons and simultaneous confidence intervals
+JO  - Journal of Statistical Software
+VL  - 64
+UR  - https://doi.org/10.18637/jss.v064.i09
+DO  - 10.18637/jss.v064.i09
+ID  - Konietschke2015
+ER  - 
+TY  - STD
+TI  - Krahmer, E., & Swerts, M. (2008). On the role of acting skills for the collection of simulated emotional speech. In Proceedings of the international conference on spoken language processing (Interspeech 2008). Brisbane: Interspeech.
+ID  - ref58
+ER  - 
+TY  - BOOK
+AU  - Krebs, J. R.
+AU  - Davies, N. B.
+PY  - 1993
+DA  - 1993//
+TI  - An introduction to behavioural ecology
+PB  - Blackwell
+CY  - Oxford
+ID  - Krebs1993
+ER  - 
+TY  - JOUR
+AU  - Laukka, P.
+AU  - Audibert, N.
+AU  - Aubergé, V.
+PY  - 2012
+DA  - 2012//
+TI  - Exploring the determinants of the graded structure of vocal emotion expressions
+JO  - Cognition and Emotion
+VL  - 26
+UR  - https://doi.org/10.1080/02699931.2011.602047
+DO  - 10.1080/02699931.2011.602047
+ID  - Laukka2012
+ER  - 
+TY  - STD
+TI  - Laukka, P., Elfenbein, H. A., Chui, W., Thingujam, N. S., Iraki, F. K., Rockstuhl, T., & Althoff, J. (2010). Presenting the VENEC corpus: Development of a cross-cultural corpus of vocal emotion expressions and a novel method of annotating emotion appraisals. In L. Devillers, B. Schuller, R. Cowie, E. Douglas-Cowie, & A. Batliner (Eds.), Proceedings of the LREC 2010 workshop on corpora for research on emotion and affect (pp. 53–57). Valletta: European Language Resources Association.
+ID  - ref61
+ER  - 
+TY  - JOUR
+AU  - Laukka, P.
+AU  - Elfenbein, H. A.
+AU  - Söder, N.
+AU  - Nordström, H.
+AU  - Althoff, J.
+AU  - Chui, W.
+AU  - Iraki, F. K.
+AU  - Thingujam, N. S.
+PY  - 2013
+DA  - 2013//
+TI  - Cross-cultural decoding of positive and negative non-linguistic vocalizations
+JO  - Frontiers in Psychology
+VL  - 4
+UR  - https://doi.org/10.3389/fpsyg.2013.00353
+DO  - 10.3389/fpsyg.2013.00353
+ID  - Laukka2013
+ER  - 
+TY  - JOUR
+AU  - Laukka, P.
+AU  - Neiberg, D.
+AU  - Forsell, M.
+AU  - Karlsson, I.
+AU  - Elenius, K.
+PY  - 2011
+DA  - 2011//
+TI  - Expression of affect in spontaneous speech: Acoustic correlates, perception, and automatic detection of irritation and resignation
+JO  - Computer Speech and Language
+VL  - 25
+UR  - https://doi.org/10.1016/j.csl.2010.03.004
+DO  - 10.1016/j.csl.2010.03.004
+ID  - Laukka2011
+ER  - 
+TY  - CHAP
+AU  - Levenson, R. W.
+ED  - Ekman, P.
+ED  - Davidson, R. J.
+PY  - 1994
+DA  - 1994//
+TI  - Human emotion: A functional view
+BT  - The nature of emotion: Fundamental questions
+PB  - Oxford University Press
+CY  - Oxford
+ID  - Levenson1994
+ER  - 
+TY  - STD
+TI  - Martin, O., Kotsia, I., Macq, B., & Pitas, I. (2006). The eNTERFACE’05 audio-visual emotion database. In Proceedings of the 22nd international conference on data engineering workshops, ICDEW’06. Piscataway, NJ: Institute of Electrical and Electronics Engineers.
+ID  - ref65
+ER  - 
+TY  - JOUR
+AU  - McKeown, G.
+AU  - Valstar, M.
+AU  - Cowie, R.
+AU  - Pantic, M.
+AU  - Schröder, M.
+PY  - 2012
+DA  - 2012//
+TI  - The SEMAINE database: Annotated multimodal records of emotionally colored conversations between a person and a limited agent
+JO  - IEEE Transactions on Affective Computing
+VL  - 3
+UR  - https://doi.org/10.1109/T-AFFC.2011.20
+DO  - 10.1109/T-AFFC.2011.20
+ID  - McKeown2012
+ER  - 
+TY  - JOUR
+AU  - Morton, E. S.
+PY  - 1977
+DA  - 1977//
+TI  - On the occurrence and significance of motivation-structural rules in some bird and mammal sounds
+JO  - American Naturalist
+VL  - 111
+UR  - https://doi.org/10.1086/283219
+DO  - 10.1086/283219
+ID  - Morton1977
+ER  - 
+TY  - JOUR
+AU  - Murray, I. R.
+AU  - Arnott, J. L.
+PY  - 1993
+DA  - 1993//
+TI  - Toward the simulation of emotion in synthetic speech: A review of the literature on human vocal emotion
+JO  - Journal of the Acoustical Society of America
+VL  - 93
+UR  - https://doi.org/10.1121/1.405558
+DO  - 10.1121/1.405558
+ID  - Murray1993
+ER  - 
+TY  - STD
+TI  - Neiberg, D., Elenius, K., & Laskowski, K. (2006). Emotion recognition in spontaneous speech using GMMs. In Proceedings of the 9th international conference on spoken language processing, Interspeech 2006 (pp. 809–812). Pittsburgh, PA: International Speech Communication Association.
+ID  - ref69
+ER  - 
+TY  - STD
+TI  - Nordström, H., & Laukka, P. (2017). The time course of emotion recognition in speech and music. Manuscript submitted for publication.
+ID  - ref70
+ER  - 
+TY  - STD
+TI  - Norman, N. (2014). Method acting: ‘Faking it’ is so last year—Commitment is everything. Newsweek. Retrived from http://europe.newsweek.com/.
+UR  - http://europe.newsweek.com/
+ID  - ref71
+ER  - 
+TY  - CHAP
+AU  - Owren, M. J.
+AU  - Bachorowski, J. -. A.
+ED  - Coan, J.
+ED  - Allen, J.
+PY  - 2007
+DA  - 2007//
+TI  - Measuring emotion-related vocal acoustics
+BT  - Handbook of emotion elicitation and assessment
+PB  - Oxford University Press
+CY  - New York
+ID  - Owren2007
+ER  - 
+TY  - JOUR
+AU  - Pell, M. D.
+AU  - Skorup, V.
+PY  - 2008
+DA  - 2008//
+TI  - Implicit processing of emotional prosody in a foreign versus native language
+JO  - Speech Communication
+VL  - 50
+UR  - https://doi.org/10.1016/j.specom.2008.03.006
+DO  - 10.1016/j.specom.2008.03.006
+ID  - Pell2008
+ER  - 
+TY  - BOOK
+AU  - Pittermann, J.
+AU  - Pittermann, A.
+AU  - Minker, W.
+PY  - 2010
+DA  - 2010//
+TI  - Handling emotions in human–computer dialogues
+PB  - Springer
+CY  - Dordrecht
+UR  - https://doi.org/10.1007/978-90-481-3129-7
+DO  - 10.1007/978-90-481-3129-7
+ID  - Pittermann2010
+ER  - 
+TY  - CHAP
+AU  - Planalp, S.
+ED  - Andersen, P. A.
+ED  - Guerrero, L. K.
+PY  - 1998
+DA  - 1998//
+TI  - Communicating emotion in everyday life: Cues, channels, and processes
+BT  - Handbook of communication and emotion
+PB  - Academic Press
+CY  - New York
+ID  - Planalp1998
+ER  - 
+TY  - BOOK
+AU  - Plutchik, R.
+PY  - 1994
+DA  - 1994//
+TI  - The psychology and biology of emotion
+PB  - Harper-Collins College Publishers
+CY  - New York
+ID  - Plutchik1994
+ER  - 
+TY  - BOOK
+AU  - Rosenthal, R.
+PY  - 1987
+DA  - 1987//
+TI  - Judgment studies: Design, analysis, and meta-analysis
+PB  - Cambridge University Press
+CY  - Cambridge
+UR  - https://doi.org/10.1017/CBO9780511527807
+DO  - 10.1017/CBO9780511527807
+ID  - Rosenthal1987
+ER  - 
+TY  - JOUR
+AU  - Russell, J. A.
+PY  - 1980
+DA  - 1980//
+TI  - A circumplex model of affect
+JO  - Journal of Personality and Social Psychology
+VL  - 39
+UR  - https://doi.org/10.1037/h0077714
+DO  - 10.1037/h0077714
+ID  - Russell1980
+ER  - 
+TY  - JOUR
+AU  - Russell, J. A.
+AU  - Bachorowski, J. -. A.
+AU  - Fernandez-Dols, J. M.
+PY  - 2003
+DA  - 2003//
+TI  - Facial and vocal expressions of emotion
+JO  - Annual Review of Psychology
+VL  - 54
+UR  - https://doi.org/10.1146/annurev.psych.54.101601.145102
+DO  - 10.1146/annurev.psych.54.101601.145102
+ID  - Russell2003
+ER  - 
+TY  - CHAP
+AU  - Scheiner, E.
+AU  - Fischer, J.
+ED  - Welsch, W.
+ED  - Singer, W.
+ED  - Wunder, A.
+PY  - 2011
+DA  - 2011//
+TI  - Emotion expression—The evolutionary heritage in the human voice
+BT  - Interdisciplinary anthropology: The continuing evolution of man
+PB  - Springer
+CY  - Heidelberg
+UR  - https://doi.org/10.1007/978-3-642-11668-1_5
+DO  - 10.1007/978-3-642-11668-1_5
+ID  - Scheiner2011
+ER  - 
+TY  - CHAP
+AU  - Scherer, K. R.
+ED  - Rosenblatt, J.
+ED  - Beer, C.
+ED  - Busnel, M. -. C.
+ED  - Slater, P. J. B.
+PY  - 1985
+DA  - 1985//
+TI  - Vocal affect signalling: A comparative approach
+BT  - Advances in the study of behavior
+PB  - Academic Press
+CY  - New York
+UR  - https://doi.org/10.1016/S0065-3454(08)60490-8
+DO  - 10.1016/S0065-3454(08)60490-8
+ID  - Scherer1985
+ER  - 
+TY  - JOUR
+AU  - Scherer, K. R.
+PY  - 1986
+DA  - 1986//
+TI  - Vocal affect expression: A review and a model for future research
+JO  - Psychological Bulletin
+VL  - 99
+UR  - https://doi.org/10.1037/0033-2909.99.2.143
+DO  - 10.1037/0033-2909.99.2.143
+ID  - Scherer1986
+ER  - 
+TY  - JOUR
+AU  - Scherer, K. R.
+PY  - 2013
+DA  - 2013//
+TI  - Vocal markers of emotion: Comparing induction and acting elicitation
+JO  - Computer Speech and Language
+VL  - 27
+UR  - https://doi.org/10.1016/j.csl.2011.11.003
+DO  - 10.1016/j.csl.2011.11.003
+ID  - Scherer2013
+ER  - 
+TY  - JOUR
+AU  - Scherer, K. R.
+AU  - Banse, R.
+AU  - Wallbott, H. G.
+AU  - Goldbeck, T.
+PY  - 1991
+DA  - 1991//
+TI  - Vocal cues in emotion encoding and decoding
+JO  - Motivation and Emotion
+VL  - 15
+UR  - https://doi.org/10.1007/BF00995674
+DO  - 10.1007/BF00995674
+ID  - Scherer1991
+ER  - 
+TY  - CHAP
+AU  - Scherer, K. R.
+AU  - Bänziger, T.
+ED  - Scherer, K. R.
+ED  - Bänziger, T.
+ED  - Roesch, E. B.
+PY  - 2010
+DA  - 2010//
+TI  - On the use of actor portrayals in research on emotional expression
+BT  - Blueprint for affective computing: A sourcebook
+PB  - Oxford University Press
+CY  - Oxford
+ID  - Scherer2010
+ER  - 
+TY  - JOUR
+AU  - Schuller, B.
+AU  - Batliner, A.
+AU  - Steidl, S.
+AU  - Seppi, D.
+PY  - 2011
+DA  - 2011//
+TI  - Recognizing realistic emotions and affect in speech: State of the art and lessons learnt from the first challenge
+JO  - Speech Communication
+VL  - 53
+UR  - https://doi.org/10.1016/j.specom.2011.01.011
+DO  - 10.1016/j.specom.2011.01.011
+ID  - Schuller2011
+ER  - 
+TY  - JOUR
+AU  - Sneddon, I.
+AU  - McRorie, M.
+AU  - McKeown, G.
+AU  - Hanratty, J.
+PY  - 2012
+DA  - 2012//
+TI  - The Belfast induced natural emotion database
+JO  - IEEE Transactions on Affective Computing
+VL  - 3
+UR  - https://doi.org/10.1109/T-AFFC.2011.26
+DO  - 10.1109/T-AFFC.2011.26
+ID  - Sneddon2012
+ER  - 
+TY  - CHAP
+AU  - Snowdon, C. T.
+ED  - Davidson, R. J.
+ED  - Scherer, K. R.
+ED  - Goldsmith, H. H.
+PY  - 2003
+DA  - 2003//
+TI  - Expression of emotion in nonhuman animals
+BT  - Handbook of affective sciences
+PB  - Oxford University Press
+CY  - New York
+ID  - Snowdon2003
+ER  - 
+TY  - JOUR
+AU  - Spencer, H.
+PY  - 1857
+DA  - 1857//
+TI  - The origin and function of music
+JO  - Fraser’s Magazine
+VL  - 56
+ID  - Spencer1857
+ER  - 
+TY  - JOUR
+AU  - Sundberg, J.
+PY  - 1998
+DA  - 1998//
+TI  - Expressivity in singing: A review of some recent investigations
+JO  - Logopedics Phoniatrics Vocology
+VL  - 23
+UR  - https://doi.org/10.1080/140154398434130
+DO  - 10.1080/140154398434130
+ID  - Sundberg1998
+ER  - 
+TY  - JOUR
+AU  - Sundberg, J.
+AU  - Patel, S.
+AU  - Björkner, E.
+AU  - Scherer, K.
+PY  - 2011
+DA  - 2011//
+TI  - Interdependencies among voice source parameters in emotional speech
+JO  - IEEE Transactions on Affective Computing
+VL  - 2
+UR  - https://doi.org/10.1109/T-AFFC.2011.14
+DO  - 10.1109/T-AFFC.2011.14
+ID  - Sundberg2011
+ER  - 
+TY  - JOUR
+AU  - Tassinary, L. G.
+AU  - Cacioppo, J. T.
+PY  - 1992
+DA  - 1992//
+TI  - Unobservable facial actions and emotion
+JO  - Psychological Science
+VL  - 3
+UR  - https://doi.org/10.1111/j.1467-9280.1992.tb00252.x
+DO  - 10.1111/j.1467-9280.1992.tb00252.x
+ID  - Tassinary1992
+ER  - 
+TY  - BOOK
+AU  - Tatham, M.
+AU  - Morton, K.
+PY  - 2004
+DA  - 2004//
+TI  - Expression in speech: Analysis and synthesis
+PB  - Oxford University Press
+CY  - Oxford
+ID  - Tatham2004
+ER  - 
+TY  - JOUR
+AU  - Truong, K. P.
+AU  - Leeuwen, D. A.
+AU  - Jong, F. M. G.
+PY  - 2012
+DA  - 2012//
+TI  - Speech-based recognition of self-reported and observed emotion in a dimensional space
+JO  - Speech Communication
+VL  - 54
+UR  - https://doi.org/10.1016/j.specom.2012.04.006
+DO  - 10.1016/j.specom.2012.04.006
+ID  - Truong2012
+ER  - 
+TY  - BOOK
+AU  - Bezooijen, R.
+PY  - 1984
+DA  - 1984//
+TI  - Characteristics and recognizability of vocal expressions of emotion
+PB  - Foris
+CY  - Dordrecht
+UR  - https://doi.org/10.1515/9783110850390
+DO  - 10.1515/9783110850390
+ID  - Bezooijen1984
+ER  - 
+TY  - JOUR
+AU  - Ververidis, D.
+AU  - Kotropoulos, C.
+PY  - 2006
+DA  - 2006//
+TI  - Emotional speech recognition: Resources, features, and methods
+JO  - Speech Communication
+VL  - 48
+UR  - https://doi.org/10.1016/j.specom.2006.04.003
+DO  - 10.1016/j.specom.2006.04.003
+ID  - Ververidis2006
+ER  - 
+TY  - CHAP
+AU  - Visser, P. S.
+AU  - Krosnick, J. A.
+AU  - Lavrakas, P. J.
+ED  - Reis, H. T.
+ED  - Judd, C. M.
+PY  - 2000
+DA  - 2000//
+TI  - Survey research
+BT  - Handbook of research methods in social and personality psychology
+PB  - Cambridge University Press
+CY  - New York
+ID  - Visser2000
+ER  - 
+TY  - JOUR
+AU  - Wagner, H. L.
+PY  - 1993
+DA  - 1993//
+TI  - On measuring performance in categorical judgment studies of nonverbal behavior
+JO  - Journal of Nonverbal Behavior
+VL  - 17
+UR  - https://doi.org/10.1007/BF00987006
+DO  - 10.1007/BF00987006
+ID  - Wagner1993
+ER  - 
+TY  - BOOK
+AU  - Wilcox, R. R.
+PY  - 2012
+DA  - 2012//
+TI  - Modern statistics for the social and behavioral sciences: A practical introduction
+PB  - CRC Press
+CY  - New York
+ID  - Wilcox2012
+ER  - 
+TY  - JOUR
+AU  - Williams, C. E.
+AU  - Stevens, K. N.
+PY  - 1972
+DA  - 1972//
+TI  - Emotions and speech: Some acoustical correlates
+JO  - Journal of the Acoustical Society of America
+VL  - 52
+UR  - https://doi.org/10.1121/1.1913238
+DO  - 10.1121/1.1913238
+ID  - Williams1972
+ER  - 
+TY  - STD
+TI  - Wilting, J., Krahmer, E., & Swerts, M. (2006). Real vs. acted emotional speech. In Proceedings of Interspeech 2006 (pp. 805–808). Pittsburgh, PA.
+ID  - ref101
+ER  - 
+TY  - JOUR
+AU  - With, S.
+AU  - Kaiser, S.
+PY  - 2011
+DA  - 2011//
+TI  - Sequential patterning of facial actions in the production and perception of emotional expressions
+JO  - Swiss Journal of Psychology
+VL  - 70
+UR  - https://doi.org/10.1024/1421-0185/a000062
+DO  - 10.1024/1421-0185/a000062
+ID  - With2011
+ER  - 
+TY  - JOUR
+AU  - Zuckerman, M.
+AU  - Larrance, D. T.
+AU  - Hall, J. A.
+AU  - DeFrank, R. S.
+AU  - Rosenthal, R.
+PY  - 1979
+DA  - 1979//
+TI  - Posed and spontaneous communication of emotion via facial and vocal cues
+JO  - Journal of Personality
+VL  - 47
+UR  - https://doi.org/10.1111/j.1467-6494.1979.tb00217.x
+DO  - 10.1111/j.1467-6494.1979.tb00217.x
+ID  - Zuckerman1979
+ER  - 

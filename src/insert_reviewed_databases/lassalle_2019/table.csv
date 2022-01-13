@@ -1,0 +1,14 @@
+reference	emotions	language	identifier	Stimulus Type	Actors	Judges	Ratings
+Banse, Scherer, 1996	hot anger, cold anger, panic, anxiety, despair, sadness, elation, happiness, interest, boredom, shame, pride, disgust, contempt	NONE	DOI:10.1037/0022-3514.70.3.614	Meaningless sentences composed of phonemes from Indo-European languages but resembling speech	12 actors (6 females)	12	accuracy
+Polzin, Waibel, 1998	happiness, sadness, anger, fear	English		50 sentences per emotion	5 acting students	“subjects”	accuracy
+Pereira, 2000	happiness, sadness, hot anger, cold anger, neutral	English		40 sentences per emotion	2 actors	31	arousal, pleasure, and power
+Scherer, 2000	fear, disgust, joy, sadness, anger	German		2 sentences in an artificial language made by a phonetician	4 actors	20	accuracy
+Abelin,  Allwood, 2000	joy, surprise, sadness, fear, shyness, anger, dominance, disgust	Swedish		1 sentence with neutral content	1 male speaker	35	accuracy (free choice)
+Niimi, Kasamatsu, 2001	anger, sadness, joy	Japanese		Vowel–consonant–vowel (VCV) segments from 400 sentences with neutral content	1 male speaker	12	accuracy
+Schröder, 2003	admiration, fear, disgust, elation, boredom, relief, startle, worry, contempt, hot anger	German		nonspeech utterances	6 speakers (3 females)	20	accuracy, arousal, valence, control
+Scherer, Ellgring, 2007	hot anger, cold anger, panic, anxiety, despair, sadness, elation, happiness, interest, boredom, shame, pride, disgust, contempt	NONE	DOI:10.1037/1528-3542.7.1.113	2 sentences in artificial language made by a phonetician	12 actors (6 females)	NA	NA
+Belin, Fillion-Bilodeau, 2008	anger, disgust, fear, pain, sadness, surprise, happiness, pleasure, neutral	NONE		1 short emotional interjection ("ah") per emotion	10 actors (5 females)	30	accuracy, valence, arousal, intensity
+Hawk, Van Kleef, 2009	anger, contempt, disgust, embarrassment, fear, joy, pride, sadness, surprise, neutral	Dutch		nonlinguistic affect vocalization and speech-embedded expressions of emotions	8 acting students (4 females)	121	accuracy
+Pell, Paulmann, 2009	joy, sadness, anger, fear, disgust, pleasant surprise, neutral	Spanish, English, German, Arabic		pseudo-utterances (“nonsense speech”)	4 native speakers with “amateur experience in acting or public speaking” (2 females) per language	61	accuracy
+Bänzinger, Mortillaro, 2012	joy, amusement, pride, pleasure, relief, interest, fear, despair, cold anger, anxiety, sadness, disgust, contempt, shame, admiration, tenderness, surprise	NONE		2 pseudo-speech sentences and a nonverbal utterance	10 actors (5 females)	20	accuracy, intensity
+Liu, Pell, 2012	joy, sadness, anger, fear, disgust, pleasant surprise, neutral	Chinese		pseudo-utterances (“nonsense speech”)	4 native speakers (2 females)	24	accuracy, intensity
