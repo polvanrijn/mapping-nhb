@@ -1,7 +1,7 @@
 import os
 import re
 import json
-from src.libs.IO import IO
+from src.collect_corpora.libs.IO import IO
 import math
 
 class References:

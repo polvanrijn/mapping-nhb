@@ -1,7 +1,7 @@
-from src.libs.Database import Database
-from src.libs.References import References
-from src.libs.Scraper import MetadataInserter
-from src.libs.IO import IO
+from src.collect_corpora.libs.Database import Database
+from src.collect_corpora.libs.References import References
+from src.collect_corpora.libs.Scraper import MetadataInserter
+from src.collect_corpora.libs.IO import IO
 import re
 import json
 from selenium import webdriver

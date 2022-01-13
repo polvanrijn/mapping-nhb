@@ -1,9 +1,9 @@
-from src.libs.Database import Database
-from src.libs.References import References
-from src.libs.Language import Language
-from src.libs.Emotion import Emotion
-from src.libs.Scraper import Scraper
-from src.libs.IO import IO
+from src.collect_corpora.libs.Database import Database
+from src.collect_corpora.libs.References import References
+from src.collect_corpora.libs.Language import Language
+from src.collect_corpora.libs.Emotion import Emotion
+from src.collect_corpora.libs.Scraper import Scraper
+from src.collect_corpora.libs.IO import IO
 import pandas as pd
 import math
 

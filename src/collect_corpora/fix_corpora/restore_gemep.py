@@ -3,7 +3,7 @@ from glob import glob
 import xml.etree.ElementTree as ET
 import pandas as pd
 import subprocess
-from src.libs.IO import IO
+from src.collect_corpora.libs.IO import IO
 
 log_path = 'gemep.json'
 log = IO.initialize_log(log_path)

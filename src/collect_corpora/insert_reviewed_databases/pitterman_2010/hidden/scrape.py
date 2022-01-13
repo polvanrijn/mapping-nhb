@@ -1,11 +1,8 @@
-from selenium import webdriver
 import os
 import pandas as pd
 import re
-from MAPS.a_collect_corpora.helper import emotion_to_code, language_to_code
-from MAPS.a_collect_corpora.Scraper import Scraper, scrape_reference_by_title
-from MAPS.a_collect_corpora.IO import IO
-from MAPS.a_collect_corpora.References import References
+from src.collect_corpora.libs.Scraper import Scraper
+from src.collect_corpora.libs.IO import IO
 
 # Clean up references
 references_file = os.getcwd() + '/references_uncorrected.txt'

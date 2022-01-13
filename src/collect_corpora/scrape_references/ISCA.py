@@ -1,8 +1,8 @@
 import time
 import os
 import bibtexparser
-from src.libs.Scraper import Scraper
-from src.libs.IO import IO
+from src.collect_corpora.libs.Scraper import Scraper
+from src.collect_corpora.libs.IO import IO
 
 
 def scrape_isca(scraper, old_design, service, year, base_url):

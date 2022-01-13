@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from src.libs.IO import IO
+from src.collect_corpora.libs.IO import IO
 
 class Language:
     def __init__(self):

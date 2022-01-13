@@ -4,7 +4,7 @@ import os
 import datetime
 from itertools import compress
 import pandas as pd
-from src.libs.Scraper import Scraper
+from src.collect_corpora.libs.Scraper import Scraper
 
 data_path = 'data/%s/combined_search_%d.csv'
 service = 'wos'

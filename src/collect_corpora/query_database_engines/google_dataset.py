@@ -1,7 +1,7 @@
-from src.libs.IO import IO
+from src.collect_corpora.libs.IO import IO
 
-links = IO.read_json('kaggle_links.json')
-log_path = 'kaggle_log.json'
+links = IO.read_json('google_links.json')
+log_path = 'google_log.json'
 log = IO.initialize_log(log_path)
 print("Finished %d" % len(IO.which(range(len(links)), [link in log.keys() for link in links])))
 

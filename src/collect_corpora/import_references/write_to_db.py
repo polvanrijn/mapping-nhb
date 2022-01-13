@@ -1,7 +1,7 @@
 from itertools import compress, chain
 import re
-from src.libs.IO import IO
-from src.libs.Database import Database
+from src.collect_corpora.libs.IO import IO
+from src.collect_corpora.libs.Database import Database
 
 db = Database()
 ##############################################

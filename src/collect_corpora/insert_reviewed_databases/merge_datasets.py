@@ -1,5 +1,5 @@
-from src.libs.IO import IO
-from src.libs.Database import Database
+from src.collect_corpora.libs.IO import IO
+from src.collect_corpora.libs.Database import Database
 
 filenames = ['pitterman_2010',
              'el_ayadi_2011',

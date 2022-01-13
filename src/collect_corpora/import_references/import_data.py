@@ -2,7 +2,7 @@ import pandas as pd
 import math
 import numpy as np
 import re
-from src.libs.IO import IO
+from src.collect_corpora.libs.IO import IO
 
 IO.mkdir('data')
 
