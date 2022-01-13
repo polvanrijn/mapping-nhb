@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enter metadata</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-request/1.0.6/d3-request.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+    <style>
+        .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-4">
+
+    <form class="needs-validation" novalidate>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="abbreviation">Abbreviation</label>
+                    <input type="text" class="form-control" id="abbreviation">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group language">
+                    <label for="language">Language(s)</label><br>
+                    <select id="language" multiple data-live-search="true" required>
+                    </select>
+                    <div class="invalid-feedback">
+                        You must select at least one emotion
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group emotion">
+                    <label for="emotion">Emotion(s)</label><br>
+                    <select id="emotion" multiple data-live-search="true" required>
+                    </select>
+                    <div class="invalid-feedback">
+                        You must select at least one emotion
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <pre id="language_info"></pre>
+            </div>
+            <div class="col">
+                <pre id="emotion_info"></pre>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="identifier">Identifier</label>
+                    <input type="text" class="form-control" id="identifier" required aria-describedby="identifierHelp">
+                    <small id="identifierHelp" class="form-text text-muted">Preferred an DOI. </small>
+                    <div class="invalid-feedback">
+                        Only accepts DOIs or urls
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="data-availability">Data availability</label>
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <select id="data-availability-type">
+                                <option>email</option>
+                                <option>url</option>
+                                <option>form</option>
+                            </select>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" id="data-availability"
+                               aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Please choose a username.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="url">Url</label>
+                    <input type="text" class="form-control" id="url">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="stimulus_type">Stimulus type</label>
+                    <select class="form-control" id="stimulus_type">
+                        <option></option>
+                        <option>Sentences</option>
+                        <option>Words</option>
+                        <option>Utterances</option>
+                        <option>Vowels</option>
+                        <option>Vocalizations</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="full_crossed">Fully crossed</label>
+                    <select class="form-control" id="full_crossed">
+                        <option></option>
+                        <option>yes</option>
+                        <option>no</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="different_intensity">Different intensity</label>
+                    <select class="form-control" id="different_intensity">
+                        <option></option>
+                        <option>yes</option>
+                        <option>no</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-group">
+                    <label for="has_semantic_meaning">Semantic meaning</label>
+                    <select class="form-control" id="has_semantic_meaning">
+                        <option></option>
+                        <option>yes</option>
+                        <option>no</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="subjects">Type of subjects</label>
+                    <input type="text" class="form-control" id="subjects">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="num_speakers">Number of speakers</label>
+                    <input type="number" class="form-control" id="num_speakers">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="num_utterances">Number of utterances</label>
+                    <input type="number" class="form-control" id="num_utterances">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="total_files">Total files</label>
+                    <input type="number" class="form-control" id="total_files">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="modality">Audiovisual</label>
+                    <select class="form-control" id="modality">
+                        <option></option>
+                        <option>audio</option>
+                        <option>audio+video</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="validation_available">Validation available</label>
+                    <select class="form-control" id="validation_available">
+                        <option></option>
+                        <option>yes</option>
+                        <option>no</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-group">
+                    <label for="num_raters">Number of raters</label>
+                    <input type="number" class="form-control" id="num_raters">
+                </div>
+            </div>
+
+        </div>
+
+        <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+    <pre id="metadata">No metadata</pre>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        populate_select = function (filename, selector, reversed = false) {
+            d3.text(filename, function (text) {
+                var data = d3.csvParseRows(text);
+                console.log(data);
+                data.forEach(function (x) {
+                    var key = reversed ? x[1] : x[0];
+                    var value = reversed ? x[0] : x[1];
+                    $(selector).append($('<option>').val(key).text(value));
+                });
+                if (selector === '#emotion') {
+
+                    var group = '<optgroup label="Basic emotions">';
+                    $('#emotion option').each(function (x, opt) {
+                        if (['ANG', 'DIS', 'FER', 'HAP', 'SAD', 'SUR'].includes(opt.value)) {
+                            group = group + opt.outerHTML;
+                            $(opt).remove();
+                        }
+                    });
+                    group = group + "<optgroup>";
+                    // var group2 = $('<optgroup>').attr('label', 'Other');
+                    // $('#emotion option').each(function (x, opt) {
+                    //     group2.appendTo($(opt));
+                    //     $(opt).remove();
+                    // });
+                    $(selector).prepend($(group))
+                    // $(selector).append(group2)
+                }
+
+                $(selector).selectpicker();
+                $(selector).change(function () {
+                    console.log('change');
+                    var cls = '.' + selector.replace('#', '');
+                    var str_list = $(cls + ' .filter-option-inner-inner').text();
+                    var count = str_list.split(', ').length;
+                    $(selector + '_info').text(count + ': ' + str_list)
+                })
+            });
+        };
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        if (form.checkValidity() !== false) {
+                            form.classList.add('finished');
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+
+            populate_select("emotions.csv", '#emotion');
+            populate_select("languages.csv", '#language', true);
+        })();
+    </script>
+</div>
+</body>
+</html>
