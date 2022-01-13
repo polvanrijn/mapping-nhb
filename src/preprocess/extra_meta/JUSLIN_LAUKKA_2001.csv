@@ -1,0 +1,17 @@
+data_grouping,new_label,key,value
+speaker,sex,1,M
+speaker,language,1,Swedish
+speaker,sex,2,F
+speaker,language,2,Swedish
+speaker,sex,3,F
+speaker,language,3,Swedish
+speaker,sex,4,M
+speaker,language,4,English
+speaker,sex,5,M
+speaker,language,5,Swedish
+speaker,sex,6,M
+speaker,language,6,English
+speaker,sex,7,F
+speaker,language,7,English
+speaker,sex,8,F
+speaker,language,8,English

@@ -1,0 +1,13 @@
+data_grouping,new_label,key,value
+speaker,sex,1,F
+speaker,sex,2,F
+speaker,sex,3,M
+speaker,sex,4,M
+speaker,sex,5,F
+speaker,sex,6,M
+speaker,age,1,48
+speaker,age,2,36
+speaker,age,3,27
+speaker,age,4,45
+speaker,age,5,25
+speaker,age,6,24
