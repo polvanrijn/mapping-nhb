@@ -1,0 +1,3707 @@
+{
+    "39_0_AMU": {
+        "sentence": "NKI"
+    },
+    "39_1_AMU": {
+        "sentence": "KSM"
+    },
+    "39_2_AMU": {
+        "sentence": "KSM"
+    },
+    "39_3_AMU": {
+        "sentence": "VOC"
+    },
+    "39_4_AMU": {
+        "sentence": "VOC"
+    },
+    "39_5_AMU": {
+        "sentence": "NKI"
+    },
+    "39_6_AMU": {
+        "sentence": "NKI"
+    },
+    "39_7_AMU": {
+        "sentence": "NKI"
+    },
+    "39_8_AMU": {
+        "sentence": "NKI"
+    },
+    "39_9_AMU": {
+        "sentence": "NKI"
+    },
+    "39_10_AMU": {
+        "sentence": "NKI"
+    },
+    "39_11_ANX": {
+        "sentence": "NKI"
+    },
+    "39_12_ANX": {
+        "sentence": "NKI"
+    },
+    "39_13_ANX": {
+        "sentence": "KSM"
+    },
+    "39_14_ANX": {
+        "sentence": "KSM"
+    },
+    "39_15_ANX": {
+        "sentence": "VOC"
+    },
+    "39_16_ANX": {
+        "sentence": "VOC"
+    },
+    "39_17_ANX": {
+        "sentence": "NKI"
+    },
+    "39_18_ANX": {
+        "sentence": "NKI"
+    },
+    "39_19_ANX": {
+        "sentence": "NKI"
+    },
+    "39_20_ANX": {
+        "sentence": "NKI"
+    },
+    "39_21_ANX": {
+        "sentence": "NKI"
+    },
+    "39_22_ANX": {
+        "sentence": "NKI"
+    },
+    "39_23_CAN": {
+        "sentence": "NKI"
+    },
+    "39_24_CAN": {
+        "sentence": "NKI"
+    },
+    "39_25_CAN": {
+        "sentence": "KSM"
+    },
+    "39_26_CAN": {
+        "sentence": "KSM"
+    },
+    "39_27_CAN": {
+        "sentence": "VOC"
+    },
+    "39_28_CAN": {
+        "sentence": "VOC"
+    },
+    "39_29_CON": {
+        "sentence": "NKI"
+    },
+    "39_30_CON": {
+        "sentence": "NKI"
+    },
+    "39_31_CON": {
+        "sentence": "NKI"
+    },
+    "39_32_CON": {
+        "sentence": "NKI"
+    },
+    "39_33_CON": {
+        "sentence": "VOC"
+    },
+    "39_34_CON": {
+        "sentence": "VOC"
+    },
+    "39_35_DES": {
+        "sentence": "NKI"
+    },
+    "39_36_DES": {
+        "sentence": "NKI"
+    },
+    "39_37_DES": {
+        "sentence": "KSM"
+    },
+    "39_38_DES": {
+        "sentence": "KSM"
+    },
+    "39_39_DES": {
+        "sentence": "VOC"
+    },
+    "39_40_DES": {
+        "sentence": "VOC"
+    },
+    "39_41_DES": {
+        "sentence": "NKI"
+    },
+    "39_42_DES": {
+        "sentence": "NKI"
+    },
+    "39_43_DES": {
+        "sentence": "NKI"
+    },
+    "39_44_DES": {
+        "sentence": "NKI"
+    },
+    "39_45_DES": {
+        "sentence": "NKI"
+    },
+    "39_46_DES": {
+        "sentence": "NKI"
+    },
+    "39_47_ELA": {
+        "sentence": "NKI"
+    },
+    "39_48_ELA": {
+        "sentence": "NKI"
+    },
+    "39_49_ELA": {
+        "sentence": "KSM"
+    },
+    "39_50_ELA": {
+        "sentence": "KSM"
+    },
+    "39_51_ELA": {
+        "sentence": "VOC"
+    },
+    "39_52_ELA": {
+        "sentence": "VOC"
+    },
+    "39_53_HAN": {
+        "sentence": "NKI"
+    },
+    "39_54_HAN": {
+        "sentence": "NKI"
+    },
+    "39_55_HAN": {
+        "sentence": "KSM"
+    },
+    "39_56_HAN": {
+        "sentence": "KSM"
+    },
+    "39_57_HAN": {
+        "sentence": "VOC"
+    },
+    "39_58_HAN": {
+        "sentence": "VOC"
+    },
+    "39_59_HAN": {
+        "sentence": "NKI"
+    },
+    "39_60_HAN": {
+        "sentence": "NKI"
+    },
+    "39_61_HAN": {
+        "sentence": "NKI"
+    },
+    "39_62_HAN": {
+        "sentence": "NKI"
+    },
+    "39_63_HAN": {
+        "sentence": "NKI"
+    },
+    "39_64_HAN": {
+        "sentence": "NKI"
+    },
+    "39_65_INt": {
+        "sentence": "NKI"
+    },
+    "39_66_INt": {
+        "sentence": "NKI"
+    },
+    "39_67_INt": {
+        "sentence": "KSM"
+    },
+    "39_68_INt": {
+        "sentence": "KSM"
+    },
+    "39_69_INt": {
+        "sentence": "VOC"
+    },
+    "39_70_INt": {
+        "sentence": "VOC"
+    },
+    "39_71_INt": {
+        "sentence": "NKI"
+    },
+    "39_72_INt": {
+        "sentence": "NKI"
+    },
+    "39_73_INt": {
+        "sentence": "NKI"
+    },
+    "39_74_INt": {
+        "sentence": "NKI"
+    },
+    "39_75_INt": {
+        "sentence": "NKI"
+    },
+    "39_76_INt": {
+        "sentence": "NKI"
+    },
+    "39_77_PAN": {
+        "sentence": "NKI"
+    },
+    "39_78_PAN": {
+        "sentence": "NKI"
+    },
+    "39_79_PAN": {
+        "sentence": "KSM"
+    },
+    "39_80_PAN": {
+        "sentence": "KSM"
+    },
+    "39_81_PAN": {
+        "sentence": "VOC"
+    },
+    "39_82_PAN": {
+        "sentence": "VOC"
+    },
+    "39_83_PLE": {
+        "sentence": "NKI"
+    },
+    "39_84_PLE": {
+        "sentence": "NKI"
+    },
+    "39_85_PLE": {
+        "sentence": "KSM"
+    },
+    "39_86_PLE": {
+        "sentence": "KSM"
+    },
+    "39_87_PLE": {
+        "sentence": "VOC"
+    },
+    "39_88_PLE": {
+        "sentence": "VOC"
+    },
+    "39_89_PLE": {
+        "sentence": "NKI"
+    },
+    "39_90_PLE": {
+        "sentence": "NKI"
+    },
+    "39_91_PLE": {
+        "sentence": "NKI"
+    },
+    "39_92_PLE": {
+        "sentence": "NKI"
+    },
+    "39_93_PLE": {
+        "sentence": "NKI"
+    },
+    "39_94_PLE": {
+        "sentence": "NKI"
+    },
+    "39_95_PRI": {
+        "sentence": "NKI"
+    },
+    "39_96_PRI": {
+        "sentence": "NKI"
+    },
+    "39_97_PRI": {
+        "sentence": "KSM"
+    },
+    "39_98_PRI": {
+        "sentence": "KSM"
+    },
+    "39_99_PRI": {
+        "sentence": "VOC"
+    },
+    "39_100_PRI": {
+        "sentence": "VOC"
+    },
+    "39_101_REL": {
+        "sentence": "NKI"
+    },
+    "39_102_REL": {
+        "sentence": "NKI"
+    },
+    "39_103_REL": {
+        "sentence": "KSM"
+    },
+    "39_104_REL": {
+        "sentence": "KSM"
+    },
+    "39_105_REL": {
+        "sentence": "VOC"
+    },
+    "39_106_REL": {
+        "sentence": "VOC"
+    },
+    "39_107_SAD": {
+        "sentence": "NKI"
+    },
+    "39_108_SAD": {
+        "sentence": "NKI"
+    },
+    "39_109_SAD": {
+        "sentence": "KSM"
+    },
+    "39_110_SAD": {
+        "sentence": "KSM"
+    },
+    "39_111_SAD": {
+        "sentence": "VOC"
+    },
+    "39_112_SAD": {
+        "sentence": "VOC"
+    },
+    "39_113_TEN": {
+        "sentence": "REV"
+    },
+    "39_114_TEN": {
+        "sentence": "REV"
+    },
+    "39_115_TEN": {
+        "sentence": "KSM"
+    },
+    "39_116_TEN": {
+        "sentence": "KSM"
+    },
+    "39_117_TEN": {
+        "sentence": "VOC"
+    },
+    "39_118_TEN": {
+        "sentence": "VOC"
+    },
+    "31_0_ADM": {
+        "sentence": "NKI"
+    },
+    "31_1_ADM": {
+        "sentence": "NKI"
+    },
+    "31_2_ADM": {
+        "sentence": "KSM"
+    },
+    "31_3_ADM": {
+        "sentence": "KSM"
+    },
+    "31_4_ADM": {
+        "sentence": "VOC"
+    },
+    "31_5_ADM": {
+        "sentence": "VOC"
+    },
+    "31_11_AMU": {
+        "sentence": "VOC"
+    },
+    "31_18_CAN": {
+        "sentence": "NKI"
+    },
+    "31_19_CAN": {
+        "sentence": "NKI"
+    },
+    "31_20_CAN": {
+        "sentence": "KSM"
+    },
+    "31_21_CAN": {
+        "sentence": "KSM"
+    },
+    "31_22_CAN": {
+        "sentence": "VOC"
+    },
+    "31_29_CAN": {
+        "sentence": "NKI"
+    },
+    "31_30_DES": {
+        "sentence": "NKI"
+    },
+    "31_31_DES": {
+        "sentence": "NKI"
+    },
+    "31_32_DES": {
+        "sentence": "KSM"
+    },
+    "31_33_DES": {
+        "sentence": "KSM"
+    },
+    "31_34_DES": {
+        "sentence": "VOC"
+    },
+    "31_36_DIS": {
+        "sentence": "NKI"
+    },
+    "31_37_DIS": {
+        "sentence": "NKI"
+    },
+    "31_38_DIS": {
+        "sentence": "KSM"
+    },
+    "31_39_DIS": {
+        "sentence": "KSM"
+    },
+    "31_40_DIS": {
+        "sentence": "VOC"
+    },
+    "31_41_DIS": {
+        "sentence": "VOC"
+    },
+    "31_42_ELA": {
+        "sentence": "NKI"
+    },
+    "31_43_ELA": {
+        "sentence": "NKI"
+    },
+    "31_44_ELA": {
+        "sentence": "KSM"
+    },
+    "31_45_ELA": {
+        "sentence": "KSM"
+    },
+    "31_46_ELA": {
+        "sentence": "VOC"
+    },
+    "31_53_ELA": {
+        "sentence": "NKI"
+    },
+    "31_60_INt": {
+        "sentence": "NKI"
+    },
+    "31_61_INt": {
+        "sentence": "NKI"
+    },
+    "31_62_INt": {
+        "sentence": "KSM"
+    },
+    "31_63_INt": {
+        "sentence": "KSM"
+    },
+    "31_64_INt": {
+        "sentence": "VOC"
+    },
+    "31_66_PAN": {
+        "sentence": "NKI"
+    },
+    "31_67_PAN": {
+        "sentence": "NKI"
+    },
+    "31_68_PAN": {
+        "sentence": "KSM"
+    },
+    "31_69_PAN": {
+        "sentence": "KSM"
+    },
+    "31_70_PAN": {
+        "sentence": "VOC"
+    },
+    "31_71_PAN": {
+        "sentence": "VOC"
+    },
+    "31_72_PAN": {
+        "sentence": "NKI"
+    },
+    "31_73_PAN": {
+        "sentence": "NKI"
+    },
+    "31_74_PAN": {
+        "sentence": "NKI"
+    },
+    "31_75_PAN": {
+        "sentence": "NKI"
+    },
+    "31_76_PAN": {
+        "sentence": "NKI"
+    },
+    "31_78_PLE": {
+        "sentence": "NKI"
+    },
+    "31_79_PLE": {
+        "sentence": "NKI"
+    },
+    "31_80_PLE": {
+        "sentence": "KSM"
+    },
+    "31_81_PLE": {
+        "sentence": "KSM"
+    },
+    "31_82_PLE": {
+        "sentence": "VOC"
+    },
+    "31_84_PRI": {
+        "sentence": "NKI"
+    },
+    "31_85_PRI": {
+        "sentence": "NKI"
+    },
+    "31_86_PRI": {
+        "sentence": "KSM"
+    },
+    "31_87_PRI": {
+        "sentence": "KSM"
+    },
+    "31_88_PRI": {
+        "sentence": "VOC"
+    },
+    "31_89_PRI": {
+        "sentence": "VOC"
+    },
+    "31_90_PRI": {
+        "sentence": "NKI"
+    },
+    "31_91_PRI": {
+        "sentence": "NKI"
+    },
+    "31_92_PRI": {
+        "sentence": "NKI"
+    },
+    "31_93_PRI": {
+        "sentence": "NKI"
+    },
+    "31_94_PRI": {
+        "sentence": "NKI"
+    },
+    "31_96_REL": {
+        "sentence": "NKI"
+    },
+    "31_97_REL": {
+        "sentence": "NKI"
+    },
+    "31_98_REL": {
+        "sentence": "KSM"
+    },
+    "31_99_REL": {
+        "sentence": "KSM"
+    },
+    "31_100_REL": {
+        "sentence": "VOC"
+    },
+    "31_107_REL": {
+        "sentence": "NKI"
+    },
+    "31_113_SAD": {
+        "sentence": "VOC"
+    },
+    "31_114_SAD": {
+        "sentence": "NKI"
+    },
+    "31_115_SAD": {
+        "sentence": "NKI"
+    },
+    "31_116_SAD": {
+        "sentence": "NKI"
+    },
+    "31_117_SAD": {
+        "sentence": "NKI"
+    },
+    "31_118_SAD": {
+        "sentence": "NKI"
+    },
+    "31_119_SAD": {
+        "sentence": "NKI"
+    },
+    "31_120_SHA": {
+        "sentence": "NKI"
+    },
+    "31_121_SHA": {
+        "sentence": "NKI"
+    },
+    "31_122_SHA": {
+        "sentence": "KSM"
+    },
+    "31_123_SHA": {
+        "sentence": "KSM"
+    },
+    "31_124_SHA": {
+        "sentence": "VOC"
+    },
+    "31_125_SHA": {
+        "sentence": "VOC"
+    },
+    "31_6_AMU": {
+        "sentence": "NKI"
+    },
+    "31_7_AMU": {
+        "sentence": "NKI"
+    },
+    "31_8_AMU": {
+        "sentence": "KSM"
+    },
+    "31_9_AMU": {
+        "sentence": "KSM"
+    },
+    "31_10_AMU": {
+        "sentence": "VOC"
+    },
+    "31_12_ANX": {
+        "sentence": "NKI"
+    },
+    "31_13_ANX": {
+        "sentence": "NKI"
+    },
+    "31_14_ANX": {
+        "sentence": "KSM"
+    },
+    "31_15_ANX": {
+        "sentence": "KSM"
+    },
+    "31_16_ANX": {
+        "sentence": "VOC"
+    },
+    "31_17_ANX": {
+        "sentence": "VOC"
+    },
+    "31_23_CAN": {
+        "sentence": "VOC"
+    },
+    "31_24_CAN": {
+        "sentence": "NKI"
+    },
+    "31_25_CAN": {
+        "sentence": "NKI"
+    },
+    "31_26_CAN": {
+        "sentence": "NKI"
+    },
+    "31_27_CAN": {
+        "sentence": "NKI"
+    },
+    "31_28_CAN": {
+        "sentence": "NKI"
+    },
+    "31_35_DES": {
+        "sentence": "VOC"
+    },
+    "31_47_ELA": {
+        "sentence": "VOC"
+    },
+    "31_48_ELA": {
+        "sentence": "NKI"
+    },
+    "31_49_ELA": {
+        "sentence": "NKI"
+    },
+    "31_50_ELA": {
+        "sentence": "NKI"
+    },
+    "31_51_ELA": {
+        "sentence": "NKI"
+    },
+    "31_52_ELA": {
+        "sentence": "NKI"
+    },
+    "31_54_HAN": {
+        "sentence": "NKI"
+    },
+    "31_55_HAN": {
+        "sentence": "NKI"
+    },
+    "31_56_HAN": {
+        "sentence": "KSM"
+    },
+    "31_57_HAN": {
+        "sentence": "KSM"
+    },
+    "31_58_HAN": {
+        "sentence": "VOC"
+    },
+    "31_59_HAN": {
+        "sentence": "VOC"
+    },
+    "31_65_INt": {
+        "sentence": "VOC"
+    },
+    "31_77_PAN": {
+        "sentence": "NKI"
+    },
+    "31_83_PLE": {
+        "sentence": "VOC"
+    },
+    "31_95_PRI": {
+        "sentence": "NKI"
+    },
+    "31_101_REL": {
+        "sentence": "VOC"
+    },
+    "31_102_REL": {
+        "sentence": "NKI"
+    },
+    "31_103_REL": {
+        "sentence": "NKI"
+    },
+    "31_104_REL": {
+        "sentence": "NKI"
+    },
+    "31_105_REL": {
+        "sentence": "NKI"
+    },
+    "31_106_REL": {
+        "sentence": "NKI"
+    },
+    "31_108_SAD": {
+        "sentence": "NKI"
+    },
+    "31_109_SAD": {
+        "sentence": "NKI"
+    },
+    "31_110_SAD": {
+        "sentence": "KSM"
+    },
+    "31_111_SAD": {
+        "sentence": "KSM"
+    },
+    "31_112_SAD": {
+        "sentence": "VOC"
+    },
+    "57_0_AMU": {
+        "sentence": "NKI"
+    },
+    "57_1_AMU": {
+        "sentence": "NKI"
+    },
+    "57_2_AMU": {
+        "sentence": "KSM"
+    },
+    "57_3_AMU": {
+        "sentence": "KSM"
+    },
+    "57_4_AMU": {
+        "sentence": "VOC"
+    },
+    "57_5_AMU": {
+        "sentence": "VOC"
+    },
+    "57_6_AMU": {
+        "sentence": "NKI"
+    },
+    "57_7_AMU": {
+        "sentence": "NKI"
+    },
+    "57_8_AMU": {
+        "sentence": "NKI"
+    },
+    "57_9_AMU": {
+        "sentence": "NKI"
+    },
+    "57_10_AMU": {
+        "sentence": "NKI"
+    },
+    "57_11_AMU": {
+        "sentence": "NKI"
+    },
+    "57_12_ANX": {
+        "sentence": "NKI"
+    },
+    "57_13_ANX": {
+        "sentence": "NKI"
+    },
+    "57_14_ANX": {
+        "sentence": "KSM"
+    },
+    "57_15_ANX": {
+        "sentence": "KSM"
+    },
+    "57_16_ANX": {
+        "sentence": "VOC"
+    },
+    "57_17_ANX": {
+        "sentence": "VOC"
+    },
+    "57_18_ANX": {
+        "sentence": "NKI"
+    },
+    "57_19_ANX": {
+        "sentence": "NKI"
+    },
+    "57_20_ANX": {
+        "sentence": "NKI"
+    },
+    "57_21_ANX": {
+        "sentence": "NKI"
+    },
+    "57_22_ANX": {
+        "sentence": "NKI"
+    },
+    "57_23_ANX": {
+        "sentence": "NKI"
+    },
+    "57_24_CAN": {
+        "sentence": "NKI"
+    },
+    "57_25_CAN": {
+        "sentence": "NKI"
+    },
+    "57_26_CAN": {
+        "sentence": "KSM"
+    },
+    "57_27_CAN": {
+        "sentence": "KSM"
+    },
+    "57_28_CAN": {
+        "sentence": "VOC"
+    },
+    "57_29_CAN": {
+        "sentence": "VOC"
+    },
+    "57_30_CON": {
+        "sentence": "NKI"
+    },
+    "57_31_CON": {
+        "sentence": "NKI"
+    },
+    "57_32_CON": {
+        "sentence": "KSM"
+    },
+    "57_33_CON": {
+        "sentence": "KSM"
+    },
+    "57_34_CON": {
+        "sentence": "VOC"
+    },
+    "57_35_CON": {
+        "sentence": "VOC"
+    },
+    "57_36_DES": {
+        "sentence": "NKI"
+    },
+    "57_37_DES": {
+        "sentence": "NKI"
+    },
+    "57_38_DES": {
+        "sentence": "KSM"
+    },
+    "57_39_DES": {
+        "sentence": "KSM"
+    },
+    "57_40_DES": {
+        "sentence": "VOC"
+    },
+    "57_41_DES": {
+        "sentence": "VOC"
+    },
+    "57_42_DES": {
+        "sentence": "NKI"
+    },
+    "57_43_DES": {
+        "sentence": "NKI"
+    },
+    "57_44_DES": {
+        "sentence": "NKI"
+    },
+    "57_45_DES": {
+        "sentence": "NKI"
+    },
+    "57_46_DES": {
+        "sentence": "NKI"
+    },
+    "57_47_DES": {
+        "sentence": "NKI"
+    },
+    "57_48_ELA": {
+        "sentence": "NKI"
+    },
+    "57_49_ELA": {
+        "sentence": "NKI"
+    },
+    "57_50_ELA": {
+        "sentence": "KSM"
+    },
+    "57_51_ELA": {
+        "sentence": "KSM"
+    },
+    "57_52_ELA": {
+        "sentence": "VOC"
+    },
+    "57_53_ELA": {
+        "sentence": "VOC"
+    },
+    "57_54_HAN": {
+        "sentence": "NKI"
+    },
+    "57_55_HAN": {
+        "sentence": "NKI"
+    },
+    "57_56_HAN": {
+        "sentence": "KSM"
+    },
+    "57_57_HAN": {
+        "sentence": "KSM"
+    },
+    "57_58_HAN": {
+        "sentence": "VOC"
+    },
+    "57_59_HAN": {
+        "sentence": "VOC"
+    },
+    "57_60_HAN": {
+        "sentence": "NKI"
+    },
+    "57_61_HAN": {
+        "sentence": "NKI"
+    },
+    "57_62_HAN": {
+        "sentence": "NKI"
+    },
+    "57_63_HAN": {
+        "sentence": "NKI"
+    },
+    "57_64_HAN": {
+        "sentence": "NKI"
+    },
+    "57_65_HAN": {
+        "sentence": "NKI"
+    },
+    "57_66_INt": {
+        "sentence": "NKI"
+    },
+    "57_67_INt": {
+        "sentence": "NKI"
+    },
+    "57_68_INt": {
+        "sentence": "KSM"
+    },
+    "57_69_INt": {
+        "sentence": "KSM"
+    },
+    "57_70_INt": {
+        "sentence": "VOC"
+    },
+    "57_71_INt": {
+        "sentence": "VOC"
+    },
+    "57_72_INt": {
+        "sentence": "NKI"
+    },
+    "57_73_INt": {
+        "sentence": "NKI"
+    },
+    "57_74_INt": {
+        "sentence": "NKI"
+    },
+    "57_75_INt": {
+        "sentence": "NKI"
+    },
+    "57_76_INt": {
+        "sentence": "NKI"
+    },
+    "57_77_INt": {
+        "sentence": "NKI"
+    },
+    "57_78_PAN": {
+        "sentence": "NKI"
+    },
+    "57_79_PAN": {
+        "sentence": "NKI"
+    },
+    "57_80_PAN": {
+        "sentence": "KSM"
+    },
+    "57_81_PAN": {
+        "sentence": "KSM"
+    },
+    "57_82_PAN": {
+        "sentence": "VOC"
+    },
+    "57_83_PAN": {
+        "sentence": "VOC"
+    },
+    "57_84_PLE": {
+        "sentence": "NKI"
+    },
+    "57_85_PLE": {
+        "sentence": "NKI"
+    },
+    "57_86_PLE": {
+        "sentence": "KSM"
+    },
+    "57_87_PLE": {
+        "sentence": "KSM"
+    },
+    "57_88_PLE": {
+        "sentence": "VOC"
+    },
+    "57_89_PLE": {
+        "sentence": "VOC"
+    },
+    "57_90_PLE": {
+        "sentence": "NKI"
+    },
+    "57_91_PLE": {
+        "sentence": "NKI"
+    },
+    "57_92_PLE": {
+        "sentence": "NKI"
+    },
+    "57_93_PLE": {
+        "sentence": "NKI"
+    },
+    "57_94_PLE": {
+        "sentence": "NKI"
+    },
+    "57_95_PLE": {
+        "sentence": "NKI"
+    },
+    "57_96_PRI": {
+        "sentence": "NKI"
+    },
+    "57_97_PRI": {
+        "sentence": "NKI"
+    },
+    "57_98_PRI": {
+        "sentence": "KSM"
+    },
+    "57_99_PRI": {
+        "sentence": "KSM"
+    },
+    "57_100_PRI": {
+        "sentence": "VOC"
+    },
+    "57_101_PRI": {
+        "sentence": "VOC"
+    },
+    "57_102_REL": {
+        "sentence": "NKI"
+    },
+    "57_103_REL": {
+        "sentence": "NKI"
+    },
+    "57_104_REL": {
+        "sentence": "KSM"
+    },
+    "57_105_REL": {
+        "sentence": "KSM"
+    },
+    "57_106_REL": {
+        "sentence": "VOC"
+    },
+    "57_107_REL": {
+        "sentence": "VOC"
+    },
+    "57_108_SAD": {
+        "sentence": "NKI"
+    },
+    "57_109_SAD": {
+        "sentence": "NKI"
+    },
+    "57_110_SAD": {
+        "sentence": "KSM"
+    },
+    "57_111_SAD": {
+        "sentence": "KSM"
+    },
+    "57_112_SAD": {
+        "sentence": "VOC"
+    },
+    "57_113_SAD": {
+        "sentence": "VOC"
+    },
+    "57_114_TEN": {
+        "sentence": "NKI"
+    },
+    "57_115_TEN": {
+        "sentence": "NKI"
+    },
+    "57_116_TEN": {
+        "sentence": "KSM"
+    },
+    "57_117_TEN": {
+        "sentence": "KSM"
+    },
+    "57_118_TEN": {
+        "sentence": "VOC"
+    },
+    "57_119_TEN": {
+        "sentence": "VOC"
+    },
+    "30_0_ADM": {
+        "sentence": "NKI"
+    },
+    "30_1_ADM": {
+        "sentence": "NKI"
+    },
+    "30_2_ADM": {
+        "sentence": "KSM"
+    },
+    "30_3_ADM": {
+        "sentence": "KSM"
+    },
+    "30_4_ADM": {
+        "sentence": "VOC"
+    },
+    "30_5_ADM": {
+        "sentence": "VOC"
+    },
+    "30_6_AMU": {
+        "sentence": "NKI"
+    },
+    "30_7_AMU": {
+        "sentence": "NKI"
+    },
+    "30_8_AMU": {
+        "sentence": "KSM"
+    },
+    "30_9_AMU": {
+        "sentence": "KSM"
+    },
+    "30_10_AMU": {
+        "sentence": "VOC"
+    },
+    "30_11_AMU": {
+        "sentence": "VOC"
+    },
+    "30_12_ANX": {
+        "sentence": "NKI"
+    },
+    "30_13_ANX": {
+        "sentence": "NKI"
+    },
+    "30_14_ANX": {
+        "sentence": "KSM"
+    },
+    "30_15_ANX": {
+        "sentence": "KSM"
+    },
+    "30_16_ANX": {
+        "sentence": "VOC"
+    },
+    "30_17_ANX": {
+        "sentence": "VOC"
+    },
+    "30_18_CAN": {
+        "sentence": "NKI"
+    },
+    "30_19_CAN": {
+        "sentence": "NKI"
+    },
+    "30_20_CAN": {
+        "sentence": "KSM"
+    },
+    "30_21_CAN": {
+        "sentence": "KSM"
+    },
+    "30_22_CAN": {
+        "sentence": "VOC"
+    },
+    "30_23_CAN": {
+        "sentence": "VOC"
+    },
+    "30_24_CAN": {
+        "sentence": "NKI"
+    },
+    "30_25_CAN": {
+        "sentence": "NKI"
+    },
+    "30_26_CAN": {
+        "sentence": "NKI"
+    },
+    "30_27_CAN": {
+        "sentence": "NKI"
+    },
+    "30_28_CAN": {
+        "sentence": "NKI"
+    },
+    "30_29_CAN": {
+        "sentence": "NKI"
+    },
+    "30_30_DES": {
+        "sentence": "NKI"
+    },
+    "30_31_DES": {
+        "sentence": "NKI"
+    },
+    "30_32_DES": {
+        "sentence": "KSM"
+    },
+    "30_33_DES": {
+        "sentence": "KSM"
+    },
+    "30_34_DES": {
+        "sentence": "VOC"
+    },
+    "30_35_DES": {
+        "sentence": "VOC"
+    },
+    "30_36_DIS": {
+        "sentence": "NKI"
+    },
+    "30_37_DIS": {
+        "sentence": "NKI"
+    },
+    "30_38_DIS": {
+        "sentence": "KSM"
+    },
+    "30_39_DIS": {
+        "sentence": "KSM"
+    },
+    "30_40_DIS": {
+        "sentence": "VOC"
+    },
+    "30_41_DIS": {
+        "sentence": "VOC"
+    },
+    "30_42_ELA": {
+        "sentence": "NKI"
+    },
+    "30_43_ELA": {
+        "sentence": "NKI"
+    },
+    "30_44_ELA": {
+        "sentence": "KSM"
+    },
+    "30_45_ELA": {
+        "sentence": "KSM"
+    },
+    "30_46_ELA": {
+        "sentence": "VOC"
+    },
+    "30_47_ELA": {
+        "sentence": "VOC"
+    },
+    "30_48_ELA": {
+        "sentence": "NKI"
+    },
+    "30_49_ELA": {
+        "sentence": "NKI"
+    },
+    "30_50_ELA": {
+        "sentence": "NKI"
+    },
+    "30_51_ELA": {
+        "sentence": "NKI"
+    },
+    "30_52_ELA": {
+        "sentence": "NKI"
+    },
+    "30_53_ELA": {
+        "sentence": "NKI"
+    },
+    "30_54_HAN": {
+        "sentence": "NKI"
+    },
+    "30_55_HAN": {
+        "sentence": "NKI"
+    },
+    "30_56_HAN": {
+        "sentence": "KSM"
+    },
+    "30_57_HAN": {
+        "sentence": "KSM"
+    },
+    "30_58_HAN": {
+        "sentence": "VOC"
+    },
+    "30_59_HAN": {
+        "sentence": "VOC"
+    },
+    "30_60_INt": {
+        "sentence": "NKI"
+    },
+    "30_61_INt": {
+        "sentence": "NKI"
+    },
+    "30_62_INt": {
+        "sentence": "KSM"
+    },
+    "30_63_INt": {
+        "sentence": "KSM"
+    },
+    "30_64_INt": {
+        "sentence": "VOC"
+    },
+    "30_65_INt": {
+        "sentence": "VOC"
+    },
+    "30_66_PAN": {
+        "sentence": "NKI"
+    },
+    "30_67_PAN": {
+        "sentence": "NKI"
+    },
+    "30_68_PAN": {
+        "sentence": "KSM"
+    },
+    "30_69_PAN": {
+        "sentence": "KSM"
+    },
+    "30_70_PAN": {
+        "sentence": "VOC"
+    },
+    "30_71_PAN": {
+        "sentence": "VOC"
+    },
+    "30_72_PAN": {
+        "sentence": "NKI"
+    },
+    "30_73_PAN": {
+        "sentence": "NKI"
+    },
+    "30_74_PAN": {
+        "sentence": "NKI"
+    },
+    "30_75_PAN": {
+        "sentence": "NKI"
+    },
+    "30_76_PAN": {
+        "sentence": "NKI"
+    },
+    "30_77_PAN": {
+        "sentence": "NKI"
+    },
+    "30_78_PLE": {
+        "sentence": "NKI"
+    },
+    "30_79_PLE": {
+        "sentence": "NKI"
+    },
+    "30_80_PLE": {
+        "sentence": "KSM"
+    },
+    "30_81_PLE": {
+        "sentence": "KSM"
+    },
+    "30_82_PLE": {
+        "sentence": "VOC"
+    },
+    "30_83_PLE": {
+        "sentence": "VOC"
+    },
+    "30_84_PRI": {
+        "sentence": "NKI"
+    },
+    "30_85_PRI": {
+        "sentence": "NKI"
+    },
+    "30_86_PRI": {
+        "sentence": "KSM"
+    },
+    "30_87_PRI": {
+        "sentence": "KSM"
+    },
+    "30_88_PRI": {
+        "sentence": "VOC"
+    },
+    "30_89_PRI": {
+        "sentence": "VOC"
+    },
+    "30_90_PRI": {
+        "sentence": "NKI"
+    },
+    "30_91_PRI": {
+        "sentence": "NKI"
+    },
+    "30_92_PRI": {
+        "sentence": "NKI"
+    },
+    "30_93_PRI": {
+        "sentence": "NKI"
+    },
+    "30_94_PRI": {
+        "sentence": "NKI"
+    },
+    "30_95_PRI": {
+        "sentence": "NKI"
+    },
+    "30_96_REL": {
+        "sentence": "NKI"
+    },
+    "30_97_REL": {
+        "sentence": "NKI"
+    },
+    "30_98_REL": {
+        "sentence": "KSM"
+    },
+    "30_99_REL": {
+        "sentence": "KSM"
+    },
+    "30_100_REL": {
+        "sentence": "VOC"
+    },
+    "30_101_REL": {
+        "sentence": "VOC"
+    },
+    "30_102_REL": {
+        "sentence": "NKI"
+    },
+    "30_103_REL": {
+        "sentence": "NKI"
+    },
+    "30_104_REL": {
+        "sentence": "NKI"
+    },
+    "30_105_REL": {
+        "sentence": "NKI"
+    },
+    "30_106_REL": {
+        "sentence": "NKI"
+    },
+    "30_107_REL": {
+        "sentence": "NKI"
+    },
+    "30_108_SAD": {
+        "sentence": "NKI"
+    },
+    "30_109_SAD": {
+        "sentence": "NKI"
+    },
+    "30_110_SAD": {
+        "sentence": "KSM"
+    },
+    "30_111_SAD": {
+        "sentence": "KSM"
+    },
+    "30_112_SAD": {
+        "sentence": "VOC"
+    },
+    "30_113_SAD": {
+        "sentence": "VOC"
+    },
+    "30_114_SAD": {
+        "sentence": "NKI"
+    },
+    "30_115_SAD": {
+        "sentence": "NKI"
+    },
+    "30_116_SAD": {
+        "sentence": "NKI"
+    },
+    "30_117_SAD": {
+        "sentence": "NKI"
+    },
+    "30_118_SAD": {
+        "sentence": "NKI"
+    },
+    "30_119_SAD": {
+        "sentence": "NKI"
+    },
+    "30_120_SHA": {
+        "sentence": "NKI"
+    },
+    "30_121_SHA": {
+        "sentence": "NKI"
+    },
+    "30_122_SHA": {
+        "sentence": "KSM"
+    },
+    "30_123_SHA": {
+        "sentence": "KSM"
+    },
+    "30_124_SHA": {
+        "sentence": "VOC"
+    },
+    "30_125_SHA": {
+        "sentence": "VOC"
+    },
+    "38_0_ADM": {
+        "sentence": "NKI"
+    },
+    "38_1_ADM": {
+        "sentence": "NKI"
+    },
+    "38_2_ADM": {
+        "sentence": "KSM"
+    },
+    "38_3_ADM": {
+        "sentence": "KSM"
+    },
+    "38_4_ADM": {
+        "sentence": "VOC"
+    },
+    "38_5_ADM": {
+        "sentence": "VOC"
+    },
+    "38_6_AMU": {
+        "sentence": "NKI"
+    },
+    "38_7_AMU": {
+        "sentence": "NKI"
+    },
+    "38_8_AMU": {
+        "sentence": "KSM"
+    },
+    "38_9_AMU": {
+        "sentence": "KSM"
+    },
+    "38_10_AMU": {
+        "sentence": "VOC"
+    },
+    "38_11_AMU": {
+        "sentence": "VOC"
+    },
+    "38_12_ANX": {
+        "sentence": "NKI"
+    },
+    "38_13_ANX": {
+        "sentence": "NKI"
+    },
+    "38_14_ANX": {
+        "sentence": "KSM"
+    },
+    "38_15_ANX": {
+        "sentence": "KSM"
+    },
+    "38_16_ANX": {
+        "sentence": "VOC"
+    },
+    "38_17_ANX": {
+        "sentence": "VOC"
+    },
+    "38_18_CAN": {
+        "sentence": "NKI"
+    },
+    "38_19_CAN": {
+        "sentence": "NKI"
+    },
+    "38_20_CAN": {
+        "sentence": "KSM"
+    },
+    "38_21_CAN": {
+        "sentence": "KSM"
+    },
+    "38_22_CAN": {
+        "sentence": "VOC"
+    },
+    "38_23_CAN": {
+        "sentence": "VOC"
+    },
+    "38_24_CAN": {
+        "sentence": "NKI"
+    },
+    "38_25_CAN": {
+        "sentence": "NKI"
+    },
+    "38_26_CAN": {
+        "sentence": "NKI"
+    },
+    "38_27_CAN": {
+        "sentence": "NKI"
+    },
+    "38_28_CAN": {
+        "sentence": "NKI"
+    },
+    "38_29_CAN": {
+        "sentence": "NKI"
+    },
+    "38_30_DES": {
+        "sentence": "NKI"
+    },
+    "38_31_DES": {
+        "sentence": "NKI"
+    },
+    "38_32_DES": {
+        "sentence": "KSM"
+    },
+    "38_33_DES": {
+        "sentence": "KSM"
+    },
+    "38_34_DES": {
+        "sentence": "VOC"
+    },
+    "38_35_DES": {
+        "sentence": "VOC"
+    },
+    "38_36_DIS": {
+        "sentence": "NKI"
+    },
+    "38_37_DIS": {
+        "sentence": "NKI"
+    },
+    "38_38_DIS": {
+        "sentence": "KSM"
+    },
+    "38_39_DIS": {
+        "sentence": "KSM"
+    },
+    "38_40_DIS": {
+        "sentence": "VOC"
+    },
+    "38_41_DIS": {
+        "sentence": "VOC"
+    },
+    "38_42_ELA": {
+        "sentence": "NKI"
+    },
+    "38_43_ELA": {
+        "sentence": "NKI"
+    },
+    "38_44_ELA": {
+        "sentence": "KSM"
+    },
+    "38_45_ELA": {
+        "sentence": "KSM"
+    },
+    "38_46_ELA": {
+        "sentence": "VOC"
+    },
+    "38_47_ELA": {
+        "sentence": "VOC"
+    },
+    "38_48_ELA": {
+        "sentence": "NKI"
+    },
+    "38_49_ELA": {
+        "sentence": "NKI"
+    },
+    "38_50_ELA": {
+        "sentence": "NKI"
+    },
+    "38_51_ELA": {
+        "sentence": "NKI"
+    },
+    "38_52_ELA": {
+        "sentence": "NKI"
+    },
+    "38_53_ELA": {
+        "sentence": "NKI"
+    },
+    "38_54_HAN": {
+        "sentence": "NKI"
+    },
+    "38_55_HAN": {
+        "sentence": "NKI"
+    },
+    "38_56_HAN": {
+        "sentence": "KSM"
+    },
+    "38_57_HAN": {
+        "sentence": "KSM"
+    },
+    "38_58_HAN": {
+        "sentence": "VOC"
+    },
+    "38_59_HAN": {
+        "sentence": "VOC"
+    },
+    "38_60_INt": {
+        "sentence": "NKI"
+    },
+    "38_61_INt": {
+        "sentence": "NKI"
+    },
+    "38_62_INt": {
+        "sentence": "KSM"
+    },
+    "38_63_INt": {
+        "sentence": "KSM"
+    },
+    "38_64_INt": {
+        "sentence": "VOC"
+    },
+    "38_65_INt": {
+        "sentence": "VOC"
+    },
+    "38_66_PAN": {
+        "sentence": "NKI"
+    },
+    "38_67_PAN": {
+        "sentence": "NKI"
+    },
+    "38_68_PAN": {
+        "sentence": "KSM"
+    },
+    "38_69_PAN": {
+        "sentence": "KSM"
+    },
+    "38_70_PAN": {
+        "sentence": "VOC"
+    },
+    "38_71_PAN": {
+        "sentence": "VOC"
+    },
+    "38_72_PAN": {
+        "sentence": "NKI"
+    },
+    "38_73_PAN": {
+        "sentence": "NKI"
+    },
+    "38_74_PAN": {
+        "sentence": "NKI"
+    },
+    "38_75_PAN": {
+        "sentence": "NKI"
+    },
+    "38_76_PAN": {
+        "sentence": "NKI"
+    },
+    "38_77_PAN": {
+        "sentence": "NKI"
+    },
+    "38_78_PLE": {
+        "sentence": "NKI"
+    },
+    "38_79_PLE": {
+        "sentence": "NKI"
+    },
+    "38_80_PLE": {
+        "sentence": "KSM"
+    },
+    "38_81_PLE": {
+        "sentence": "KSM"
+    },
+    "38_82_PLE": {
+        "sentence": "VOC"
+    },
+    "38_83_PLE": {
+        "sentence": "VOC"
+    },
+    "38_84_PRI": {
+        "sentence": "VOC"
+    },
+    "38_85_PRI": {
+        "sentence": "VOC"
+    },
+    "38_86_PRI": {
+        "sentence": "KSM"
+    },
+    "38_87_PRI": {
+        "sentence": "KSM"
+    },
+    "38_88_PRI": {
+        "sentence": "VOC"
+    },
+    "38_89_PRI": {
+        "sentence": "VOC"
+    },
+    "38_90_PRI": {
+        "sentence": "NKI"
+    },
+    "38_91_PRI": {
+        "sentence": "NKI"
+    },
+    "38_92_PRI": {
+        "sentence": "NKI"
+    },
+    "38_93_PRI": {
+        "sentence": "NKI"
+    },
+    "38_94_PRI": {
+        "sentence": "NKI"
+    },
+    "38_95_PRI": {
+        "sentence": "NKI"
+    },
+    "38_96_REL": {
+        "sentence": "NKI"
+    },
+    "38_97_REL": {
+        "sentence": "NKI"
+    },
+    "38_98_REL": {
+        "sentence": "KSM"
+    },
+    "38_99_REL": {
+        "sentence": "KSM"
+    },
+    "38_100_REL": {
+        "sentence": "VOC"
+    },
+    "38_101_REL": {
+        "sentence": "VOC"
+    },
+    "38_102_REL": {
+        "sentence": "NKI"
+    },
+    "38_103_REL": {
+        "sentence": "NKI"
+    },
+    "38_104_REL": {
+        "sentence": "NKI"
+    },
+    "38_105_REL": {
+        "sentence": "NKI"
+    },
+    "38_106_REL": {
+        "sentence": "NKI"
+    },
+    "38_107_REL": {
+        "sentence": "NKI"
+    },
+    "38_108_SAD": {
+        "sentence": "NKI"
+    },
+    "38_109_SAD": {
+        "sentence": "NKI"
+    },
+    "38_110_SAD": {
+        "sentence": "KSM"
+    },
+    "38_111_SAD": {
+        "sentence": "KSM"
+    },
+    "38_112_SAD": {
+        "sentence": "VOC"
+    },
+    "38_113_SAD": {
+        "sentence": "VOC"
+    },
+    "38_114_SAD": {
+        "sentence": "NKI"
+    },
+    "38_115_SAD": {
+        "sentence": "NKI"
+    },
+    "38_116_SAD": {
+        "sentence": "NKI"
+    },
+    "38_117_SAD": {
+        "sentence": "NKI"
+    },
+    "38_118_SAD": {
+        "sentence": "NKI"
+    },
+    "38_119_SAD": {
+        "sentence": "NKI"
+    },
+    "38_120_SHA": {
+        "sentence": "NKI"
+    },
+    "38_121_SHA": {
+        "sentence": "NKI"
+    },
+    "38_122_SHA": {
+        "sentence": "KSM"
+    },
+    "38_123_SHA": {
+        "sentence": "KSM"
+    },
+    "38_124_SHA": {
+        "sentence": "VOC"
+    },
+    "38_125_SHA": {
+        "sentence": "VOC"
+    },
+    "33_0_AMU": {
+        "sentence": "NKI"
+    },
+    "33_1_AMU": {
+        "sentence": "NKI"
+    },
+    "33_2_AMU": {
+        "sentence": "KSM"
+    },
+    "33_3_AMU": {
+        "sentence": "KSM"
+    },
+    "33_4_AMU": {
+        "sentence": "VOC"
+    },
+    "33_5_AMU": {
+        "sentence": "VOC"
+    },
+    "33_6_AMU": {
+        "sentence": "NKI"
+    },
+    "33_7_AMU": {
+        "sentence": "NKI"
+    },
+    "33_8_AMU": {
+        "sentence": "NKI"
+    },
+    "33_9_AMU": {
+        "sentence": "NKI"
+    },
+    "33_10_AMU": {
+        "sentence": "NKI"
+    },
+    "33_11_AMU": {
+        "sentence": "NKI"
+    },
+    "33_12_ANX": {
+        "sentence": "NKI"
+    },
+    "33_13_ANX": {
+        "sentence": "NKI"
+    },
+    "33_14_ANX": {
+        "sentence": "KSM"
+    },
+    "33_15_ANX": {
+        "sentence": "KSM"
+    },
+    "33_16_ANX": {
+        "sentence": "VOC"
+    },
+    "33_17_ANX": {
+        "sentence": "VOC"
+    },
+    "33_18_ANX": {
+        "sentence": "NKI"
+    },
+    "33_19_ANX": {
+        "sentence": "NKI"
+    },
+    "33_20_ANX": {
+        "sentence": "NKI"
+    },
+    "33_21_ANX": {
+        "sentence": "NKI"
+    },
+    "33_22_ANX": {
+        "sentence": "NKI"
+    },
+    "33_23_ANX": {
+        "sentence": "NKI"
+    },
+    "33_24_CAN": {
+        "sentence": "NKI"
+    },
+    "33_25_CAN": {
+        "sentence": "NKI"
+    },
+    "33_26_CAN": {
+        "sentence": "KSM"
+    },
+    "33_27_CAN": {
+        "sentence": "KSM"
+    },
+    "33_28_CAN": {
+        "sentence": "VOC"
+    },
+    "33_29_CAN": {
+        "sentence": "VOC"
+    },
+    "33_30_CON": {
+        "sentence": "NKI"
+    },
+    "33_31_CON": {
+        "sentence": "NKI"
+    },
+    "33_32_CON": {
+        "sentence": "KSM"
+    },
+    "33_33_CON": {
+        "sentence": "KSM"
+    },
+    "33_34_CON": {
+        "sentence": "VOC"
+    },
+    "33_35_CON": {
+        "sentence": "VOC"
+    },
+    "33_36_DES": {
+        "sentence": "NKI"
+    },
+    "33_37_DES": {
+        "sentence": "NKI"
+    },
+    "33_38_DES": {
+        "sentence": "KSM"
+    },
+    "33_39_DES": {
+        "sentence": "KSM"
+    },
+    "33_40_DES": {
+        "sentence": "VOC"
+    },
+    "33_41_DES": {
+        "sentence": "VOC"
+    },
+    "33_42_DES": {
+        "sentence": "NKI"
+    },
+    "33_43_DES": {
+        "sentence": "NKI"
+    },
+    "33_44_DES": {
+        "sentence": "NKI"
+    },
+    "33_45_DES": {
+        "sentence": "NKI"
+    },
+    "33_46_DES": {
+        "sentence": "NKI"
+    },
+    "33_47_DES": {
+        "sentence": "NKI"
+    },
+    "33_48_ELA": {
+        "sentence": "NKI"
+    },
+    "33_49_ELA": {
+        "sentence": "NKI"
+    },
+    "33_50_ELA": {
+        "sentence": "KSM"
+    },
+    "33_51_ELA": {
+        "sentence": "KSM"
+    },
+    "33_52_ELA": {
+        "sentence": "VOC"
+    },
+    "33_53_ELA": {
+        "sentence": "VOC"
+    },
+    "33_54_ELA": {
+        "sentence": "VOC"
+    },
+    "33_55_HAN": {
+        "sentence": "NKI"
+    },
+    "33_56_HAN": {
+        "sentence": "NKI"
+    },
+    "33_57_HAN": {
+        "sentence": "KSM"
+    },
+    "33_58_HAN": {
+        "sentence": "KSM"
+    },
+    "33_59_HAN": {
+        "sentence": "VOC"
+    },
+    "33_60_HAN": {
+        "sentence": "VOC"
+    },
+    "33_61_HAN": {
+        "sentence": "VOC"
+    },
+    "33_62_HAN": {
+        "sentence": "NKI"
+    },
+    "33_63_HAN": {
+        "sentence": "NKI"
+    },
+    "33_64_HAN": {
+        "sentence": "NKI"
+    },
+    "33_65_HAN": {
+        "sentence": "NKI"
+    },
+    "33_66_HAN": {
+        "sentence": "NKI"
+    },
+    "33_67_HAN": {
+        "sentence": "NKI"
+    },
+    "33_68_INt": {
+        "sentence": "NKI"
+    },
+    "33_69_INt": {
+        "sentence": "NKI"
+    },
+    "33_70_INt": {
+        "sentence": "KSM"
+    },
+    "33_71_INt": {
+        "sentence": "KSM"
+    },
+    "33_72_INt": {
+        "sentence": "VOC"
+    },
+    "33_73_INt": {
+        "sentence": "VOC"
+    },
+    "33_74_INt": {
+        "sentence": "NKI"
+    },
+    "33_75_INt": {
+        "sentence": "NKI"
+    },
+    "33_76_INt": {
+        "sentence": "NKI"
+    },
+    "33_77_INt": {
+        "sentence": "NKI"
+    },
+    "33_78_INt": {
+        "sentence": "NKI"
+    },
+    "33_79_INt": {
+        "sentence": "NKI"
+    },
+    "33_80_PAN": {
+        "sentence": "NKI"
+    },
+    "33_81_PAN": {
+        "sentence": "NKI"
+    },
+    "33_82_PAN": {
+        "sentence": "KSM"
+    },
+    "33_83_PAN": {
+        "sentence": "KSM"
+    },
+    "33_84_PAN": {
+        "sentence": "VOC"
+    },
+    "33_85_PAN": {
+        "sentence": "VOC"
+    },
+    "33_86_PAN": {
+        "sentence": "VOC"
+    },
+    "33_87_PAN": {
+        "sentence": "VOC"
+    },
+    "33_88_PAN": {
+        "sentence": "VOC"
+    },
+    "33_89_PLE": {
+        "sentence": "NKI"
+    },
+    "33_90_PLE": {
+        "sentence": "NKI"
+    },
+    "33_91_PLE": {
+        "sentence": "KSM"
+    },
+    "33_92_PLE": {
+        "sentence": "KSM"
+    },
+    "33_93_PLE": {
+        "sentence": "VOC"
+    },
+    "33_94_PLE": {
+        "sentence": "VOC"
+    },
+    "33_95_PLE": {
+        "sentence": "NKI"
+    },
+    "33_96_PLE": {
+        "sentence": "NKI"
+    },
+    "33_97_PLE": {
+        "sentence": "NKI"
+    },
+    "33_98_PLE": {
+        "sentence": "NKI"
+    },
+    "33_99_PLE": {
+        "sentence": "NKI"
+    },
+    "33_100_PLE": {
+        "sentence": "NKI"
+    },
+    "33_101_PRI": {
+        "sentence": "NKI"
+    },
+    "33_102_PRI": {
+        "sentence": "NKI"
+    },
+    "33_103_PRI": {
+        "sentence": "KSM"
+    },
+    "33_104_PRI": {
+        "sentence": "KSM"
+    },
+    "33_105_PRI": {
+        "sentence": "VOC"
+    },
+    "33_106_PRI": {
+        "sentence": "VOC"
+    },
+    "33_107_REL": {
+        "sentence": "NKI"
+    },
+    "33_108_REL": {
+        "sentence": "NKI"
+    },
+    "33_109_REL": {
+        "sentence": "KSM"
+    },
+    "33_110_REL": {
+        "sentence": "KSM"
+    },
+    "33_111_REL": {
+        "sentence": "VOC"
+    },
+    "33_112_REL": {
+        "sentence": "VOC"
+    },
+    "33_113_SAD": {
+        "sentence": "NKI"
+    },
+    "33_114_SAD": {
+        "sentence": "NKI"
+    },
+    "33_115_SAD": {
+        "sentence": "KSM"
+    },
+    "33_116_SAD": {
+        "sentence": "KSM"
+    },
+    "33_117_SAD": {
+        "sentence": "VOC"
+    },
+    "33_118_SAD": {
+        "sentence": "VOC"
+    },
+    "33_119_TEN": {
+        "sentence": "NKI"
+    },
+    "33_120_TEN": {
+        "sentence": "NKI"
+    },
+    "33_121_TEN": {
+        "sentence": "KSM"
+    },
+    "33_122_TEN": {
+        "sentence": "KSM"
+    },
+    "33_123_TEN": {
+        "sentence": "VOC"
+    },
+    "33_124_TEN": {
+        "sentence": "VOC"
+    },
+    "44_0_AMU": {
+        "sentence": "NKI"
+    },
+    "44_1_AMU": {
+        "sentence": "NKI"
+    },
+    "44_2_AMU": {
+        "sentence": "REV"
+    },
+    "44_3_AMU": {
+        "sentence": "REV"
+    },
+    "44_4_AMU": {
+        "sentence": "VOC"
+    },
+    "44_5_AMU": {
+        "sentence": "VOC"
+    },
+    "44_6_AMU": {
+        "sentence": "NKI"
+    },
+    "44_7_AMU": {
+        "sentence": "NKI"
+    },
+    "44_8_AMU": {
+        "sentence": "NKI"
+    },
+    "44_9_AMU": {
+        "sentence": "NKI"
+    },
+    "44_10_AMU": {
+        "sentence": "NKI"
+    },
+    "44_11_AMU": {
+        "sentence": "NKI"
+    },
+    "44_12_ANX": {
+        "sentence": "NKI"
+    },
+    "44_13_ANX": {
+        "sentence": "NKI"
+    },
+    "44_14_ANX": {
+        "sentence": "KSM"
+    },
+    "44_15_ANX": {
+        "sentence": "KSM"
+    },
+    "44_16_ANX": {
+        "sentence": "VOC"
+    },
+    "44_17_ANX": {
+        "sentence": "VOC"
+    },
+    "44_18_ANX": {
+        "sentence": "NKI"
+    },
+    "44_19_ANX": {
+        "sentence": "NKI"
+    },
+    "44_20_ANX": {
+        "sentence": "NKI"
+    },
+    "44_21_ANX": {
+        "sentence": "NKI"
+    },
+    "44_22_ANX": {
+        "sentence": "NKI"
+    },
+    "44_23_ANX": {
+        "sentence": "NKI"
+    },
+    "44_24_CAN": {
+        "sentence": "NKI"
+    },
+    "44_25_CAN": {
+        "sentence": "NKI"
+    },
+    "44_26_CAN": {
+        "sentence": "KSM"
+    },
+    "44_27_CAN": {
+        "sentence": "KSM"
+    },
+    "44_28_CAN": {
+        "sentence": "VOC"
+    },
+    "44_29_CAN": {
+        "sentence": "VOC"
+    },
+    "44_30_CON": {
+        "sentence": "NKI"
+    },
+    "44_31_CON": {
+        "sentence": "NKI"
+    },
+    "44_32_CON": {
+        "sentence": "KSM"
+    },
+    "44_33_CON": {
+        "sentence": "KSM"
+    },
+    "44_34_CON": {
+        "sentence": "VOC"
+    },
+    "44_35_CON": {
+        "sentence": "VOC"
+    },
+    "44_36_DES": {
+        "sentence": "NKI"
+    },
+    "44_37_DES": {
+        "sentence": "NKI"
+    },
+    "44_38_DES": {
+        "sentence": "KSM"
+    },
+    "44_39_DES": {
+        "sentence": "KSM"
+    },
+    "44_40_DES": {
+        "sentence": "VOC"
+    },
+    "44_41_DES": {
+        "sentence": "VOC"
+    },
+    "44_42_DES": {
+        "sentence": "NKI"
+    },
+    "44_43_DES": {
+        "sentence": "NKI"
+    },
+    "44_44_DES": {
+        "sentence": "NKI"
+    },
+    "44_45_DES": {
+        "sentence": "NKI"
+    },
+    "44_46_DES": {
+        "sentence": "NKI"
+    },
+    "44_47_DES": {
+        "sentence": "NKI"
+    },
+    "44_48_ELA": {
+        "sentence": "NKI"
+    },
+    "44_49_ELA": {
+        "sentence": "NKI"
+    },
+    "44_50_ELA": {
+        "sentence": "KSM"
+    },
+    "44_51_ELA": {
+        "sentence": "KSM"
+    },
+    "44_52_ELA": {
+        "sentence": "VOC"
+    },
+    "44_53_ELA": {
+        "sentence": "VOC"
+    },
+    "44_54_HAN": {
+        "sentence": "NKI"
+    },
+    "44_55_HAN": {
+        "sentence": "NKI"
+    },
+    "44_56_HAN": {
+        "sentence": "KSM"
+    },
+    "44_57_HAN": {
+        "sentence": "KSM"
+    },
+    "44_58_HAN": {
+        "sentence": "VOC"
+    },
+    "44_59_HAN": {
+        "sentence": "VOC"
+    },
+    "44_60_HAN": {
+        "sentence": "NKI"
+    },
+    "44_61_HAN": {
+        "sentence": "NKI"
+    },
+    "44_62_HAN": {
+        "sentence": "NKI"
+    },
+    "44_63_HAN": {
+        "sentence": "NKI"
+    },
+    "44_64_HAN": {
+        "sentence": "NKI"
+    },
+    "44_65_HAN": {
+        "sentence": "NKI"
+    },
+    "44_66_INt": {
+        "sentence": "NKI"
+    },
+    "44_67_INt": {
+        "sentence": "NKI"
+    },
+    "44_68_INt": {
+        "sentence": "KSM"
+    },
+    "44_69_INt": {
+        "sentence": "KSM"
+    },
+    "44_70_INt": {
+        "sentence": "VOC"
+    },
+    "44_71_INt": {
+        "sentence": "VOC"
+    },
+    "44_72_INt": {
+        "sentence": "NKI"
+    },
+    "44_73_INt": {
+        "sentence": "NKI"
+    },
+    "44_74_INt": {
+        "sentence": "NKI"
+    },
+    "44_75_INt": {
+        "sentence": "NKI"
+    },
+    "44_76_INt": {
+        "sentence": "NKI"
+    },
+    "44_77_INt": {
+        "sentence": "NKI"
+    },
+    "44_78_PAN": {
+        "sentence": "NKI"
+    },
+    "44_79_PAN": {
+        "sentence": "NKI"
+    },
+    "44_80_PAN": {
+        "sentence": "KSM"
+    },
+    "44_81_PAN": {
+        "sentence": "KSM"
+    },
+    "44_82_PAN": {
+        "sentence": "VOC"
+    },
+    "44_83_PAN": {
+        "sentence": "VOC"
+    },
+    "44_84_PLE": {
+        "sentence": "NKI"
+    },
+    "44_85_PLE": {
+        "sentence": "NKI"
+    },
+    "44_86_PLE": {
+        "sentence": "KSM"
+    },
+    "44_87_PLE": {
+        "sentence": "KSM"
+    },
+    "44_88_PLE": {
+        "sentence": "VOC"
+    },
+    "44_89_PLE": {
+        "sentence": "VOC"
+    },
+    "44_90_PLE": {
+        "sentence": "NKI"
+    },
+    "44_91_PLE": {
+        "sentence": "NKI"
+    },
+    "44_92_PLE": {
+        "sentence": "NKI"
+    },
+    "44_93_PLE": {
+        "sentence": "NKI"
+    },
+    "44_94_PLE": {
+        "sentence": "NKI"
+    },
+    "44_95_PLE": {
+        "sentence": "NKI"
+    },
+    "44_96_PRI": {
+        "sentence": "NKI"
+    },
+    "44_97_PRI": {
+        "sentence": "NKI"
+    },
+    "44_98_PRI": {
+        "sentence": "KSM"
+    },
+    "44_99_PRI": {
+        "sentence": "KSM"
+    },
+    "44_100_PRI": {
+        "sentence": "VOC"
+    },
+    "44_101_PRI": {
+        "sentence": "VOC"
+    },
+    "44_102_REL": {
+        "sentence": "NKI"
+    },
+    "44_103_REL": {
+        "sentence": "NKI"
+    },
+    "44_104_REL": {
+        "sentence": "KSM"
+    },
+    "44_105_REL": {
+        "sentence": "KSM"
+    },
+    "44_106_REL": {
+        "sentence": "VOC"
+    },
+    "44_107_REL": {
+        "sentence": "VOC"
+    },
+    "44_108_SAD": {
+        "sentence": "NKI"
+    },
+    "44_109_SAD": {
+        "sentence": "NKI"
+    },
+    "44_110_SAD": {
+        "sentence": "KSM"
+    },
+    "44_111_SAD": {
+        "sentence": "KSM"
+    },
+    "44_112_SAD": {
+        "sentence": "VOC"
+    },
+    "44_113_SAD": {
+        "sentence": "VOC"
+    },
+    "44_114_TEN": {
+        "sentence": "NKI"
+    },
+    "44_115_TEN": {
+        "sentence": "NKI"
+    },
+    "44_116_TEN": {
+        "sentence": "KSM"
+    },
+    "44_117_TEN": {
+        "sentence": "KSM"
+    },
+    "44_118_TEN": {
+        "sentence": "VOC"
+    },
+    "44_119_TEN": {
+        "sentence": "VOC"
+    },
+    "25_0_AMU": {
+        "sentence": "NKI"
+    },
+    "25_1_AMU": {
+        "sentence": "NKI"
+    },
+    "25_2_AMU": {
+        "sentence": "KSM"
+    },
+    "25_3_AMU": {
+        "sentence": "KSM"
+    },
+    "25_4_AMU": {
+        "sentence": "VOC"
+    },
+    "25_5_AMU": {
+        "sentence": "VOC"
+    },
+    "25_6_AMU": {
+        "sentence": "NKI"
+    },
+    "25_7_AMU": {
+        "sentence": "NKI"
+    },
+    "25_8_AMU": {
+        "sentence": "NKI"
+    },
+    "25_9_AMU": {
+        "sentence": "NKI"
+    },
+    "25_10_AMU": {
+        "sentence": "NKI"
+    },
+    "25_11_AMU": {
+        "sentence": "NKI"
+    },
+    "25_12_ANX": {
+        "sentence": "NKI"
+    },
+    "25_13_ANX": {
+        "sentence": "NKI"
+    },
+    "25_14_ANX": {
+        "sentence": "KSM"
+    },
+    "25_15_ANX": {
+        "sentence": "KSM"
+    },
+    "25_16_ANX": {
+        "sentence": "VOC"
+    },
+    "25_17_ANX": {
+        "sentence": "VOC"
+    },
+    "25_18_ANX": {
+        "sentence": "NKI"
+    },
+    "25_19_ANX": {
+        "sentence": "NKI"
+    },
+    "25_20_ANX": {
+        "sentence": "NKI"
+    },
+    "25_21_ANX": {
+        "sentence": "NKI"
+    },
+    "25_22_ANX": {
+        "sentence": "NKI"
+    },
+    "25_23_ANX": {
+        "sentence": "NKI"
+    },
+    "25_24_CAN": {
+        "sentence": "KSM"
+    },
+    "25_25_CAN": {
+        "sentence": "KSM"
+    },
+    "25_26_CAN": {
+        "sentence": "KSM"
+    },
+    "25_27_CAN": {
+        "sentence": "KSM"
+    },
+    "25_28_CAN": {
+        "sentence": "VOC"
+    },
+    "25_29_CAN": {
+        "sentence": "VOC"
+    },
+    "25_30_CON": {
+        "sentence": "NKI"
+    },
+    "25_31_CON": {
+        "sentence": "NKI"
+    },
+    "25_32_CON": {
+        "sentence": "KSM"
+    },
+    "25_33_CON": {
+        "sentence": "KSM"
+    },
+    "25_34_CON": {
+        "sentence": "VOC"
+    },
+    "25_35_CON": {
+        "sentence": "VOC"
+    },
+    "25_36_DES": {
+        "sentence": "NKI"
+    },
+    "25_37_DES": {
+        "sentence": "NKI"
+    },
+    "25_38_DES": {
+        "sentence": "KSM"
+    },
+    "25_39_DES": {
+        "sentence": "KSM"
+    },
+    "25_40_DES": {
+        "sentence": "VOC"
+    },
+    "25_41_DES": {
+        "sentence": "VOC"
+    },
+    "25_42_DES": {
+        "sentence": "NKI"
+    },
+    "25_43_DES": {
+        "sentence": "NKI"
+    },
+    "25_44_DES": {
+        "sentence": "NKI"
+    },
+    "25_45_DES": {
+        "sentence": "NKI"
+    },
+    "25_46_DES": {
+        "sentence": "NKI"
+    },
+    "25_47_DES": {
+        "sentence": "NKI"
+    },
+    "25_48_ELA": {
+        "sentence": "NKI"
+    },
+    "25_49_ELA": {
+        "sentence": "NKI"
+    },
+    "25_50_ELA": {
+        "sentence": "KSM"
+    },
+    "25_51_ELA": {
+        "sentence": "KSM"
+    },
+    "25_52_ELA": {
+        "sentence": "VOC"
+    },
+    "25_53_ELA": {
+        "sentence": "VOC"
+    },
+    "25_54_HAN": {
+        "sentence": "NKI"
+    },
+    "25_55_HAN": {
+        "sentence": "NKI"
+    },
+    "25_56_HAN": {
+        "sentence": "KSM"
+    },
+    "25_57_HAN": {
+        "sentence": "KSM"
+    },
+    "25_58_HAN": {
+        "sentence": "VOC"
+    },
+    "25_59_HAN": {
+        "sentence": "VOC"
+    },
+    "25_60_HAN": {
+        "sentence": "NKI"
+    },
+    "25_61_HAN": {
+        "sentence": "NKI"
+    },
+    "25_62_HAN": {
+        "sentence": "NKI"
+    },
+    "25_63_HAN": {
+        "sentence": "NKI"
+    },
+    "25_64_HAN": {
+        "sentence": "NKI"
+    },
+    "25_65_HAN": {
+        "sentence": "NKI"
+    },
+    "25_66_INt": {
+        "sentence": "NKI"
+    },
+    "25_67_INt": {
+        "sentence": "NKI"
+    },
+    "25_68_INt": {
+        "sentence": "KSM"
+    },
+    "25_69_INt": {
+        "sentence": "KSM"
+    },
+    "25_70_INt": {
+        "sentence": "VOC"
+    },
+    "25_71_INt": {
+        "sentence": "VOC"
+    },
+    "25_72_INt": {
+        "sentence": "NKI"
+    },
+    "25_73_INt": {
+        "sentence": "NKI"
+    },
+    "25_74_INt": {
+        "sentence": "NKI"
+    },
+    "25_75_INt": {
+        "sentence": "NKI"
+    },
+    "25_76_INt": {
+        "sentence": "NKI"
+    },
+    "25_77_INt": {
+        "sentence": "NKI"
+    },
+    "25_78_PAN": {
+        "sentence": "NKI"
+    },
+    "25_79_PAN": {
+        "sentence": "NKI"
+    },
+    "25_80_PAN": {
+        "sentence": "KSM"
+    },
+    "25_81_PAN": {
+        "sentence": "KSM"
+    },
+    "25_82_PAN": {
+        "sentence": "VOC"
+    },
+    "25_83_PAN": {
+        "sentence": "VOC"
+    },
+    "25_84_PAN": {
+        "sentence": "VOC"
+    },
+    "25_85_PLE": {
+        "sentence": "NKI"
+    },
+    "25_86_PLE": {
+        "sentence": "NKI"
+    },
+    "25_87_PLE": {
+        "sentence": "KSM"
+    },
+    "25_88_PLE": {
+        "sentence": "KSM"
+    },
+    "25_89_PLE": {
+        "sentence": "VOC"
+    },
+    "25_90_PLE": {
+        "sentence": "VOC"
+    },
+    "25_91_PLE": {
+        "sentence": "NKI"
+    },
+    "25_92_PLE": {
+        "sentence": "NKI"
+    },
+    "25_93_PLE": {
+        "sentence": "NKI"
+    },
+    "25_94_PLE": {
+        "sentence": "NKI"
+    },
+    "25_95_PLE": {
+        "sentence": "NKI"
+    },
+    "25_96_PLE": {
+        "sentence": "NKI"
+    },
+    "25_97_PRI": {
+        "sentence": "NKI"
+    },
+    "25_98_PRI": {
+        "sentence": "NKI"
+    },
+    "25_99_PRI": {
+        "sentence": "KSM"
+    },
+    "25_100_PRI": {
+        "sentence": "KSM"
+    },
+    "25_101_PRI": {
+        "sentence": "VOC"
+    },
+    "25_102_PRI": {
+        "sentence": "VOC"
+    },
+    "25_103_REL": {
+        "sentence": "NKI"
+    },
+    "25_104_REL": {
+        "sentence": "NKI"
+    },
+    "25_105_REL": {
+        "sentence": "KSM"
+    },
+    "25_106_REL": {
+        "sentence": "KSM"
+    },
+    "25_107_REL": {
+        "sentence": "VOC"
+    },
+    "25_108_REL": {
+        "sentence": "VOC"
+    },
+    "25_109_SAD": {
+        "sentence": "NKI"
+    },
+    "25_110_SAD": {
+        "sentence": "NKI"
+    },
+    "25_111_SAD": {
+        "sentence": "KSM"
+    },
+    "25_112_SAD": {
+        "sentence": "KSM"
+    },
+    "25_113_SAD": {
+        "sentence": "VOC"
+    },
+    "25_114_SAD": {
+        "sentence": "VOC"
+    },
+    "25_115_TEN": {
+        "sentence": "NKI"
+    },
+    "25_116_TEN": {
+        "sentence": "NKI"
+    },
+    "25_117_TEN": {
+        "sentence": "KSM"
+    },
+    "25_118_TEN": {
+        "sentence": "KSM"
+    },
+    "25_119_TEN": {
+        "sentence": "VOC"
+    },
+    "25_120_TEN": {
+        "sentence": "VOC"
+    },
+    "45_0_ADM": {
+        "sentence": "NKI"
+    },
+    "45_1_ADM": {
+        "sentence": "NKI"
+    },
+    "45_2_ADM": {
+        "sentence": "KSM"
+    },
+    "45_3_ADM": {
+        "sentence": "KSM"
+    },
+    "45_4_ADM": {
+        "sentence": "VOC"
+    },
+    "45_5_ADM": {
+        "sentence": "VOC"
+    },
+    "45_6_AMU": {
+        "sentence": "NKI"
+    },
+    "45_7_AMU": {
+        "sentence": "NKI"
+    },
+    "45_8_AMU": {
+        "sentence": "KSM"
+    },
+    "45_9_AMU": {
+        "sentence": "KSM"
+    },
+    "45_10_AMU": {
+        "sentence": "VOC"
+    },
+    "45_11_AMU": {
+        "sentence": "VOC"
+    },
+    "45_12_ANX": {
+        "sentence": "NKI"
+    },
+    "45_13_ANX": {
+        "sentence": "NKI"
+    },
+    "45_14_ANX": {
+        "sentence": "KSM"
+    },
+    "45_15_ANX": {
+        "sentence": "KSM"
+    },
+    "45_16_ANX": {
+        "sentence": "VOC"
+    },
+    "45_17_ANX": {
+        "sentence": "VOC"
+    },
+    "45_18_CAN": {
+        "sentence": "NKI"
+    },
+    "45_19_CAN": {
+        "sentence": "NKI"
+    },
+    "45_20_CAN": {
+        "sentence": "KSM"
+    },
+    "45_21_CAN": {
+        "sentence": "KSM"
+    },
+    "45_22_CAN": {
+        "sentence": "VOC"
+    },
+    "45_23_CAN": {
+        "sentence": "VOC"
+    },
+    "45_24_CAN": {
+        "sentence": "NKI"
+    },
+    "45_25_CAN": {
+        "sentence": "NKI"
+    },
+    "45_26_CAN": {
+        "sentence": "NKI"
+    },
+    "45_27_CAN": {
+        "sentence": "NKI"
+    },
+    "45_28_CAN": {
+        "sentence": "NKI"
+    },
+    "45_29_CAN": {
+        "sentence": "NKI"
+    },
+    "45_30_DES": {
+        "sentence": "NKI"
+    },
+    "45_31_DES": {
+        "sentence": "NKI"
+    },
+    "45_32_DES": {
+        "sentence": "KSM"
+    },
+    "45_33_DES": {
+        "sentence": "KSM"
+    },
+    "45_34_DES": {
+        "sentence": "VOC"
+    },
+    "45_35_DES": {
+        "sentence": "VOC"
+    },
+    "45_36_DIS": {
+        "sentence": "REV"
+    },
+    "45_37_DIS": {
+        "sentence": "REV"
+    },
+    "45_38_DIS": {
+        "sentence": "KSM"
+    },
+    "45_39_DIS": {
+        "sentence": "KSM"
+    },
+    "45_40_DIS": {
+        "sentence": "VOC"
+    },
+    "45_41_DIS": {
+        "sentence": "VOC"
+    },
+    "45_42_ELA": {
+        "sentence": "NKI"
+    },
+    "45_43_ELA": {
+        "sentence": "NKI"
+    },
+    "45_44_ELA": {
+        "sentence": "KSM"
+    },
+    "45_45_ELA": {
+        "sentence": "KSM"
+    },
+    "45_46_ELA": {
+        "sentence": "VOC"
+    },
+    "45_47_ELA": {
+        "sentence": "VOC"
+    },
+    "45_48_ELA": {
+        "sentence": "NKI"
+    },
+    "45_49_ELA": {
+        "sentence": "NKI"
+    },
+    "45_50_ELA": {
+        "sentence": "NKI"
+    },
+    "45_51_ELA": {
+        "sentence": "NKI"
+    },
+    "45_52_ELA": {
+        "sentence": "NKI"
+    },
+    "45_53_ELA": {
+        "sentence": "NKI"
+    },
+    "45_54_HAN": {
+        "sentence": "NKI"
+    },
+    "45_55_HAN": {
+        "sentence": "NKI"
+    },
+    "45_56_HAN": {
+        "sentence": "KSM"
+    },
+    "45_57_HAN": {
+        "sentence": "KSM"
+    },
+    "45_58_HAN": {
+        "sentence": "VOC"
+    },
+    "45_59_HAN": {
+        "sentence": "VOC"
+    },
+    "45_60_INt": {
+        "sentence": "NKI"
+    },
+    "45_61_INt": {
+        "sentence": "NKI"
+    },
+    "45_62_INt": {
+        "sentence": "KSM"
+    },
+    "45_63_INt": {
+        "sentence": "KSM"
+    },
+    "45_64_INt": {
+        "sentence": "VOC"
+    },
+    "45_65_INt": {
+        "sentence": "VOC"
+    },
+    "45_66_PAN": {
+        "sentence": "NKI"
+    },
+    "45_67_PAN": {
+        "sentence": "NKI"
+    },
+    "45_68_PAN": {
+        "sentence": "KSM"
+    },
+    "45_69_PAN": {
+        "sentence": "KSM"
+    },
+    "45_70_PAN": {
+        "sentence": "VOC"
+    },
+    "45_71_PAN": {
+        "sentence": "VOC"
+    },
+    "45_72_PAN": {
+        "sentence": "NKI"
+    },
+    "45_73_PAN": {
+        "sentence": "NKI"
+    },
+    "45_74_PAN": {
+        "sentence": "NKI"
+    },
+    "45_75_PAN": {
+        "sentence": "NKI"
+    },
+    "45_76_PAN": {
+        "sentence": "NKI"
+    },
+    "45_77_PAN": {
+        "sentence": "NKI"
+    },
+    "45_78_PLE": {
+        "sentence": "NKI"
+    },
+    "45_79_PLE": {
+        "sentence": "NKI"
+    },
+    "45_80_PLE": {
+        "sentence": "KSM"
+    },
+    "45_81_PLE": {
+        "sentence": "KSM"
+    },
+    "45_82_PLE": {
+        "sentence": "VOC"
+    },
+    "45_83_PLE": {
+        "sentence": "VOC"
+    },
+    "45_84_PRI": {
+        "sentence": "NKI"
+    },
+    "45_85_PRI": {
+        "sentence": "NKI"
+    },
+    "45_86_PRI": {
+        "sentence": "KSM"
+    },
+    "45_87_PRI": {
+        "sentence": "KSM"
+    },
+    "45_88_PRI": {
+        "sentence": "VOC"
+    },
+    "45_89_PRI": {
+        "sentence": "VOC"
+    },
+    "45_90_PRI": {
+        "sentence": "NKI"
+    },
+    "45_91_PRI": {
+        "sentence": "NKI"
+    },
+    "45_92_PRI": {
+        "sentence": "NKI"
+    },
+    "45_93_PRI": {
+        "sentence": "NKI"
+    },
+    "45_94_PRI": {
+        "sentence": "NKI"
+    },
+    "45_95_PRI": {
+        "sentence": "NKI"
+    },
+    "45_96_REL": {
+        "sentence": "NKI"
+    },
+    "45_97_REL": {
+        "sentence": "NKI"
+    },
+    "45_98_REL": {
+        "sentence": "KSM"
+    },
+    "45_99_REL": {
+        "sentence": "KSM"
+    },
+    "45_100_REL": {
+        "sentence": "VOC"
+    },
+    "45_101_REL": {
+        "sentence": "VOC"
+    },
+    "45_102_REL": {
+        "sentence": "NKI"
+    },
+    "45_103_REL": {
+        "sentence": "NKI"
+    },
+    "45_104_REL": {
+        "sentence": "NKI"
+    },
+    "45_105_REL": {
+        "sentence": "NKI"
+    },
+    "45_106_REL": {
+        "sentence": "NKI"
+    },
+    "45_107_REL": {
+        "sentence": "NKI"
+    },
+    "45_108_SAD": {
+        "sentence": "NKI"
+    },
+    "45_109_SAD": {
+        "sentence": "NKI"
+    },
+    "45_110_SAD": {
+        "sentence": "KSM"
+    },
+    "45_111_SAD": {
+        "sentence": "KSM"
+    },
+    "45_112_SAD": {
+        "sentence": "VOC"
+    },
+    "45_113_SAD": {
+        "sentence": "VOC"
+    },
+    "45_114_SAD": {
+        "sentence": "NKI"
+    },
+    "45_115_SAD": {
+        "sentence": "NKI"
+    },
+    "45_116_SAD": {
+        "sentence": "NKI"
+    },
+    "45_117_SAD": {
+        "sentence": "NKI"
+    },
+    "45_118_SAD": {
+        "sentence": "NKI"
+    },
+    "45_119_SAD": {
+        "sentence": "NKI"
+    },
+    "45_120_SHA": {
+        "sentence": "NKI"
+    },
+    "45_121_SHA": {
+        "sentence": "NKI"
+    },
+    "45_122_SHA": {
+        "sentence": "KSM"
+    },
+    "45_123_SHA": {
+        "sentence": "KSM"
+    },
+    "45_124_SHA": {
+        "sentence": "VOC"
+    },
+    "45_125_SHA": {
+        "sentence": "VOC"
+    },
+    "29_0_ADM": {
+        "sentence": "NKI"
+    },
+    "29_1_ADM": {
+        "sentence": "NKI"
+    },
+    "29_2_ADM": {
+        "sentence": "KSM"
+    },
+    "29_3_ADM": {
+        "sentence": "KSM"
+    },
+    "29_4_ADM": {
+        "sentence": "VOC"
+    },
+    "29_5_ADM": {
+        "sentence": "VOC"
+    },
+    "29_6_AMU": {
+        "sentence": "NKI"
+    },
+    "29_7_AMU": {
+        "sentence": "NKI"
+    },
+    "29_8_AMU": {
+        "sentence": "KSM"
+    },
+    "29_9_AMU": {
+        "sentence": "KSM"
+    },
+    "29_10_AMU": {
+        "sentence": "VOC"
+    },
+    "29_11_AMU": {
+        "sentence": "VOC"
+    },
+    "29_12_ANX": {
+        "sentence": "NKI"
+    },
+    "29_13_ANX": {
+        "sentence": "NKI"
+    },
+    "29_14_ANX": {
+        "sentence": "KSM"
+    },
+    "29_15_ANX": {
+        "sentence": "KSM"
+    },
+    "29_16_ANX": {
+        "sentence": "VOC"
+    },
+    "29_17_ANX": {
+        "sentence": "VOC"
+    },
+    "29_18_CAN": {
+        "sentence": "NKI"
+    },
+    "29_19_CAN": {
+        "sentence": "NKI"
+    },
+    "29_20_CAN": {
+        "sentence": "KSM"
+    },
+    "29_21_CAN": {
+        "sentence": "KSM"
+    },
+    "29_22_CAN": {
+        "sentence": "VOC"
+    },
+    "29_23_CAN": {
+        "sentence": "VOC"
+    },
+    "29_24_CAN": {
+        "sentence": "NKI"
+    },
+    "29_25_CAN": {
+        "sentence": "NKI"
+    },
+    "29_26_CAN": {
+        "sentence": "NKI"
+    },
+    "29_27_CAN": {
+        "sentence": "NKI"
+    },
+    "29_28_CAN": {
+        "sentence": "NKI"
+    },
+    "29_29_CAN": {
+        "sentence": "NKI"
+    },
+    "29_30_DES": {
+        "sentence": "NKI"
+    },
+    "29_31_DES": {
+        "sentence": "NKI"
+    },
+    "29_32_DES": {
+        "sentence": "KSM"
+    },
+    "29_33_DES": {
+        "sentence": "KSM"
+    },
+    "29_34_DES": {
+        "sentence": "VOC"
+    },
+    "29_35_DES": {
+        "sentence": "VOC"
+    },
+    "29_36_DIS": {
+        "sentence": "NKI"
+    },
+    "29_37_DIS": {
+        "sentence": "NKI"
+    },
+    "29_38_DIS": {
+        "sentence": "KSM"
+    },
+    "29_39_DIS": {
+        "sentence": "KSM"
+    },
+    "29_40_DIS": {
+        "sentence": "VOC"
+    },
+    "29_41_DIS": {
+        "sentence": "VOC"
+    },
+    "29_42_ELA": {
+        "sentence": "NKI"
+    },
+    "29_43_ELA": {
+        "sentence": "NKI"
+    },
+    "29_44_ELA": {
+        "sentence": "KSM"
+    },
+    "29_45_ELA": {
+        "sentence": "KSM"
+    },
+    "29_46_ELA": {
+        "sentence": "VOC"
+    },
+    "29_47_ELA": {
+        "sentence": "VOC"
+    },
+    "29_48_ELA": {
+        "sentence": "NKI"
+    },
+    "29_49_ELA": {
+        "sentence": "NKI"
+    },
+    "29_50_ELA": {
+        "sentence": "NKI"
+    },
+    "29_51_ELA": {
+        "sentence": "NKI"
+    },
+    "29_52_ELA": {
+        "sentence": "NKI"
+    },
+    "29_53_ELA": {
+        "sentence": "NKI"
+    },
+    "29_54_HAN": {
+        "sentence": "NKI"
+    },
+    "29_55_HAN": {
+        "sentence": "NKI"
+    },
+    "29_56_HAN": {
+        "sentence": "KSM"
+    },
+    "29_57_HAN": {
+        "sentence": "KSM"
+    },
+    "29_58_HAN": {
+        "sentence": "VOC"
+    },
+    "29_59_HAN": {
+        "sentence": "VOC"
+    },
+    "29_60_INt": {
+        "sentence": "NKI"
+    },
+    "29_61_INt": {
+        "sentence": "NKI"
+    },
+    "29_62_INt": {
+        "sentence": "KSM"
+    },
+    "29_63_INt": {
+        "sentence": "KSM"
+    },
+    "29_64_INt": {
+        "sentence": "VOC"
+    },
+    "29_65_INt": {
+        "sentence": "VOC"
+    },
+    "29_66_PAN": {
+        "sentence": "NKI"
+    },
+    "29_67_PAN": {
+        "sentence": "NKI"
+    },
+    "29_68_PAN": {
+        "sentence": "KSM"
+    },
+    "29_69_PAN": {
+        "sentence": "KSM"
+    },
+    "29_70_PAN": {
+        "sentence": "VOC"
+    },
+    "29_71_PAN": {
+        "sentence": "VOC"
+    },
+    "29_72_PAN": {
+        "sentence": "NKI"
+    },
+    "29_73_PAN": {
+        "sentence": "NKI"
+    },
+    "29_74_PAN": {
+        "sentence": "NKI"
+    },
+    "29_75_PAN": {
+        "sentence": "NKI"
+    },
+    "29_76_PAN": {
+        "sentence": "NKI"
+    },
+    "29_77_PAN": {
+        "sentence": "NKI"
+    },
+    "29_78_PLE": {
+        "sentence": "NKI"
+    },
+    "29_79_PLE": {
+        "sentence": "NKI"
+    },
+    "29_80_PLE": {
+        "sentence": "KSM"
+    },
+    "29_81_PLE": {
+        "sentence": "KSM"
+    },
+    "29_82_PLE": {
+        "sentence": "VOC"
+    },
+    "29_83_PLE": {
+        "sentence": "VOC"
+    },
+    "29_84_PRI": {
+        "sentence": "NKI"
+    },
+    "29_85_PRI": {
+        "sentence": "NKI"
+    },
+    "29_86_PRI": {
+        "sentence": "KSM"
+    },
+    "29_87_PRI": {
+        "sentence": "KSM"
+    },
+    "29_88_PRI": {
+        "sentence": "VOC"
+    },
+    "29_89_PRI": {
+        "sentence": "VOC"
+    },
+    "29_90_PRI": {
+        "sentence": "NKI"
+    },
+    "29_91_PRI": {
+        "sentence": "NKI"
+    },
+    "29_92_PRI": {
+        "sentence": "NKI"
+    },
+    "29_93_PRI": {
+        "sentence": "NKI"
+    },
+    "29_94_PRI": {
+        "sentence": "NKI"
+    },
+    "29_95_PRI": {
+        "sentence": "NKI"
+    },
+    "29_96_REL": {
+        "sentence": "NKI"
+    },
+    "29_97_REL": {
+        "sentence": "NKI"
+    },
+    "29_98_REL": {
+        "sentence": "KSM"
+    },
+    "29_99_REL": {
+        "sentence": "KSM"
+    },
+    "29_100_REL": {
+        "sentence": "VOC"
+    },
+    "29_101_REL": {
+        "sentence": "VOC"
+    },
+    "29_102_REL": {
+        "sentence": "NKI"
+    },
+    "29_103_REL": {
+        "sentence": "NKI"
+    },
+    "29_104_REL": {
+        "sentence": "NKI"
+    },
+    "29_105_REL": {
+        "sentence": "NKI"
+    },
+    "29_106_REL": {
+        "sentence": "NKI"
+    },
+    "29_107_REL": {
+        "sentence": "NKI"
+    },
+    "29_108_SAD": {
+        "sentence": "NKI"
+    },
+    "29_109_SAD": {
+        "sentence": "NKI"
+    },
+    "29_110_SAD": {
+        "sentence": "KSM"
+    },
+    "29_111_SAD": {
+        "sentence": "KSM"
+    },
+    "29_112_SAD": {
+        "sentence": "VOC"
+    },
+    "29_113_SAD": {
+        "sentence": "VOC"
+    },
+    "29_114_SAD": {
+        "sentence": "NKI"
+    },
+    "29_115_SAD": {
+        "sentence": "NKI"
+    },
+    "29_116_SAD": {
+        "sentence": "NKI"
+    },
+    "29_117_SAD": {
+        "sentence": "NKI"
+    },
+    "29_118_SAD": {
+        "sentence": "NKI"
+    },
+    "29_119_SAD": {
+        "sentence": "NKI"
+    },
+    "29_120_SHA": {
+        "sentence": "NKI"
+    },
+    "29_121_SHA": {
+        "sentence": "NKI"
+    },
+    "29_122_SHA": {
+        "sentence": "KSM"
+    },
+    "29_123_SHA": {
+        "sentence": "KSM"
+    },
+    "29_124_SHA": {
+        "sentence": "VOC"
+    },
+    "29_125_SHA": {
+        "sentence": "VOC"
+    }
+}
