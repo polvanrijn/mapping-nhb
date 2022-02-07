@@ -17,6 +17,9 @@ out_all <- load_corpora(EMOTIONS, 'eGeMAPS', '../../data/csv/', fully_balanced =
 n_factor <- 7
 fa <- suppressWarnings(psych::principal(out_all$X, nfactors = n_factor, rotate = 'varimax'))
 
+# Matrix to long df
+factor.df.wide <- data.frame(fa$loadings[,])
+saveRDS(factor.df.wide, '../../data/factor_df_wide.RDS')
 
 # Get the hofstede dimensions
 hofstede_sel <- read.csv('dimensions/hofstede/hofstede-insights.csv') %>%
