@@ -9,6 +9,9 @@ eGeMAPS_data = cbind(out_all$X, out_all$meta) %>%
   mutate(filename = as.character(filename)) %>%
   arrange(filename)
 
+eGeMAPS_data %>%
+  saveRDS('../../data/eGeMAPS_data.RDS')
+
 data_all = readRDS('../../data/data_all.RDS') %>%
   mutate(filename = as.character(filename)) %>%
   arrange(filename)
@@ -75,7 +78,7 @@ sort(table(eGeMAPS_data$language))
 
 languages = c('English', 'Basque', 'Hindi', 'Telugu')
 language_correlation_df = mean_crossed_correlation(eGeMAPS_data, 'language', languages)
-saveRDS(language_correlation_df, 'cross_language_correlation_factor.RDS')
+saveRDS(language_correlation_df, '../../data/cross_language_correlation_factor.RDS')
 
 # Plot it if you like
 language_correlation_df %>%
@@ -101,7 +104,7 @@ language_correlation_df %>%
 sort(table(eGeMAPS_data$country))
 countries = c('India', 'United States', 'Canada', 'Algeria')
 country_correlation_df = mean_crossed_correlation(eGeMAPS_data, 'country', countries)
-saveRDS(country_correlation_df, 'cross_country_correlation_factor.RDS')
+saveRDS(country_correlation_df, '../../data/cross_country_correlation_factor.RDS')
 
 # Plot it if you like
 country_correlation_df %>%
