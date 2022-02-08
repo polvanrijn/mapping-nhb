@@ -1,5 +1,6 @@
 name: production_MAPS
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - blas=1.0=mkl
@@ -42,6 +43,7 @@ dependencies:
     - bibtexparser==1.2.0
     - bson==0.5.10
     - future==0.18.2
+    - lxml==4.7.1
     - pymongo==4.0.1
     - pyparsing==3.0.6
     - risparser==0.4.4
