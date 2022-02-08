@@ -1,7 +1,7 @@
 library(dplyr)
 library(ggplot2)
 
-source('../../scripts/annotate_data/load_corpora.R')
+source('../annotate_data/load_corpora.R')
 EMOTIONS <- c("ANG", "DIS", "FER", "HAP", "SAD", "SUR", "NEU")
 out_all <- load_corpora(EMOTIONS, 'eGeMAPS', '../../data/csv/', fully_balanced = F)
 
