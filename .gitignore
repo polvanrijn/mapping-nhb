@@ -2,6 +2,7 @@
 *.idea/*
 data/*
 docs/*
+results/*
 scripts/annotate_data/dimensions/elinguistics/distances_sparse_elinguistics.csv
 scripts/annotate_data/dimensions/hofstede/hofstede-insights.csv
 scripts/annotate_data/dimensions/hofstede/hofstede-insights.json
