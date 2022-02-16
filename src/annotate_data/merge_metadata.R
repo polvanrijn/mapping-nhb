@@ -14,8 +14,27 @@ EMOTIONS <- c("ANG", "DIS", "FER", "HAP", "SAD", "SUR", "NEU")
 out_all <- load_corpora(EMOTIONS, 'eGeMAPS', '../../data/csv/', fully_balanced = F)
 
 # Compute the factor analysis
+X = out_all$X
 n_factor <- 7
-fa <- suppressWarnings(psych::principal(out_all$X, nfactors = n_factor, rotate = 'varimax'))
+fa <- suppressWarnings(psych::principal(X, nfactors = n_factor, rotate = 'varimax'))
+
+# Inspecting number of correlations
+R = cor(X)
+correlation_0_3_present = 0
+for (i in 1:nrow(R)) {
+  correlations = as.numeric(R[i,])[-i]
+  if (length(which(abs(correlations) > 0.3)) > 0) {
+    correlation_0_3_present = correlation_0_3_present + 1
+  }
+}
+
+# Run Bartlett test on dataframe
+# Ask Bartlett test whether correlation matrix is idendity matrix (all elements are 0), should be significant
+psych::cortest.bartlett(X)
+
+# KMO
+KMO_test = psych::KMO(R)
+KMO_test$MSA #
 
 # Matrix to long df
 factor.df.wide <- data.frame(fa$loadings[,])
