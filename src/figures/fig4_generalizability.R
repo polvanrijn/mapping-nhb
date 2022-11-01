@@ -133,20 +133,19 @@ plot_contributions <- function(long_df, x_start, x_end, y_start, y_end, colors) 
   stopifnot(all(intercept_df$group_level == summary_df$group_level))
 
   summary_df$intercept_mean <- intercept_df$mean
-  summary_df$combined_mean <- summary_df$intercept_mean + summary_df$mean
 
   order_df <- summary_df %>%
-    arrange(group_level, -combined_mean) %>%
+    arrange(group_level, -mean) %>%
     group_by(group_level) %>%
     mutate(idx = paste0('#', 1:length(unique(predicted_emotion))))
 
   for (emo in unique(summary_df$predicted_emotion)) {
     emo_idx <- order_df %>%
       filter(predicted_emotion == emo) %>%
-      arrange(combined_mean)
+      arrange(mean)
     dat <- summary_df %>%
       filter(predicted_emotion == emo) %>%
-      arrange(combined_mean)
+      arrange(mean)
     stopifnot(all(dat$group_level == emo_idx$group_level))
     dat$idx <- emo_idx$idx
     dat$share_intercept <- emo_idx$intercept_mean
@@ -309,11 +308,16 @@ variability_coefficient_plot <- function() {
     summarise(mean_sd = mean(estimate), sd_sd = sd(estimate)) %>%
     arrange(-mean_sd)
 
+  LIGHT_GROUP_LEVEL_COLORS = as.list(colorspace::lighten(GROUP_LEVEL_COLORS))
+  names(LIGHT_GROUP_LEVEL_COLORS) = names(GROUP_LEVEL_COLORS)
+
   emotion_plot <- sd_emotion_df %>%
     ggplot(aes(x = reorder(interaction(group_level, emotion), -mean_sd), y = mean_sd, fill = group_level)) +
     geom_bar(stat = 'identity') +
+    geom_point(data=coef_df, aes(x=interaction(group_level, emotion), y=estimate, color = group_level), size=0.5) +
     geom_errorbar(aes(ymin = mean_sd - sd_sd, ymax = mean_sd + sd_sd)) +
     scale_fill_manual(values = GROUP_LEVEL_COLORS) +
+    scale_color_manual(values = LIGHT_GROUP_LEVEL_COLORS) +
     scale_x_discrete(labels = sd_emotion_df$emotion) +
     minimal_theme +
     theme(
@@ -327,7 +331,6 @@ variability_coefficient_plot <- function() {
     ) +
     ylim(0, 3)
 
-
   sd_RC_df <- coef_df %>%
     group_by(group_level, RC) %>%
     summarise(mean_sd = mean(estimate), sd_sd = sd(estimate)) %>%
@@ -336,8 +339,10 @@ variability_coefficient_plot <- function() {
   RC_plot <- sd_RC_df %>%
     ggplot(aes(x = reorder(interaction(group_level, RC), -mean_sd), y = mean_sd, fill = group_level)) +
     geom_bar(stat = 'identity') +
+    geom_point(data=coef_df, aes(x=interaction(group_level, RC), y=estimate, color = group_level), size=0.5) +
     geom_errorbar(aes(ymin = mean_sd - sd_sd, ymax = mean_sd + sd_sd)) +
     scale_fill_manual(values = GROUP_LEVEL_COLORS) +
+    scale_color_manual(values = LIGHT_GROUP_LEVEL_COLORS) +
     scale_x_discrete(labels = sd_RC_df$RC) +
     minimal_theme +
     theme(
