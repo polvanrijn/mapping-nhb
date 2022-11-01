@@ -7,12 +7,6 @@ library(ggridges)
 # Helper functions
 #####################
 
-se <- function(x) sd(x) / sqrt(length(x))
-
-CI <- function(x) se(x) * 1.96
-
-std <- function(x) sd(x) / sqrt(length(x))
-
 .tr <- function(X) { return(sum(diag(X))) }
 
 .invcalc <- function(X, W, k) {
@@ -35,11 +29,11 @@ process_posteriors <- function(posterior_list) {
     }
     out <- do.call('rbind', apply(l, 2, function(x) {
       mu <- mean(x)
-      x_CI <- CI(x)
+      x_CI <- bayestestR::ci(x, ci = .89)
       data.frame(
         mu = mu,
-        l_95 = mu - x_CI,
-        u_95 = mu + x_CI
+        l_89 = x_CI$CI_low,
+        u_89 = x_CI$CI_high
       )
     }))
     out$feature <- BREAKS
@@ -49,11 +43,11 @@ process_posteriors <- function(posterior_list) {
 
   out <- do.call('rbind', apply(all_data, 2, function(x) {
     mu <- mean(x)
-    x_CI <- CI(x)
+    x_CI <- bayestestR::ci(x, ci = .89)
     data.frame(
       mu = mu,
-      l_95 = mu - x_CI,
-      u_95 = mu + x_CI
+      l_89 = x_CI$CI_low,
+      u_89 = x_CI$CI_high
     )
   }))
   out$feature <- BREAKS
@@ -173,13 +167,17 @@ for (corpus_name in unique(corpus_model$data$corpus)) {
       local_col_name <- paste0('r_corpus__mu', emotion, '[', corpus_name, ',', feature, ']')
       local_est <- params[[local_col_name]]
       comb_est <- global_est + local_est
+      x_CI <- bayestestR::ci(comb_est, ci = .89)
       results <- rbind(results, data.frame(
         emotion = emotion,
         feature = feature,
         corpus = corpus_name,
         estimate = mean_global + mean(local_est),
-        se = std(comb_est),
-        CI = quantile(comb_est, prob = 0.95) - mean(comb_est)
+        l_89 = x_CI$CI_low,
+        u_89 = x_CI$CI_high
+        #se = std(comb_est),
+        #CI = quantile(comb_est, prob = 0.95) - mean(comb_est)
+
       ))
       # Separately store the results for anger and loudness
       if (emotion == 'ANG' & feature == 'RC2') {
@@ -201,12 +199,15 @@ for (emotion in BASIC_EMOTIONS) {
     global_col_name <- paste0('b_mu', emotion, '_', feature)
     global_est <- params[[global_col_name]]
 
+    x_CI <- bayestestR::ci(global_est, ci = .89)
     summary_df <- rbind(summary_df, data.frame(
       emotion = emotion,
       feature = feature,
       estimate = mean(global_est),
-      se = std(global_est),
-      CI = quantile(global_est, prob = 0.95) - mean(global_est)
+      #se = std(global_est),
+      # CI = quantile(global_est, prob = 0.95) - mean(global_est)
+      l_89 = x_CI$CI_low,
+      u_89 = x_CI$CI_high
     ))
   }
 }
@@ -252,11 +253,11 @@ posterior_list <- list(
   'global_mapping' = brms::posterior_samples(params, paste0('^b_mu', CURRENT_EMOTION, '_RC')),
   'corpus' = brms::posterior_samples(params, paste0('^r_corpus__mu', CURRENT_EMOTION, '\\[', corpus_name, ',RC'))
 )
+BREAKS <- 1:7
 posterior_df <- process_posteriors(posterior_list)
 
 # Settings for the plot
 OUTER_VAL <- 15
-BREAKS <- 1:7
 COLORS <- c(
   'global_mapping' = '#bfc0bf',
   'corpus' = '#d04065',
@@ -283,10 +284,19 @@ minimal_theme <- theme_bw() +
     legend.box.margin = margin(0, 0, 0, 0)
   )
 
+posterior_df <- posterior_df %>%
+    mutate(CI = (u_89 - l_89))
+
+results <- results %>%
+    mutate(CI = (u_89 - l_89))
+
+summary_df <- summary_df %>%
+    mutate(CI = (u_89 - l_89))
+
+
 # The individual plots
 corpus_example_mapping <- cowplot::ggdraw(
   posterior_df %>%
-    mutate(CI = (u_95 - l_95)) %>%
     mutate(level = factor(level, levels = c('global_mapping', 'corpus', 'combined'))) %>%
     mutate(level = forcats::fct_recode(level, "Global\nAnger" = "global_mapping", "Corpus SAV\nAnger" = "corpus", " " = "combined")) %>%
     ggplot(aes(x = feature, y = mu)) +
@@ -294,7 +304,7 @@ corpus_example_mapping <- cowplot::ggdraw(
     geom_line(aes(color = level)) +
     geom_point(aes(color = level, size = 1 / CI)) +
     scale_size_continuous(range = c(1, 3)) +
-    geom_ribbon(aes(x = feature, ymin = u_95, ymax = l_95, fill = level), alpha = 0.7) +
+    #geom_ribbon(aes(x = feature, ymin = u_89, ymax = l_89, fill = level), alpha = 0.7) +
     coord_flip() +
     facet_grid(. ~ level) +
     minimal_theme +
@@ -305,8 +315,8 @@ corpus_example_mapping <- cowplot::ggdraw(
     scale_fill_manual(values = as.character(COLORS)) +
     scale_color_manual(values = as.character(COLORS)) +
     scale_x_reverse(
-    labels = paste('RC', BREAKS),
-    breaks = BREAKS
+      labels = paste('RC', BREAKS),
+      breaks = BREAKS
     ) +
     theme(
       axis.line.x = element_blank(),
@@ -321,63 +331,63 @@ corpus_example_mapping <- cowplot::ggdraw(
   cowplot::draw_text('=', x = 0.67)
 
 zoomed_in_plot <- ggplot(data = NULL, aes = NULL) +
-      geom_vline(data = RC2_ANG_mu, aes(xintercept = estimate)) +
-      geom_vline(data = NULL, aes(xintercept = 0), color = 'grey', size = 0.5) +
-      geom_density_ridges(aes(x = draws, y = corpus, fill = corpus), draw_results, color = NA) +
-      geom_point(data = RC2_ANG, aes(x = estimate, y = corpus)) +
-      # plot with .05, .95 CIs
-      geom_linerange(data = RC2_ANG, aes(y = corpus, xmin = estimate - CI, xmax = estimate + CI)) +
-      theme_bw() +
-      theme(
-        axis.ticks = element_blank(),
-        legend.position = 'none',
-        axis.text = element_text(size = TEXT_SIZE, color = 'black'),
-        plot.title = element_text(size = TEXT_SIZE, color = 'black'),
-        title = element_text(size = TEXT_SIZE, color = 'black'),
-        panel.grid = element_blank(),
-        panel.border = element_rect(size = 1.4)
-      ) +
-      scale_fill_viridis_d(option = 'B') +
-      labs(
-        title = 'Anger, loudness (RC2)',
-        y = 'Corpora',
-        x = 'Distributions'
-      ) +
-      xlim(-1, OUTER_VAL)
+  geom_vline(data = RC2_ANG_mu, aes(xintercept = estimate)) +
+  geom_vline(data = NULL, aes(xintercept = 0), color = 'grey', size = 0.5) +
+  geom_density_ridges(aes(x = draws, y = corpus, fill = corpus), draw_results, color = NA) +
+  geom_point(data = RC2_ANG, aes(x = estimate, y = corpus)) +
+  # plot with .89 CIs
+  geom_linerange(data = RC2_ANG, aes(y = corpus, xmin = u_89, xmax = l_89)) +
+  theme_bw() +
+  theme(
+    axis.ticks = element_blank(),
+    legend.position = 'none',
+    axis.text = element_text(size = TEXT_SIZE, color = 'black'),
+    plot.title = element_text(size = TEXT_SIZE, color = 'black'),
+    title = element_text(size = TEXT_SIZE, color = 'black'),
+    panel.grid = element_blank(),
+    panel.border = element_rect(size = 1.4)
+  ) +
+  scale_fill_viridis_d(option = 'B') +
+  labs(
+    title = 'Anger, loudness (RC2)',
+    y = 'Corpora',
+    x = 'Distributions'
+  ) +
+  xlim(-1, OUTER_VAL)
 
 variability_overview_plot <- ggplot(results, aes(y = estimate, x = factor_number)) +
-    geom_hline(yintercept = 0, color = 'grey', size = 0.5) +
-    geom_line(data = summary_df, aes(group = 1), color = 'black') +
-    geom_ribbon(data = summary_df, aes(group = 1, ymin = estimate - CI, ymax = estimate + CI), alpha = 0.3) +
-    geom_point(aes(color = corpus, size = 1 / CI), alpha = .5) +
-    geom_text(data = summary_df, aes(y = 12, label = paste(I2, '%')), size = 2.7, color='gray20') +
-    scale_x_reverse( # Features of the first axis
-      labels = paste('RC', BREAKS),
-      breaks = BREAKS,
-      # Add a second axis and specify its features
-      sec.axis = sec_axis(trans = ~., labels = as.character(feature_names), breaks = BREAKS)
-    ) +
-    geom_rect(data = data.frame(emotion_label = 'Anger', factor_number = 2, feature = 'RC2', estimate = 0), mapping = aes(xmin = 1.5, xmax = 2.5, ymin = -1, ymax = OUTER_VAL), color = "black", fill = NA, alpha = 0.5) +
-    coord_flip() +
-    facet_wrap(emotion_label ~ ., ncol = 3) +
-    theme_bw() +
-    theme(
-      legend.position = 'none',
-      panel.grid.major = element_blank(),
-      panel.grid.minor = element_blank(),
-      strip.background = element_blank(),
-      axis.title = element_text(size = TEXT_SIZE),
-      axis.text = element_text(size = TEXT_SIZE, color = 'black'),
-      strip.text = element_text(face = 'bold', size = TEXT_SIZE),
-      panel.border = element_blank(),
-      axis.line = element_line(colour = "black")
-    ) +
-    labs(
-      x = '',
-      y = ''
-    ) +
-    scale_color_viridis_d(option = 'B') +
-    ylim(-OUTER_VAL, OUTER_VAL)
+  geom_point(aes(color = corpus, size = 1 / CI), alpha = .5) +
+  geom_hline(yintercept = 0, color = 'grey', size = 0.5) +
+  geom_line(data = summary_df, aes(group = 1), color = 'black') +
+  geom_ribbon(data = summary_df, aes(group = 1, ymin = u_89, ymax = l_89), alpha = 0.3) +
+  geom_text(data = summary_df, aes(y = 12, label = paste(I2, '%')), size = 2.7, color = 'gray20') +
+  scale_x_reverse( # Features of the first axis
+    labels = paste('RC', BREAKS),
+    breaks = BREAKS,
+    # Add a second axis and specify its features
+    sec.axis = sec_axis(trans = ~., labels = as.character(feature_names), breaks = BREAKS)
+  ) +
+  geom_rect(data = data.frame(emotion_label = 'Anger', factor_number = 2, feature = 'RC2', estimate = 0), mapping = aes(xmin = 1.5, xmax = 2.5, ymin = -1, ymax = OUTER_VAL), color = "black", fill = NA, alpha = 0.5) +
+  coord_flip() +
+  facet_wrap(emotion_label ~ ., ncol = 3) +
+  theme_bw() +
+  theme(
+    legend.position = 'none',
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    strip.background = element_blank(),
+    axis.title = element_text(size = TEXT_SIZE),
+    axis.text = element_text(size = TEXT_SIZE, color = 'black'),
+    strip.text = element_text(face = 'bold', size = TEXT_SIZE),
+    panel.border = element_blank(),
+    axis.line = element_line(colour = "black")
+  ) +
+  labs(
+    x = '',
+    y = ''
+  ) +
+  scale_color_viridis_d(option = 'B') +
+  ylim(-OUTER_VAL, OUTER_VAL)
 
 # Combine the plots
 variability_plot <- ggpubr::ggarrange(
@@ -397,3 +407,35 @@ variability_plot <- ggpubr::ggarrange(
 )
 
 ggsave(plot = variability_plot, '../../docs/figures/fig2_variability.pdf', device = cairo_pdf, units = 'mm', width = 175, height = 100)
+
+# Minimal
+ggsave(plot = ggplot(results, aes(y = estimate, x = factor_number)) +
+  geom_hline(yintercept = 0, color = 'grey', size = 0.5) +
+  geom_ribbon(data = summary_df, aes(group = 1, ymin = l_89, ymax = u_89), alpha = 0.3) +
+  geom_line(data = summary_df, aes(group = 1), color = 'black') +
+  scale_x_reverse( # Features of the first axis
+    labels = paste('RC', BREAKS),
+    breaks = BREAKS,
+    # Add a second axis and specify its features
+    sec.axis = sec_axis(trans = ~., labels = as.character(feature_names), breaks = BREAKS)
+  ) +
+  coord_flip() +
+  facet_wrap(emotion_label ~ ., ncol = 3) +
+  theme_bw() +
+  theme(
+    legend.position = 'none',
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    strip.background = element_blank(),
+    axis.title = element_text(size = TEXT_SIZE),
+    axis.text = element_text(size = TEXT_SIZE, color = 'black'),
+    strip.text = element_text(face = 'bold', size = TEXT_SIZE),
+    panel.border = element_blank(),
+    axis.line = element_line(colour = "black")
+  ) +
+  labs(
+    x = '',
+    y = ''
+  ) +
+  scale_color_viridis_d(option = 'B') +
+  ylim(-3.5, 3.5), '../../docs/figures/appendix_profiles.pdf', device = cairo_pdf, units = 'mm', width = 175, height = 100)

@@ -28,7 +28,7 @@ factor.df.wide <- readRDS('../../data/factor_df_wide.RDS')
 eGeMAPS_annotation <- read.csv('../annotate_data/eGeMAPS_annotation.csv')
 country_correlation_df <- readRDS('../../data/cross_country_correlation_factor.RDS')
 language_correlation_df <- readRDS('../../data/cross_language_correlation_factor.RDS')
-eGeMAPS_data <- readRDS('../../data/eGeMAPS_data.RDS')
+all_data <- readRDS('../../data/data_all.RDS')
 languages <- c('English', 'Basque', 'Hindi', 'Telugu')
 countries <- c('India', 'United States', 'Canada', 'Algeria')
 n_factor <- 7
@@ -48,9 +48,6 @@ for (col in c('feature', 'group', 'subgroup')) {
 
 
 # Create mapping
-
-se <- function(x) sd(x) / sqrt(length(x))
-CI <- function(x) se(x) * 1.96
 BREAKS <- 1:7
 
 process_posteriors <- function(posterior_list) {
@@ -66,11 +63,11 @@ process_posteriors <- function(posterior_list) {
     }
     out <- do.call('rbind', apply(l, 2, function(x) {
       mu <- mean(x)
-      x_CI <- CI(x)
+      x_CI <- bayestestR::ci(x, ci = .89)
       data.frame(
         mu = mu,
-        l_95 = mu - x_CI,
-        u_95 = mu + x_CI
+        l_89 = x_CI$CI_low,
+        u_89 = x_CI$CI_high
       )
     }))
     out$feature <- BREAKS
@@ -80,11 +77,11 @@ process_posteriors <- function(posterior_list) {
 
   out <- do.call('rbind', apply(all_data, 2, function(x) {
     mu <- mean(x)
-    x_CI <- CI(x)
+    x_CI <- bayestestR::ci(x, ci = .89)
     data.frame(
       mu = mu,
-      l_95 = mu - x_CI,
-      u_95 = mu + x_CI
+      l_89 = x_CI$CI_low,
+      u_89 = x_CI$CI_high
     )
   }))
   out$feature <- BREAKS
@@ -140,7 +137,7 @@ for (emo in  BASIC_EMOTIONS) {
     'speaker' = posterior_samples(params, paste0('^r_speaker__mu', emo, '\\[', speaker_name, ',RC'))
   )) %>%
     filter(level == 'combined')
-                   )$mu * example_data)
+                    )$mu * example_data)
 
   intercepts <- c(
     mean(params[[paste0('b_mu', emo, '_Intercept')]]),
@@ -243,14 +240,14 @@ plot_it <- function() {
     language_correlation_df %>%
       mutate(lab1 = forcats::fct_recode(lab1, TE = "Telugu", HI = "Hindi", EU = "Basque", EN = "English")) %>%
       mutate(lab2 = forcats::fct_recode(lab2, TE = "Telugu", HI = "Hindi", EU = "Basque", EN = "English")),
-    paste0("Largest languages", '\n', '(', round(100 * (nrow(filter(eGeMAPS_data, language %in% languages)) / nrow(eGeMAPS_data))), '% of all data)')
+    paste0("Largest languages", '\n', '(', round(100 * (nrow(filter(all_data, language %in% languages)) / nrow(all_data))), '% of all data)')
   )
 
   cross_country_cor_plot <- plot_cross_corr(
     country_correlation_df %>%
       mutate(lab1 = forcats::fct_recode(lab1, US = "United States", CA = "Canada", IN = "India", DZ = "Algeria")) %>%
       mutate(lab2 = forcats::fct_recode(lab2, US = "United States", CA = "Canada", IN = "India", DZ = "Algeria")),
-    paste0("Largest countries", '\n', '(', round(100 * (nrow(filter(eGeMAPS_data, country %in% countries)) / nrow(eGeMAPS_data))), '% of all data)')
+    paste0("Largest countries", '\n', '(', round(100 * (nrow(filter(all_data, country %in% countries)) / nrow(all_data))), '% of all data)')
   )
 
   factor_subplots <- ggpubr::ggarrange(
@@ -283,7 +280,6 @@ plot_it <- function() {
                       geom_hline(yintercept = 0, color = 'grey') +
                       geom_line(aes(color = level)) +
                       geom_point(aes(color = level)) +
-                      geom_ribbon(aes(x = feature, ymin = u_95, ymax = l_95, fill = level), alpha = 0.6) +
                       coord_flip() +
                       facet_grid(. ~ level) +
                       minimal_theme +
@@ -317,7 +313,6 @@ plot_it <- function() {
       geom_hline(yintercept = 0, color = 'grey') +
       geom_line(color = 'black') +
       geom_point(color = 'black') +
-      geom_ribbon(aes(x = feature, ymin = u_95, ymax = l_95), alpha = 0.6) +
       geom_text(data = data.frame(feature = BREAKS, mu = global_mapping$mu - 14, label = paste(round(example_data, 1), '×')), aes(label = label), size = 2) +
       geom_text(data = data.frame(feature = BREAKS, mu = global_mapping$mu + 14, label = paste('=', round(multiplied_values, 1))), aes(label = label), size = 2) +
       geom_text(data = data.frame(

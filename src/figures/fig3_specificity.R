@@ -95,7 +95,6 @@ heatmap_colors <- c(
 )
 
 icon_y <- 1.2
-SE_to_CI <- function(x) x * 1.96
 
 specificity_plot <- ggpubr::ggarrange(
   ggpubr::ggarrange(
@@ -104,8 +103,8 @@ specificity_plot <- ggpubr::ggarrange(
       geom_pointrange(aes(
         x = waic,
         y = 0,
-        xmin = waic - SE_to_CI(se_waic),
-        xmax = waic + SE_to_CI(se_waic)
+        xmin = waic - se_waic,
+        xmax = waic + se_waic
       ), size = 0.2) +
       geom_text(data=sort_waic_df(waic_plot_data)[4:5,], aes(x = waic, y = 0.2, label=model_name), size=2.5) +
       labs(
@@ -136,8 +135,8 @@ specificity_plot <- ggpubr::ggarrange(
       geom_pointrange(aes(
         x = waic,
         y = 0,
-        xmin = waic - SE_to_CI(se_waic),
-        xmax = waic + SE_to_CI(se_waic)
+        xmin = waic - se_waic,
+        xmax = waic + se_waic
       ), size = 0.2) +
       labs(
         x = 'WAIC',

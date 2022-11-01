@@ -30,6 +30,7 @@ COLORS <- c(
 )
 
 GROUP_LEVEL_COLORS <- c(
+  'global' = '#bfc0bf',
   'corpus' = '#d04065',
   'culture' = '#f39419',
   'sex' = '#38a5a5',
@@ -68,6 +69,7 @@ plot_piechart <- function(dat) {
     ) +
     scale_fill_manual(values = c('white', '#bfc0bf'))
 }
+
 # For testing
 # plot_piechart(dat)
 
@@ -123,20 +125,41 @@ plot_contributions <- function(long_df, x_start, x_end, y_start, y_end, colors) 
 
   summary_df$group_level <- factor(summary_df$group_level, names(colors))
   levels(summary_df$predicted_emotion) <- c('Neutral', 'Anger', 'Disgust', 'Fear', 'Happiness', 'Sadness', 'Surprise')
-  breaks <- 0:4/10
+  breaks <- 0:4 / 10
   levels(intercept_df$predicted_emotion) <- c('Neutral', 'Anger', 'Disgust', 'Fear', 'Happiness', 'Sadness', 'Surprise')
   plotlist <- list()
+
+  stopifnot(all(intercept_df$predicted_emotion == summary_df$predicted_emotion))
+  stopifnot(all(intercept_df$group_level == summary_df$group_level))
+
+  summary_df$intercept_mean <- intercept_df$mean
+  summary_df$combined_mean <- summary_df$intercept_mean + summary_df$mean
+
+  order_df <- summary_df %>%
+    arrange(group_level, -combined_mean) %>%
+    group_by(group_level) %>%
+    mutate(idx = paste0('#', 1:length(unique(predicted_emotion))))
+
   for (emo in unique(summary_df$predicted_emotion)) {
+    emo_idx <- order_df %>%
+      filter(predicted_emotion == emo) %>%
+      arrange(combined_mean)
     dat <- summary_df %>%
-      filter(predicted_emotion == emo)
-    dat$share_intercept <- filter(intercept_df, predicted_emotion == emo)$mean
+      filter(predicted_emotion == emo) %>%
+      arrange(combined_mean)
+    stopifnot(all(dat$group_level == emo_idx$group_level))
+    dat$idx <- emo_idx$idx
+    dat$share_intercept <- emo_idx$intercept_mean
+    dat <- dat %>% arrange(-mean)
     plotlist[[emo]] <-
       ggplot(dat, aes(x = reorder(group_level, -mean), y = mean, fill = group_level)) +
         geom_bar(stat = 'identity') +
         geom_bar(aes(y = share_intercept), fill = 'black', alpha = 0.2, stat = 'identity') +
         geom_errorbar(aes(ymin = mean - sd, ymax = mean + sd)) +
+        #geom_text(aes(label = idx), color= as.character(colors[dat$group_level]), size=2.5, y = -0.03) +
         minimal_theme +
         scale_fill_manual(values = as.character(colors)) +
+        scale_color_manual(values = as.character(colors)) +
         theme(
           axis.text.x = element_blank(),
           axis.ticks.x = element_blank(),
@@ -152,7 +175,8 @@ plot_contributions <- function(long_df, x_start, x_end, y_start, y_end, colors) 
           y = 'Average contribution (%)',
           fill = 'Levels of analysis'
         ) +
-        scale_y_continuous(labels = breaks*100, breaks = breaks, limits = c(-0.01, 0.45)) +
+        #scale_y_continuous(labels = breaks * 100, breaks = breaks, limits = c(-0.03, 0.45)) +
+        scale_y_continuous(labels = breaks * 100, breaks = breaks, limits = c(-0.01, 0.45)) +
         annotation_custom(
           ggplotGrob(
             plot_piechart(dat)
@@ -165,16 +189,10 @@ plot_contributions <- function(long_df, x_start, x_end, y_start, y_end, colors) 
 
 
 params <- readRDS('../../results/models/params/params_big_model.RDS')
-global_mapping_df <- NULL
 estimates <- c()
 for (emo in EMOTIONS) {
   for (RC in paste0('RC', 1:7)) {
     estimate <- params[[paste0('b_mu', emo, '_', RC)]]
-    global_mapping_df <- rbind(global_mapping_df, data.frame(
-      estimate = estimate,
-      RC = RC,
-      emotion = emo
-    ))
     estimates <- c(estimates, estimate)
   }
 }
@@ -221,15 +239,174 @@ confusion_plot <- ggplot(all_with_global) +
     legend.position = 'bottom'
   )
 
-full_plot <- ggpubr::ggarrange(
+
+# Variability analysis
+all_data$culture <- stringr::str_replace_all(paste0(all_data$country, '_', all_data$language), ' ', '.')
+names(params) <- stringr::str_replace_all(names(params), 'country:language', 'culture')
+
+
+get_available_values <- function(group, emo) {
+  (all_data %>%
+    filter(emotion == emo) %>%
+    group_by_at(group) %>%
+    summarise(a = 1))[[group]]
+}
+
+compute_row_for_group_level <- function(key, values, emo, RC, mean_estimate = FALSE) {
+  pasted_values = paste(values, collapse = '|')
+  col_regex = paste0('r_', key, '__mu', emo, '\\[(', pasted_values, '),', RC, '\\]')
+  col_idx = stringr::str_detect(names(params), col_regex)
+
+  # Make sure we extract all columns!
+  stopifnot(length(which(col_idx)) == length(values))
+  mat_estimates = as.matrix(params[, col_idx])
+
+  if (mean_estimate){
+    estimate = mean(apply(mat_estimates, 2, sd))
+  } else {
+    estimate = sd(as.vector(mat_estimates))
+  }
+
+  data.frame(
+    estimate = estimate,
+    RC = RC,
+    emotion = emo,
+    group_level = key
+  )
+}
+
+coef_df <- NULL
+for (emo in EMOTIONS) {
+  available_sexes <- get_available_values('sex', emo)
+  available_cultures <- get_available_values('culture', emo)
+  available_speakers <- get_available_values('speaker', emo)
+
+
+  for (RC in paste0('RC', 1:7)) {
+    estimate <- params[[paste0('b_mu', emo, '_', RC)]]
+    coef_df <- rbind(coef_df, data.frame(
+      estimate = sd(estimate),
+      RC = RC,
+      emotion = emo,
+      group_level = 'global'
+    ))
+
+    # Sex
+    coef_df <- rbind(coef_df, compute_row_for_group_level('sex', available_sexes, emo, RC))
+
+    # Culture
+    coef_df <- rbind(coef_df, compute_row_for_group_level('culture', available_cultures, emo, RC))
+
+    # Speaker
+    coef_df <- rbind(coef_df, compute_row_for_group_level('speaker', available_speakers, emo, RC))
+
+  }
+}
+
+variability_coefficient_plot <- function() {
+  sd_emotion_df <- coef_df %>%
+    group_by(group_level, emotion) %>%
+    summarise(mean_sd = mean(estimate), sd_sd = sd(estimate)) %>%
+    arrange(-mean_sd)
+
+  emotion_plot <- sd_emotion_df %>%
+    ggplot(aes(x = reorder(interaction(group_level, emotion), -mean_sd), y = mean_sd, fill = group_level)) +
+    geom_bar(stat = 'identity') +
+    geom_errorbar(aes(ymin = mean_sd - sd_sd, ymax = mean_sd + sd_sd)) +
+    scale_fill_manual(values = GROUP_LEVEL_COLORS) +
+    scale_x_discrete(labels = sd_emotion_df$emotion) +
+    minimal_theme +
+    theme(
+      axis.text.x = element_text(angle = 90),
+      axis.text.y = element_blank(),
+      axis.ticks.y = element_blank()
+    ) +
+    labs(
+      x = 'Emotion',
+      y = ''
+    ) +
+    ylim(0, 3)
+
+
+  sd_RC_df <- coef_df %>%
+    group_by(group_level, RC) %>%
+    summarise(mean_sd = mean(estimate), sd_sd = sd(estimate)) %>%
+    arrange(-mean_sd)
+
+  RC_plot <- sd_RC_df %>%
+    ggplot(aes(x = reorder(interaction(group_level, RC), -mean_sd), y = mean_sd, fill = group_level)) +
+    geom_bar(stat = 'identity') +
+    geom_errorbar(aes(ymin = mean_sd - sd_sd, ymax = mean_sd + sd_sd)) +
+    scale_fill_manual(values = GROUP_LEVEL_COLORS) +
+    scale_x_discrete(labels = sd_RC_df$RC) +
+    minimal_theme +
+    theme(
+      axis.text.x = element_text(angle = 90),
+    ) +
+    labs(
+      x = 'Acoustic Factor (by number)',
+      y = 'Mean SD'
+    ) +
+    ylim(0, 3)
+
+  mini_plot_RC <- coef_df %>%
+    group_by(RC) %>%
+    summarise(mean_sd = mean(estimate), sd_sd = sd(estimate)) %>%
+    arrange(-mean_sd) %>%
+    ggplot(aes(x = reorder(RC, -mean_sd), y = mean_sd)) +
+    geom_bar(stat = 'identity') +
+    geom_errorbar(aes(ymin = mean_sd - sd_sd, ymax = mean_sd + sd_sd)) +
+    scale_y_continuous(breaks = c(0, 3), limits = c(0, 3)) +
+    minimal_theme +
+    labs(
+      x = '',
+      y = ''
+    ) +
+    theme(
+      plot.background = element_blank(),
+    )
+
+  mini_plot_emotion <- coef_df %>%
+    group_by(emotion) %>%
+    summarise(mean_sd = mean(estimate), sd_sd = sd(estimate)) %>%
+    arrange(-mean_sd) %>%
+    ggplot(aes(x = reorder(emotion, -mean_sd), y = mean_sd)) +
+    geom_bar(stat = 'identity') +
+    geom_errorbar(aes(ymin = mean_sd - sd_sd, ymax = mean_sd + sd_sd)) +
+    scale_y_continuous(breaks = c(0, 3), limits = c(0, 3)) +
+    minimal_theme +
+    labs(
+      x = '',
+      y = ''
+    ) +
+    theme(
+      plot.background = element_blank(),
+    )
+
+
+  ggpubr::ggarrange(
+    RC_plot + annotation_custom(
+      ggplotGrob(
+        mini_plot_RC
+      ),
+      xmin = 10, xmax = 28, ymin = 1, ymax = 3
+    ),
+    emotion_plot + annotation_custom(
+      ggplotGrob(
+        mini_plot_emotion
+      ),
+      xmin = 9, xmax = 25, ymin = 1, ymax = 3
+    ),
+    widths = c(1.5, 1),
+    ncol = 2,
+    labels = c("b", ""),
+    font.label = list(size = 8, family = 'Whitney Semibold')
+  )
+}
+
+row1 <- ggpubr::ggarrange(
   cowplot::ggdraw(
-    plot_list(plot_contributions(all_long_estimates, x_start = 1.5, x_end = 5.5, y_start = 0.2, y_end = 0.5, colors = c(
-      'global' = '#bfc0bf',
-      'corpus' = '#d04065',
-      'culture' = '#f39419',
-      'sex' = '#38a5a5',
-      'speaker' = '#61c6f2'
-    )),
+    plot_list(plot_contributions(all_long_estimates, x_start = 1.5, x_end = 5.5, y_start = 0.2, y_end = 0.5, colors = GROUP_LEVEL_COLORS),
               common.legend = T, remove.x.axis.labels = T, widths = c(1.27, 1, 1), heights = c(1, 1.07))
   ) +
     cowplot::draw_image(paste0("subfigures/icons/corpus_white.png"), scale = 0.04, halign = 0.42, valign = 0.025) +
@@ -237,19 +414,30 @@ full_plot <- ggpubr::ggarrange(
     cowplot::draw_image(paste0("subfigures/icons/sex_white.png"), scale = 0.04, halign = 0.703, valign = 0.024) +
     cowplot::draw_image(paste0("subfigures/icons/speaker_white.png"), scale = 0.04, halign = 0.811, valign = 0.026),
   confusion_plot + theme(
-  legend.key.height = unit(0.2, 'cm'),
-  axis.text.x = element_text(angle = 90, hjust = 1),
-  legend.margin = margin(0, 0, 0, 0),
-  legend.box.margin = margin(0, 0, 0, 0),
-  legend.title = element_text(margin = margin(-10)),
-  axis.ticks = element_blank(),
-  axis.line = element_blank(),
-  plot.margin = unit(c(0.2, 0, 0.8, 0), "cm")
+    legend.key.height = unit(0.2, 'cm'),
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    legend.margin = margin(0, 0, 0, 0),
+    legend.box.margin = margin(0, 0, 0, 0),
+    legend.title = element_text(margin = margin(-10)),
+    axis.ticks = element_blank(),
+    axis.line = element_blank(),
+    plot.margin = unit(c(0.2, 0, 0.8, 0), "cm")
   ),
   widths = c(1.5, 1),
   ncol = 2,
-  labels = c("a", "b"),
+  labels = c("a", "c"),
   font.label = list(size = 8, family = 'Whitney Semibold')
 )
 
-ggsave(plot = full_plot, '../../docs/figures/fig4_generalizability.pdf', device = cairo_pdf, width = 175, height = 100, unit = 'mm', dpi = 600)
+full_plot <- ggpubr::ggarrange(
+  row1,
+  variability_coefficient_plot(),
+  nrow = 2,
+  heights = c(2, 1)
+)
+
+ggsave(plot = full_plot, '../../docs/figures/fig4_generalizability.pdf', device = cairo_pdf, width = 175, height = 150, unit = 'mm', dpi = 600)
+
+
+
+
